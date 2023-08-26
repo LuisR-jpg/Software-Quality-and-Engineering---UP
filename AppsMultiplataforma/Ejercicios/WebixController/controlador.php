@@ -1,12 +1,5 @@
 <?php
-    $accion = "";
-    if(isset($_POST['Accion'])) {
-        $accion = $_POST['Accion'];
-    }
-    if(isset($_GET['Accion'])) {
-        $accion = $_GET['Accion'];
-    }
-    if($accion == 'Guardar'){
+    if($_POST['Accion'] == 'Guardar'){
         $mysqli = new mysqli("localhost", "alumnos", "app.2023", "lalito");
         $sentencia = $mysqli -> prepare("INSERT INTO Peliculas (Id, Nivel, Titulo, Ao, Votos) VALUES (0, ?, ?, ?, ?)");
         // isii: integer, string, integer, integer

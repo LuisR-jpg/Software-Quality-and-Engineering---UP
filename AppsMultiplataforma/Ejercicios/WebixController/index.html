@@ -14,7 +14,7 @@ webix.ui(
 	{width:300,view:'form',id:'forma',elements:[
 		{view:'text',name:'Accion',id:'Accion',value:'',hidden:true},
 		{view:'text',id:'Nivel',name:'Nivel',label:'Nivel'},
-		{view:'text',id:'Titulo',name:'Titulo',label:'Titulo',labelWidth:120},
+		{view:'text',id:'Titulo',name:'Titulo',label:'Titulo',labelWidth:120,required:true},
 		{view:'combo',id:'Ao',name:'Ao',label:'Año',options:["1972","1994"]},
 		{view:'text',id:'Votos',name:'Votos',label:'Votos'},
 		{view:'button',id:'Boton',value:'Entrar',click:mostrar}
@@ -39,14 +39,21 @@ webix.ui(
 
 function mostrar() {
 	$$('Accion').setValue('Guardar');
-	webix.ajax().post('controlador.php',$$('forma').getValues(), 
-		function() {
-			webix.alert('Datos guardados:' + 
-					$$('Nivel').getValue() + " " +
-					$$('Titulo').getValue() + " " + 
-					$$('Ao').getValue()
-			);
-	});
+	if($$('forma').validate()) {
+		webix.ajax().post('controlador.php',$$('forma').getValues(), 
+			function() {
+				/*
+				webix.alert('Datos guardados:' + "\n\t"
+				$$('Nivel').getValue() + "\n\t" +
+				$$('Titulo').getValue() + "\n\t" + 
+				$$('Ao').getValue()
+				);
+				*/
+				$$('Tabla').clearAll();
+				$$('Tabla').load('resultados.php');
+				$$('forma').clear();
+		});
+	}
 }
 
 
