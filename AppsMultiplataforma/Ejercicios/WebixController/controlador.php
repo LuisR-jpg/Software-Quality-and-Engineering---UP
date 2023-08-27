@@ -6,4 +6,9 @@
         $sentencia -> bind_param("isii", $_POST['Nivel'], $_POST['Titulo'], $_POST['Ao'], $_POST['Votos']);
         $sentencia -> execute();
     }
+    /*
+    else if($_POST['Accion'] == 'Borrar'){
+        
+    }
+    */
 ?>
