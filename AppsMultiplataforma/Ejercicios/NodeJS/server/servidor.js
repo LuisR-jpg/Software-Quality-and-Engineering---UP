@@ -47,18 +47,20 @@ app.post('/guardar', (req, res) =>{
     })
 })
 
-app.post('/borrar', (req, res) => {
+app.post('/borrar', (req, res) =>{
+    var id = req.body.Id;
+    id = id.replace('[', '');
+    id = id.replace(']', '');
     con.connect(function(err){
         if(err) throw err;
-        con.execute("delete from Peliculas where id in (?)",
-        [req.body.id],
-        function(err, result, fields){
-            if(err) throw err;
-            res.send(req.body);
-        }
-        )
+        con.execute("delete from Peliculas where id = ?", 
+            [id],
+            function(err, result, fields){
+                if(err) throw err;
+                res.send(req.body);
+        });
     })
-});
+})
 
 app.post('/modificar', (req, res) => {
     con.connect(function(err){

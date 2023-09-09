@@ -73,7 +73,7 @@
 				then(function(resultado){
 					if(resultado){
 						//alert(idFilas);
-						webix.ajax().post('http://dapp.enlacenet.net:8532/buscar',
+						webix.ajax().post('http://dapp.enlacenet.net:8532/borrar',
 						{'Accion':'Borrar', 'Id':idFilas},
 						function() {
 							$$('Tabla').clearAll();
