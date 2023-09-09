@@ -17,8 +17,13 @@
 			{view:'text',id:'Titulo',name:'Titulo',label:'Titulo',labelWidth:120,required:true},
 			{view:'combo',id:'Ao',name:'Ao',label:'Año',options:["1972","1994"]},
 			{view:'text',id:'Votos',name:'Votos',label:'Votos'},
-			{view:'button',id:'Boton',value:'Entrar',click:mostrar},
-			{view: 'button', id: 'Delete', value: 'Delete', click: borrar},
+			/*{view:'button',id:'Boton',value:'Entrar',click:mostrar},
+			{view: 'button', id: 'Delete', value: 'Delete', click: borrar},*/
+			{cols:[
+				{view:'button', id:'BotonNuevo',value:'Nuevo',click:nuevo},
+				{view:'button', id:'BotonGuardar',value:'Guardar',click:mostrar},
+				{view:'button', id:'BotonModificar',value:'Modificar',click:modificar,hidden:true},
+			]}
 			]},
 			//tabla
 			{rows:[
@@ -38,6 +43,11 @@
 			);
 			
 			$$('forma').bind($$('Tabla'));
+
+			$$('Tabla').attachEvent("onAfterSelect", function(selection, preserve){
+				$$('BotonModificar').show();
+				$$('BotonGuardar').hide();
+			});
 			
 			function mostrar() {
 				$$('Accion').setValue('Guardar');
@@ -71,7 +81,24 @@
 						});
 					}
 				});
-			}			
+			}		
+			function nuevo() {
+				$$('BotonModificar').hide();
+				$$('BotonGuardar').show();
+				$$('Forma').clearAll();
+			}
+			function modificar() {
+				$$('Accion').setValue('Modificar');
+				if($$('forma').validate()) {
+					webix.ajax().post('controlador.php', $$('forma').getValues(),
+					function() {
+						$$('Tabla').clearAll();
+						$$('Tabla').load('resultados.php');
+						
+					})
+				}
+			}
+
 		</script>
 	</body>
 	</html>
