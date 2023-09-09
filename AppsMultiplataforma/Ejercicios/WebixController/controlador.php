@@ -19,4 +19,10 @@
             $sentencia -> execute();
         }
     }
+    else if($_POST['Accion'] == 'Modificar'){
+        $mysqli = new mysqli("localhost", "alumnos", "app.2023", "lalito");
+        $sentencia = $mysqli->prepare("update Peliculas set Nivel = ?, Titulo = ?, Ao = ?, Votos = ? where id = ?");        
+        $sentencia->bind_param("isiii", $_POST['Nivel'], $_POST['Titulo'], $_POST['Ao'], $_POST['Votos'], $_POST['id']);
+        $sentencia->execute();
+    }
 ?>

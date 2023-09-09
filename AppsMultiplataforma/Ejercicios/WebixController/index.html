@@ -17,13 +17,13 @@
 			{view:'text',id:'Titulo',name:'Titulo',label:'Titulo',labelWidth:120,required:true},
 			{view:'combo',id:'Ao',name:'Ao',label:'Año',options:["1972","1994"]},
 			{view:'text',id:'Votos',name:'Votos',label:'Votos'},
-			/*{view:'button',id:'Boton',value:'Entrar',click:mostrar},
-			{view: 'button', id: 'Delete', value: 'Delete', click: borrar},*/
+			/*{view:'button',id:'Boton',value:'Entrar',click:mostrar},*/
 			{cols:[
 				{view:'button', id:'BotonNuevo',value:'Nuevo',click:nuevo},
 				{view:'button', id:'BotonGuardar',value:'Guardar',click:mostrar},
 				{view:'button', id:'BotonModificar',value:'Modificar',click:modificar,hidden:true},
-			]}
+			]},
+			{view: 'button', id: 'Delete', value: 'Delete', click: borrar},
 			]},
 			//tabla
 			{rows:[
@@ -85,7 +85,7 @@
 			function nuevo() {
 				$$('BotonModificar').hide();
 				$$('BotonGuardar').show();
-				$$('Forma').clearAll();
+				$$('forma').clear();
 			}
 			function modificar() {
 				$$('Accion').setValue('Modificar');
@@ -94,7 +94,7 @@
 					function() {
 						$$('Tabla').clearAll();
 						$$('Tabla').load('resultados.php');
-						
+						$$('forma').clear();
 					})
 				}
 			}
