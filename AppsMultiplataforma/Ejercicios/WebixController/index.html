@@ -22,7 +22,8 @@
 			]},
 			//tabla
 			{rows:[
-				{view:"datatable",id:'Tabla',select:"row",
+				/*{view:'button',id:'BotonBorrar',value:'Borrar',click:borrar},*/
+				{view:"datatable",id:'Tabla',select:"row",multiselect:true,
 				columns:[
 				{ id:"Nivel", header:"", width:50,sort:'int'},
 				{ id:"Titulo", header:["Pelicula",{content:"textFilter"}], width:200, 
@@ -57,11 +58,18 @@
 				}
 			}
 			function borrar() {
-				webix.ajax().post('controlador.php',
-				{'Accion':'Borrar', 'Id':1},
-				function() {
-					$$('Tabla').clearAll();
-					$$('Tabla').load('resultados.php');
+				var idFilas = $$('Tabla').getSelectedId(true, true);
+				webix.confirm('Estas seguro de eliminar las filas: ' + idFilas).
+				then(function(resultado){
+					if(resultado){
+						//alert(idFilas);
+						webix.ajax().post('controlador.php',
+						{'Accion':'Borrar', 'Id':idFilas},
+						function() {
+							$$('Tabla').clearAll();
+							$$('Tabla').load('resultados.php');
+						});
+					}
 				});
 			}			
 		</script>
