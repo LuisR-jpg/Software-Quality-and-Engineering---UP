@@ -3,103 +3,92 @@ const express = require('express');
 const app = express();
 var cors = require('cors');
 const port = 8532;
+const bodyParser = require('body-parser');
 
-const uri = "mongodb://localhost:27017/lalito";
+const uri = "mongodb://localhost:27017";
 const cliente = new MongoClient(uri);
-async function busca(res){
+
+async function insertar(datos, res) {
     try {
         await cliente.connect();
-        const database = cliente.db("lalito");
-        const coleccion = database.collection("post");
-        const query = {Nombre: / /};
-        //const opciones = {};
-        const resultados = await coleccion.find(query).toArray();
+        const coleccion = cliente.db("lalito").collection("post");
+        await coleccion.insertOne(datos);
+        return res.status(201).json({ success: true });
+    } catch (error) {
+        return res.status(400).json({ success: error, error })
+    } finally { await cliente.close(); }
+}
+
+async function modificar(datosBusqueda, datos, res) {
+    try {
+        await cliente.connect();
+        const coleccion = cliente.db("lalito").collection("post");
+        await coleccion.updateMany(datosBusqueda, {$set:datos});
+        return res.status(201).json({ success: true });
+    } catch (error) {
+        return res.status(400).json({ success: error, error })
+    } finally { await cliente.close(); }
+}
+
+async function eliminar(datosBusqueda, res) {
+    try {
+        await cliente.connect();
+        const coleccion = cliente.db("lalito").collection("post");
+        await coleccion.deleteMany(datosBusqueda);
+        return res.status(201).json({ success: true });
+    } catch (error) {
+        return res.status(400).json({ success: error, error })
+    } finally { await cliente.close(); }
+}
+
+async function buscar(datosBusqueda, res) {
+    try {
+        await cliente.connect();
+        const coleccion = cliente.db("lalito").collection("post");
+        const resultados = await coleccion.find(datosBusqueda).toArray();
         console.log(resultados);
-        res.send(resultados);
+        res.send(resultados)
+    }
+    catch(error){
+        return res.status(400).json({success: false,error});
     }
     finally {
         await cliente.close();
     }
 }
 
+
 app.use(cors());
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(express.urlencoded({
     extended:true
 }));
 
+app.post('/guardar', (req, res) => {
+    console.log(req.body);
+    insertar(req.body.datos, res);
+});
+app.post('/borrar', (req, res) => {
+    console.log(req.body);
+    eliminar(req.body.datosBusqueda, res);
+});
+app.post('/modificar', (req, res) => {
+    console.log(req.body);
+    modificar(req.body.datosBusqueda, req.body.datos. res);
+});
+app.post('/buscar', (req, res) => {
+    console.log(req.body);
+    buscar(req.body.datosBusqueda, res);
+});
 app.get('/buscar', (req, res) => {
-    busca(res).catch(console.error);
-    /*
-    con.connect(function(err){
-        if(err) throw err;
-        con.query("SELECT * FROM Peliculas", function (err, result, fields){
-            if(err) throw err;
-            res.send(result);
-            console.log(result);
-        });
-    });
-    */
-})
-/*
-
-var con = mysql.createConnection({
-    host: "localhost",
-    user: "alumnos",
-    password: "app.2023",
-    database: "lalito"
+    console.log(req.body);
+    buscar({}, res);
 });
-
-app.post('/servicioweb', (req, res) => {
-    res.send(req.body);
-});
-
-
-app.post('/guardar', (req, res) =>{
-    con.connect(function(err){
-        if(err) throw err;
-        req.body.Nivel = req.body.Nivel ? req.body.Nivel : 0;
-        req.body.Ao = req.body.Ao ? req.body.Ao : 0;
-        req.body.Votos = req.body.Votos ? req.body.Votos : 0;
-        con.execute("insert into Peliculas (id, nivel, titulo, ao, votos) values (0, ?, ?, ?, ?)", 
-        [req.body.Nivel, req.body.Titulo, req.body.Ao, req.body.Votos],
-        function(err, result, fields){
-            if(err) throw err;
-                res.send(req.body);
-            });
-        })
-    })
-    
-    app.post('/borrar', (req, res) =>{
-        var id = req.body.Id;
-        id = id.replace('[', '');
-        id = id.replace(']', '');
-        con.connect(function(err){
-            if(err) throw err;
-            con.execute("delete from Peliculas where id = ?", 
-            [id],
-            function(err, result, fields){
-                if(err) throw err;
-                res.send(req.body);
-            });
-        })
-    })
-    
-    app.post('/modificar', (req, res) => {
-        con.connect(function(err){
-            if(err) throw err;
-            con.execute("update Peliculas set Nivel = ?, Titulo = ?, Ao = ?, Votos = ? where id = ?",
-            [req.body.Nivel, req.body.Titulo, req.body.Ao, req.body.Votos, req.body.id],
-            function(err, result, fields){
-                if(err) throw err;
-                res.send(req.body);
-            }
-            )
-        })
-    });
-*/
     
 app.get('/', (req, res) => {
+    console.log(req.body);
     res.send('Hola');
 });
 
