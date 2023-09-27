@@ -1,0 +1,32 @@
+[25/08/2023 07:57 p. m.] Lalito R: ssh mindspark@dapp.enlacenet.net
+mindspark01
+mysql -u alumnos -p
+app.2023
+[25/08/2023 07:58 p. m.] Lalito R: create database lalito;
+[25/08/2023 07:59 p. m.] Lalito R: show databases;
+[25/08/2023 08:00 p. m.] Lalito R: use lalito;
+[25/08/2023 08:00 p. m.] Lalito R: show tables;
+[25/08/2023 08:04 p. m.] Lalito R: create table MiTabla (Id int, Nombre char(150), Telefono char(50), Direccion text, Estatus enum('Activo', 'Inactivo'));
+[25/08/2023 08:05 p. m.] Lalito R: show columns from MiTabla;
+[25/08/2023 08:06 p. m.] Lalito R: create index Id on MiTabla(Id);
+[25/08/2023 08:07 p. m.] Lalito R: alter table MiTabla change Id Id int not null auto_increment;
+[25/08/2023 08:09 p. m.] Lalito R: alter table MiTabla add column Estado char(25);
+[25/08/2023 08:09 p. m.] Lalito R: alter table MiTabla drop column Estado;
+[25/08/2023 08:12 p. m.] Lalito R: insert into MiTabla values(0,'Lalito','333','Mi Direccion','Activo');
+[25/08/2023 08:12 p. m.] Lalito R: select * from MiTabla;
+[25/08/2023 08:15 p. m.] Lalito R: alter table MiTabla drop column Id;
+[25/08/2023 08:15 p. m.] Lalito R: delete from MiTabla limit 1;
+[25/08/2023 08:16 p. m.] Lalito R: alter table MiTabla add column Id int not null key auto_increment first;
+[25/08/2023 08:17 p. m.] Lalito R: insert into MiTabla values(0,'Lalito','333','Mi Direccion','Activo');
+[25/08/2023 08:20 p. m.] Lalito R: update MiTabla set Estatus = 'Inactivo' where Id = 2;
+[25/08/2023 08:21 p. m.] Lalito R: delete from MiTabla where Id = 2;
+[25/08/2023 08:27 p. m.] Lalito R: alter table MiTabla change Nombre Nombre char(150) not null primary key;
+[25/08/2023 08:27 p. m.] Lalito R: create index Id on MiTabla (Id);
+[25/08/2023 08:29 p. m.] Lalito R: alter table MiTabla drop primary key;
+[25/08/2023 08:31 p. m.] Lalito R: select * from MiTabla order by Id;
+[25/08/2023 08:36 p. m.] Lalito R: select * from MiTabla group by Telefono order by Id desc;
+[26/08/2023 09:17 a. m.] Lalito R: ---
+[26/08/2023 09:17 a. m.] Lalito R: create table Peliculas (Nivel int, Titulo char(150), Ao char(4), Votos int);
+[26/08/2023 09:24 a. m.] Lalito R: create table Peliculas (Id int not null key auto_increment, Nivel int, Titulo char(150), Ao char(4), Votos int)
+[26/08/2023 11:00 a. m.] Lalito R: php -l controlador.php
+[26/08/2023 11:01 a. m.] Lalito R: php -l controlador.php // To check syntax errors
