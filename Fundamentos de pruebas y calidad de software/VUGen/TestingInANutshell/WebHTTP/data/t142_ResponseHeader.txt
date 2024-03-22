@@ -1,0 +1,39 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Encoding: gzip
+Access-Control-Allow-Headers: TicketType,RequestContinuationKey,AuthToken,Content-Type,x-client-activityid,ms-cv,OneSvc-Uni-Feat-Tun,signedInCookieName,muid,appid,User-Location,user-location,userauthtoken,usertickettype,sitename,s2sauthtoken,thumbprint,Authorization,Ent-Authorization,UserIdToken,DDD-TMPL,DDD-ActivityId,DDD-FeatureSet,DDD-Session-ID,Date,date,ads-referer,ads-referer,taboola-sessionId,taboola-sessionid,Akamai-Request-ID,Akamai-Server-IP,X-MSEdge-Ref,DDD-DebugId,s-xbox-token,OneWebServiceLatency,X-FD-Features,DDD-UserType,traceparent,Widgets,Muted,Velocity,DDD-Auth-Features,SoftLanding
+Access-Control-Expose-Headers: TicketType,RequestContinuationKey,AuthToken,Content-Type,x-client-activityid,ms-cv,OneSvc-Uni-Feat-Tun,signedInCookieName,muid,appid,User-Location,user-location,userauthtoken,usertickettype,sitename,s2sauthtoken,thumbprint,Authorization,Ent-Authorization,UserIdToken,DDD-TMPL,DDD-ActivityId,DDD-FeatureSet,DDD-Session-ID,Date,date,ads-referer,ads-referer,taboola-sessionId,taboola-sessionid,Akamai-Request-ID,Akamai-Server-IP,X-MSEdge-Ref,DDD-DebugId,s-xbox-token,OneWebServiceLatency,X-FD-Features,DDD-UserType,traceparent,Widgets,Muted,Velocity,DDD-Auth-Features,SoftLanding
+DDD-AuthenticatedWithJwtFlow: True
+DDD-UserType: PersonalMicrosoftAccount
+DDD-ActivityId: 65fcd939-115d-44dc-8902-4135d112e9f1
+DDD-StrategyExecutionLatency: 00:00:00.1935827
+DDD-DebugId: 65fcd939-115d-44dc-8902-4135d112e9f1|2024-03-22T01:04:57.6911464Z|fabric_msn|WSU|News_453
+DDD-Auth-Features: MsaStateOrigin:EltCookie;MuidStateOrigin:MuidFromCookie
+OneWebServiceLatency: 197
+X-MSEdge-ResponseInfo: 197
+Accept-CH: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+X-Ceto-ref: 65fcd9390bf64d64a988129bc8385fd4|AFD:65fcd9390bf64d64a988129bc8385fd4|2024-03-22T01:04:57.476Z
+X-MSEdge-Ref: Ref A: 8C35269430BC4ABE9F28B2A10ACA9F62 Ref B: CO1EDGE1406 Ref C: 2024-03-22T01:04:57Z
+Expires: Fri, 22 Mar 2024 01:04:57 GMT
+Date: Fri, 22 Mar 2024 01:04:57 GMT
+Content-Length: 424
+Connection: keep-alive
+Set-Cookie: _C_ETH=1; expires=Thu, 21 Mar 2024 01:04:57 GMT; domain=.msn.com; path=/; secure; httponly
+Set-Cookie: _C_Auth=
+Set-Cookie: _EDGE_S=SID=16D0C9BCBD3768161454DDF6BC6E690A; domain=.msn.com; path=/; httponly
+Akamai-Request-BC: [a=23.208.86.62,b=272126419,c=g,n=US_FL_MIAMI,o=20940],[a=131.253.33.203,c=o]
+Server-Timing: clientrtt; dur=173, clienttt; dur=310, origin; dur=304 , cdntime; dur=6
+Akamai-Cache-Status: NotCacheable from child
+Akamai-Server-IP: 23.208.86.62
+Akamai-Request-ID: 103851d3
+Access-Control-Allow-Methods: PUT,PATCH,POST,GET,OPTIONS,DELETE
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: https://ntp.msn.com
+X-AS-SuppressSetCookie: 1
+Cache-Control: private, max-age=0
+report-to: {"group":"network-errors","max_age":604800,"endpoints":[{"url":"https://deff.nelreports.net/api/report?cat=msn"}]}
+nel: {"report_to":"network-errors","max_age":604800,"success_fraction":0.001,"failure_fraction":0.1}
+Timing-Allow-Origin: *
+Akamai-GRN: 0.3e56d017.1711069497.103851d3
+Vary: Origin
+

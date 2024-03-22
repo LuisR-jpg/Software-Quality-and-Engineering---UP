@@ -1,0 +1,65 @@
+[API Trapper      (647c:3598)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      ( 87c:4468)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (69f4:6a50)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (69f4:1af0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (69f4:1af0)] Load Network Traffic Analyzers:
+[Network Analyzer (69f4:1af0)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (69f4:1af0)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (69f4:1af0)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (69f4:1af0)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (69f4:1af0)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (69f4:1af0)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (69f4:1af0)]     Analyzer Module: local_server (value=)
+[Network Analyzer (69f4:1af0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (69f4:3b60)] Address lookup for LalitoPC = 172.17.6.243
+[Network Analyzer (69f4:1af0)] Address lookup for LalitoPC = 172.17.6.243
+[Network Analyzer (69f4:1af0)] Request Connection: Remote Server @ 142.251.218.131:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (69f4:5070)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[API Trapper      (2ecc:6930)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (69f4:1af0)] Address lookup for LalitoPC = 172.17.6.243
+[Network Analyzer (69f4:1af0)] Request Connection: Remote Server @ 104.26.7.164:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (69f4:1af0)] Address lookup for LalitoPC = 172.17.6.243
+[Network Analyzer (69f4:1af0)] Request Connection: Remote Server @ 142.250.113.188:5228   (Service=)  (Sid=  3)  PROXIED!
+[Net An. Error    (69f4:5070)] SSLAccept(ssl_id = 1918764148112 = 000001BEBF416590) Failed, ctx = 000001BEBF3EE420, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000126:SSL routines::unexpected eof while reading
+" 
+[Network Analyzer (69f4:1af0)] Address lookup for LalitoPC = 172.17.6.243
+[Net An. Error    (69f4:5070)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (69f4:17fc)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (69f4:3b60)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (69f4:1af0)] Request Connection: Remote Server @ 142.251.218.131:443   (Service=)  (Sid=  4)  PROXIED!
+[Net An. Error    (69f4:17fc)] SSLAccept(ssl_id = 1918764359600 = 000001BEBF449FB0) Failed, ctx = 000001BEBF449970, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000126:SSL routines::unexpected eof while reading
+" 
+[Network Analyzer (69f4:1af0)] Address lookup for LalitoPC = 172.17.6.243
+[Net An. Error    (69f4:17fc)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (69f4:3b60)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (69f4:1af0)] Request Connection: Remote Server @ 104.26.7.164:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (69f4:1af0)] Address lookup for LalitoPC = 172.17.6.243
+[Network Analyzer (69f4:2ee8)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (69f4:1af0)] Request Connection: Remote Server @ 142.251.218.131:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (69f4:1af0)] Address lookup for LalitoPC = 172.17.6.243
+[Network Analyzer (69f4:6934)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (69f4:6934)] SSLAccept(ssl_id = 1918764374560 = 000001BEBF44DA20) Failed, ctx = 000001BEBF3EE420, err = "TLSv1.3 early data", err code = 5, err msg= "error:00000005:lib(0)::reason(5)
+" 
+[Net An. Error    (69f4:6934)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (69f4:3b60)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (69f4:1af0)] Request Connection: Remote Server @ 104.26.7.164:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (69f4:1af0)] Address lookup for LalitoPC = 172.17.6.243
+[Net An. Error    (69f4:64fc)] SSL_connect(ssl_id = 1918764411760 = 000001BEBF456B70) Failed, ctx = 000001BEBF42F210, err = "error", err code = 1, err msg = "error:00000001:lib(0)::reason(1)
+error:0A000410:SSL routines::sslv3 alert handshake failure
+"
+[Net An. Error    (69f4:64fc)]   (Sid:  5) SSL handshake with remote server Failed!
+[Network Analyzer (69f4:1af0)] Request Connection: Remote Server @ 142.251.218.131:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (69f4:104c)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (69f4:104c)] SSLAccept(ssl_id = 1918764404320 = 000001BEBF454E60) Failed, ctx = 000001BEBF3EE420, err = "TLSv1.3 early data", err code = 5, err msg= "error:00000005:lib(0)::reason(5)
+" 
+[Net An. Error    (69f4:104c)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (69f4:2f20)] SSL_connect(ssl_id = 1918764396880 = 000001BEBF453150) Failed, ctx = 000001BEBF42F210, err = "error", err code = 1, err msg = "error:00000001:lib(0)::reason(1)
+error:0A000410:SSL routines::sslv3 alert handshake failure
+"
+[Net An. Error    (69f4:2f20)]   (Sid:  7) SSL handshake with remote server Failed!
+[Network Analyzer (69f4:3b60)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (69f4:65fc)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[API Trapper      (69a4:3e24)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (66a8: 438)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe

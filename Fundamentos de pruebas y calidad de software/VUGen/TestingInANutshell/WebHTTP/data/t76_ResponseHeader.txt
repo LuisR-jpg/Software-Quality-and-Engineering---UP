@@ -1,0 +1,40 @@
+HTTP/1.1 200 OK
+Date: Fri, 22 Mar 2024 00:39:39 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+CF-Ray: 86822038cf68ac67-QRO
+CF-Cache-Status: DYNAMIC
+Age: 390
+Cache-Control: max-age=0, no-cache, no-store
+ETag: W/"3ca3ac108ef24779ed46b4a61c2aebd0"
+Last-Modified: Mon, 26 Feb 2024 14:37:51 UTC
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: origin, Accept-Encoding
+Via: 1.1 3c43e000c50d5633eb558057710f3c54.cloudfront.net (CloudFront)
+Access-Control-Allow-Credentials: false
+cache-tag: staticjsapp-notifications-web-prod,staticjsapp-prod
+Content-Security-Policy-Report-Only: script-src 'self' www.hubspot.com *.hsappstatic.net *.hs-analytics.net *.hs-banner.com *.hsforms.net *.hsleadflows.net *.hs-scripts.com *.hubspotfeedback.com *.usemessages.com js.hubspot.com *.hsadspixel.net *.hscollectedforms.net js-agent.newrelic.com bam.nr-data.net bam-cell.nr-data.net *.google-analytics.com www.googletagmanager.com data: 'unsafe-inline' 'unsafe-eval' blob: *.fullstory.com fullstory.com; report-uri https://send.hsbrowserreports.com/csp/report?resource=notifications/static-1.6038/html/index.html&cfRay=86822038cf68ac67&reqUrl=https%3A%2F%2Fapp.hubspot.com%2Fnotifications%2F45638932%2Fiframe&referrer=https%3A%2F%2Fapp.hubspot.com%2Fuser-guide%2F45638932%3Fvia%3Dhome&cfenv=prod&pdt=2024-03-22&csp=ro
+Report-To: {"group":"default","max_age":86400,"endpoints":[{"url":"https://send.hsbrowserreports.com/csp/reports"}]}
+Reporting-Endpoints: default="https://send.hsbrowserreports.com/csp/reports?cfRay=86822038cf68ac67&resource=notifications/static-1.6038/html/index.html"
+X-Amz-Cf-Id: oYP_H0SUTVv_78lTD3GKtyGVL9xQwl6WsJWXex3NQTkvB3yyTcOpmQ==
+X-Amz-Cf-Pop: IAD12-P3
+x-amz-replication-status: COMPLETED
+x-amz-server-side-encryption: AES256
+x-amz-version-id: 4yZhzZ0DBB82Yxt8YDfWYqxur7alFZlO
+X-Cache: Hit from cloudfront
+X-Content-Type-Options: no-sniff
+x-envoy-upstream-service-time: 3
+x-evy-trace-listener: listener_https
+x-evy-trace-route-configuration: listener_https/all
+x-evy-trace-route-service-name: envoyset-translator
+x-evy-trace-served-by-pod: iad02/app-td/envoy-proxy-f846d4767-795tv
+x-evy-trace-virtual-host: all
+X-HS-Cache-Status: HIT
+X-HS-Target-Asset: notifications/static-1.6038/html/index.html
+x-hs-worker-debug-mode: false
+x-hubspot-correlation-id: b49af438-9b90-4944-8260-7ccc315cb6a0
+x-request-id: b49af438-9b90-4944-8260-7ccc315cb6a0
+Server: cloudflare
+Content-Encoding: br
+

@@ -1,0 +1,35 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: login",
+                "infFile": "t1.inf",
+                "time": 1711077715312
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: register",
+                "infFile": "t2.inf",
+                "time": 1711077715701
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "01_PLATICA_REGISTER_1010_Home",
+                "rawStartTime": 1711077714345,
+                "rawEndTime": 1711077715327,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0549471378326416
+            },
+            {
+                "transactionName": "01_PLATICA_REGISTER_1020_Registrate",
+                "rawStartTime": 1711077715374,
+                "rawEndTime": 1711077715715,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0032596588134765627
+            }
+        ]
+    }
+]

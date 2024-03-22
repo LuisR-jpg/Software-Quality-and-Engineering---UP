@@ -1,0 +1,81 @@
+Virtual User Script started at : 2024-03-21 19:55:54
+TruClient Replay (build 0157) for LoadRunner Professional 2024.1.0, build 0264. OS: Windows 11, Browser: Chromium 120.0.6099.63, initialized on 2024/03/21 at 19:55:54 (1711072554.382s)
+
+Running Vuser...
+Starting iteration 1.
+t=00001253ms: Step 1: Navigate to "https://app.platica.mx/login/register" started    [MsgId: MMSG-205180]
+t=00002376ms: Step 1: Navigate to https://app.platica.mx/login/register successfully completed with End Event "Document Loaded"    [MsgId: MMSG-205180]
+t=00002385ms: Step 2: Registrarme started    [MsgId: MMSG-205180]
+t=00002904ms: Step 2.1: Click on Correo electrónico emailbox started    [MsgId: MMSG-205180]
+t=00005137ms: Step 2.1: Click on Correo electrónico emailbox successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00005642ms: Step 2.2: Type LR.getParam("My_email"); in Correo electrónico emailbox started    [MsgId: MMSG-205180]
+t=00007682ms: Error -205177: APIError: "Failed to execute 'send' on 'XMLHttpRequest': Failed to load 'http://127.0.0.1:12366/'."
+APIError
+    at chrome-extension://opmdjnhpgoamlkjpphnnhohdcgnimbbj/RRE/content/infra/Utils.js:12:39
+    at chrome-extension://opmdjnhpgoamlkjpphnnhohdcgnimbbj/RRE/content/infra/Utils.js:906:3
+While calling handlers in TC_NS.RuleEngine dispatch, event=[TC_NS.Event type="TC.generateReplaySnapshot" target="[object Object]"], handler=
+function (e) {
+        var obj = e.step.realStep.obj;
+
+        var step = e.step;
+
+        e.tracker && e.tracker.trackMe();
+
+        var event = TC_NS.Event.dispatch("TC.getReplaySnapshotProtocolPath", {}, {}, TC_NS.Event.DISPATCH_SYNC);
+        var path = event.value + getPathAlias(e.runLogicBlock);
+        if (e.runLogicBlock === "Run Block") {
+            path += dirSeparator + (getPathAlias("Iteration") + e.iterNum);
+        }
+        path += dirSeparator + step.containerSection + dirSeparator + e.instanceNum;
+        TC_NS.FileIO.createFolder(path);
+        path = path.concat(dirSeparator, e.step.fullIndex, "-", e.step.snapshotId ? e.step.snapshotId : e.step.stepId.replace(":", "-"), e.isError ? getPathAlias("-error") + ".png" : ".png");
+
+        var objRect;
+        if (!e.isError && obj && !obj.hasRole("browser")) {
+            objRect = obj.rect;
+        }
+
+        ++nGenerateSnapshotInProgress;
+        TC_NS.Utils.generateSnapshot(
+            objRect,
+            e.drawWatermark,
+            e.fullPageSnapshot,
+            function (dataUrl) {
+                // for performance, save snapshot file in async, which is NOT covered by trackMe and untrackMe
+                function afterGenerated(snapshotCreated) {
+                    if (!snapshotCreated) {
+                        TC_NS.Log.warning("Failed to generate snapshot for " + step.stepId);
+                    }
+
+                    if (snapshotCreated) {
+                        if (e.isError) {
+                            TC_NS.Query.addOnetimeEventListener("TC.getSnapshotOnErrorSuffixToLogDone", function () {
+                                TC_NS.Event.dispatch("step/errorSnapshot", step, { path: path, errorBlock: e.runLogicBlock, iterNum: e.iterNum });
+                            });
+                        } else if (step.action === "Take Snapshot" && TC_NS.RTS("RTS.TruClient.ReplaySnapshotsMode") > 1) {
+                            TC_NS.Event.dispatch("step/errorSnapshot", step, { path: path, errorBlock: e.runLogicBlock, iterNum: e.iterNum });
+                        }
+                    }
+                    --nGenerateSnapshotInProgress;
+                    TC_NS.Event.dispatch("step/snapshotGenerated", step, { snapshotPath: path, isError: e.isError });
+                    e.tracker && e.tracker.untrackMe();
+                }
+
+                try {
+                    if (dataUrl) {
+                        TC_NS.FileIO.writeConvert(path, dataUrl, false, (response) => afterGenerated(response.ret));
+                    } else {
+                        // Failed to generate snapshot in javascript code, tab may crash, try to generate snapshot from native code
+                        TC_NS.Utils.generateSnapshotNative(path, (response) => afterGenerated(response.succeed && response.value));
+                    }
+                } catch (ex) {
+                    TC_NS.Log.exception(ex, "Exception caught when generating snapshot.");
+                }
+            },
+            false
+        );
+    }    [MsgId: MERR-205177]
+Ending Vuser...
+t=00018184ms: Step 2.2: Type LR.getParam("My_email"); in Correo electrónico emailbox was stopped    [MsgId: MMSG-205180]
+t=00018186ms: Step 2: Registrarme was stopped    [MsgId: MMSG-205180]
+Vuser Terminated.

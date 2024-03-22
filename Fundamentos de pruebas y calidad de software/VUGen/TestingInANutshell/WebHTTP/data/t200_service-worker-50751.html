@@ -1,0 +1,97 @@
+const VERSION = 18;
+const CACHE_NAME = 'a61bd28c10b9c975';
+const OFFLINE = '/offline/' + VERSION + '.html';
+const IFRAME = '/iframe/' + VERSION + '.html';
+
+const urlsToCache = [
+    OFFLINE,
+    IFRAME
+];
+
+if (!String.prototype.endsWith) {
+    String.prototype.endsWith = function (search, this_len) {
+        if (this_len === undefined || this_len > this.length) {
+            this_len = this.length;
+        }
+        return this.substring(this_len - search.length, this_len) === search;
+    };
+}
+
+self.addEventListener('install', function (event) {
+    console.log("install [version=" + VERSION + "]");
+    event.waitUntil(
+        caches.open(CACHE_NAME)
+            .then(function (cache) {
+                return cache.addAll(urlsToCache);
+            })
+    );
+});
+
+self.addEventListener('activate', function (event) {
+    console.log("activate [version=" + VERSION + "]", event);
+});
+
+self.addEventListener('fetch', function (event) {
+    const url = event.request.url;
+    const title = /^https?:\/\/[^:/]+(:[0-9]+)?\/?(\?.*)?$/.test(url);
+    if (title) {
+        console.log("Title page mode")
+    }
+
+    const controller = new AbortController();
+    const signal = controller.signal;
+    let error = false;
+    setTimeout(function () {
+        error = true;
+        controller.abort();
+    }, title ? 5000 : 45000);
+
+    const handle = event.request.method.toUpperCase() === "GET"
+        && (url.indexOf("/contest/") >= 0 || title);
+
+    const fallback = function () {
+        const controller2 = new AbortController();
+        const signal2 = controller2.signal;
+        let error2 = false;
+        setTimeout(function () {
+            error2 = true;
+            controller2.abort();
+        }, 5000);
+
+        return fetch('https://serviceworker.codeforces.org/index.html', {signal: signal2})
+            .then(function (response) {
+                if (error2) {
+                    console.log("error2 '" + url + "' [version=" + VERSION + "]");
+                    return caches.match(OFFLINE);
+                } else {
+                    if (response.status === 201) {
+                        console.log("Returned 201 [iframe case]: '" + url + "' [version=" + VERSION + "]");
+                        return caches.match(IFRAME);
+                    } else {
+                        console.log("Returned 200 [offline case]: '" + url + "' [version=" + VERSION + "]");
+                        return caches.match(OFFLINE);
+                    }
+                }
+            }).catch(function () {
+                console.log("catch2 '" + url + "' [version=" + VERSION + "]");
+                return caches.match(OFFLINE);
+            });
+    };
+
+    if (handle) {
+        console.log("handle case: '" + url + "' [version=" + VERSION + "]");
+        event.respondWith(
+            fetch(event.request, {signal: signal}).then(function (response) {
+                if (Math.floor(response.status / 100) !== 5 && !error) {
+                    return response;
+                } else {
+                    console.log("error '" + url + "' [version=" + VERSION + "]");
+                    return fallback();
+                }
+            }).catch(function () {
+                console.log("offline '" + url + "' [version=" + VERSION + "]");
+                return fallback();
+            })
+        );
+    }
+});
