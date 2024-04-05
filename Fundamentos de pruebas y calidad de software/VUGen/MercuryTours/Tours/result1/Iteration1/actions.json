@@ -1,0 +1,105 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: Specialized_Tours.html",
+                "infFile": "t1.inf",
+                "time": 1712283222950
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Custom Request: json",
+                "infFile": "t2.inf",
+                "time": 1712283223171
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: Our_Coaches.html",
+                "infFile": "t3.inf",
+                "time": 1712283223718
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: l",
+                "infFile": "t4.inf",
+                "time": 1712283223935
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: Contact_Us.html",
+                "infFile": "t5.inf",
+                "time": 1712283224072
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Link: San Franscisco Tours",
+                "infFile": "t6.inf",
+                "time": 1712283224581
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Link: Specialized Tours",
+                "infFile": "t7.inf",
+                "time": 1712283224836
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: More%20of%20Where%20we%20Go.html",
+                "infFile": "t8.inf",
+                "time": 1712283225436
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: Specialized_Tours.html_2",
+                "infFile": "t9.inf",
+                "time": 1712283225468
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Case_g01_01_URL",
+                "rawStartTime": 1712283222968,
+                "rawEndTime": 1712283222984,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "Case_g01_02_Our-Coaches",
+                "rawStartTime": 1712283223203,
+                "rawEndTime": 1712283223944,
+                "thinkTime": 0.0,
+                "wastedTime": 0.016737937927246095
+            },
+            {
+                "transactionName": "Case_g01_03_Contact-Us",
+                "rawStartTime": 1712283223976,
+                "rawEndTime": 1712283224088,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003165721893310547
+            },
+            {
+                "transactionName": "Case_g01_04_San-Franscisco-Tours",
+                "rawStartTime": 1712283224119,
+                "rawEndTime": 1712283224584,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006623029708862305
+            },
+            {
+                "transactionName": "Case_g01_05_Specialized-Tours",
+                "rawStartTime": 1712283224617,
+                "rawEndTime": 1712283224850,
+                "thinkTime": 0.0,
+                "wastedTime": 0.002930879592895508
+            },
+            {
+                "transactionName": "Case_g01_06_More-Of-Where-We-Go",
+                "rawStartTime": 1712283224882,
+                "rawEndTime": 1712283225470,
+                "thinkTime": 0.0,
+                "wastedTime": 0.013209342956542969
+            }
+        ]
+    }
+]
