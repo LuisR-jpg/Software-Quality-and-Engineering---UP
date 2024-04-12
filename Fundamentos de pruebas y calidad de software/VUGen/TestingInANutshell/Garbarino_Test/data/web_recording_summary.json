@@ -1,0 +1,1935 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-requested-with",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-http-method-override",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-goog-update-updater",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-goog-update-interactivity",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-goog-update-appid",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-goog-encode-response-if-executable",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-goog-api-key",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "service-worker",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-user",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua-platform",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua-mobile",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "purpose",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "pragma",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "if-none-match",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "access-control-request-method",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "access-control-request-headers",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "a-im",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": false,
+      "type": "text/plain"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/webp"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/gif"
+    },
+    {
+      "IsNonResource": false,
+      "type": "font/woff2"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/x-protobuf"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 30,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "abr.-12-2024",
+    "RecordingDuration": 321984,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1712886647,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 9758680,
+    "TotalBytesSent": 162412,
+    "TotalRequests": 165,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "webpushr.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "159.203.117.170",
+          "IncludeInScript": true,
+          "Name": "cdn.webpushr.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 94,
+              "EventId": 3190,
+              "HttpStatus": 200,
+              "Size": 44220,
+              "URL": "https://cdn.webpushr.com/app.min.js"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES256-GCM-SHA384",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "icommarketing.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "99.86.102.26",
+          "IncludeInScript": true,
+          "Name": "externalassets.icommarketing.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 4088,
+              "HttpStatus": 200,
+              "Size": 76769,
+              "URL": "https://externalassets.icommarketing.com/icomMkt_tracking_jquery.min.js"
+            }
+          ],
+          "SSLCipher": "TLS_AES_128_GCM_SHA256",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "gvt2.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.177.3",
+          "IncludeInScript": true,
+          "Name": "beacons3.gvt2.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 62,
+              "EventId": 4077,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://beacons3.gvt2.com/domainreliability/upload-nel"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "173.194.194.94",
+          "IncludeInScript": true,
+          "Name": "beacons2.gvt2.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 266,
+              "EventId": 4039,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://beacons2.gvt2.com/domainreliability/upload-nel"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 266,
+              "EventId": 4036,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://beacons2.gvt2.com/domainreliability/upload-nel"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "192.178.56.195",
+          "IncludeInScript": true,
+          "Name": "beacons.gvt2.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 63,
+              "EventId": 3636,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://beacons.gvt2.com/domainreliability/upload"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 62,
+              "EventId": 3630,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://beacons.gvt2.com/domainreliability/upload"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "108.177.122.94",
+          "IncludeInScript": true,
+          "Name": "beacons.gcp.gvt2.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 78,
+              "EventId": 3694,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://beacons.gcp.gvt2.com/domainreliability/upload"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 78,
+              "EventId": 3677,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://beacons.gcp.gvt2.com/domainreliability/upload"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 78,
+              "EventId": 3673,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://beacons.gcp.gvt2.com/domainreliability/upload"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "gstatic.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.3.131",
+          "IncludeInScript": true,
+          "Name": "www.gstatic.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 31,
+              "EventId": 2931,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "http://www.gstatic.com/generate_204"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googletagmanager.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "192.178.52.168",
+          "IncludeInScript": true,
+          "Name": "www.googletagmanager.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 78,
+              "EventId": 3221,
+              "HttpStatus": 200,
+              "Size": 328671,
+              "URL": "https://www.googletagmanager.com/gtag/js?id=G-3SQN45GM23"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "192.178.56.3",
+          "IncludeInScript": true,
+          "Name": "update.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 63,
+              "EventId": 3537,
+              "HttpStatus": 200,
+              "Size": 3673,
+              "URL": "https://update.googleapis.com/service/update2/json?cup2key=14:HpjNSgSauqrMoutZG1qLk9Gs5UReM8-HROMYDRmugQM&cup2hreq=34190caff8741591061fcc3eef07ec9e92d41fe32ef3008a5b4232deeafb9c9f"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "192.178.52.202",
+          "IncludeInScript": true,
+          "Name": "safebrowsing.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 63,
+              "EventId": 3746,
+              "HttpStatus": 200,
+              "Size": 387964,
+              "URL": "https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$req=Ch4KDGdvb2dsZWNocm9tZRIOMTIzLjAuNjMxMi4xMDcaKQgFEAEaGwoNCAUQBhgBIgMwMDEwARDklxYaAhgJbkv8vSIEIAEgAigBGikIARABGhsKDQgBEAYYASIDMDAxMAEQqJUOGgIYCfgAioUiBCABIAIoARopCAMQARobCg0IAxAGGAEiAzAwMTABELeMDhoCGAl-ujmkIgQgASACKAEaKQgOEAEaGwoNCA4QBhgBIgMwMDEwARCZuAcaAhgJKn7d0SIEIAEgAigBGigIARAIGhoKDQgBEAgYASIDMDAxMAQQ0DgaAhgJ_JX3-iIEIAEgAigEGikIDxABGhsKDQgPEAYYASIDMDAxMAEQwdUCGgIYCekjsy8iBCABIAIoARonCAoQCBoZCg0IChAIGAEiAzAwMTABEAcaAhgJ6qKaVyIEIAEgAigBGicICRABGhkKDQgJEAYYASIDMDAxMAEQIxoCGAmL0zudIgQgASACKAEaKAgIEAEaGgoNCAgQBhgBIgMwMDEwARDvFRoCGAmSW9NwIgQgASACKAEaKQgNEAEaGwoNCA0QBhgBIgMwMDEwARCflgIaAhgJ-ZaYdSIEIAEgAigBGikIBxABGhsKDQgHEAYYASIDMDAxMAEQzdsOGgIYCc0geewiBCABIAIoARooCBAQARoaCg0IEBAGGAEiAzAwMTABEPEiGgIYCXCDoVgiBCABIAIoASICCAE=&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "192.178.52.138",
+          "IncludeInScript": true,
+          "Name": "content-autofill.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 94,
+              "EventId": 3264,
+              "HttpStatus": 200,
+              "Size": 76,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTIzLjAuNjMxMi4xMDcSGQnjFemd-Nrk9hIFDULauvchHR2Oky1DQF0SIAkHTLnezRl6kxIFDXhvEhkSBQ3OQUx6ISJyyOgA90SpEhkJTipy9SV1F30SBQ2LxHTDIc4BXnHb30D5?alt=proto"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "192.178.57.35",
+          "IncludeInScript": true,
+          "Name": "clientservices.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 79,
+              "EventId": 2926,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=123"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google.com.mx",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "192.178.56.163",
+          "IncludeInScript": true,
+          "Name": "www.google.com.mx",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 94,
+              "EventId": 3495,
+              "HttpStatus": 200,
+              "Size": 42,
+              "URL": "https://www.google.com.mx/pagead/1p-user-list/11059668143/?random=1712887266526&cv=11&fst=1712887200000&bg=ffffff&guid=ON&async=1&gtm=45je44a0v9138474532za200&gcd=13l3l3l3l1&dma=0&u_w=1536&u_h=864&url=https%3A%2F%2Fwww.garbarino.com%2F&frm=0&tiba=Garbarino&value=9549119&currency_code=ARS&npa=0&data=event%3Dview_item_list&fmt=3&is_vtc=1&cid=CAQSGwB7FLtq3jjwEnExn38reiFXzpS8VpRKyRQTUA&random=3638479689&rmt_tld=1&ipr=y"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 62,
+              "EventId": 3493,
+              "HttpStatus": 200,
+              "Size": 42,
+              "URL": "https://www.google.com.mx/pagead/1p-user-list/11059668143/?random=1712887266516&cv=11&fst=1712887200000&bg=ffffff&guid=ON&async=1&gtm=45je44a0v9138474532za200&gcd=13l3l3l3l1&dma=0&u_w=1536&u_h=864&url=https%3A%2F%2Fwww.garbarino.com%2F&tiba=Garbarino&frm=0&npa=0&data=event%3Dpage_view&fmt=3&is_vtc=1&cid=CAQSGwB7FLtqf6gOnauDoQfrpotYbV_yFXaaO_DI3g&random=2446108281&rmt_tld=1&ipr=y"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.251.218.142",
+          "IncludeInScript": true,
+          "Name": "clients2.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 188,
+              "EventId": 3658,
+              "HttpStatus": 404,
+              "Size": 1589,
+              "URL": "https://clients2.google.com/domainreliability/upload-nel"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google-analytics.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "192.178.56.206",
+          "IncludeInScript": true,
+          "Name": "www.google-analytics.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 78,
+              "EventId": 3461,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://www.google-analytics.com/g/collect?v=2&tid=G-3SQN45GM23&gtm=45je44a0v9138474532za200&_p=1712887260750&gcd=13l3l3l3l1&npa=0&dma=0&cid=2077486026.1712887266&ul=es-419&are=1&pscdl=noapi&_geo=1&_rdi=1&cu=ARS&sid=1712887266&sct=1&seg=0&dl=https%3A%2F%2Fwww.garbarino.com%2F&dt=Garbarino&_s=2&tfd=10339"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 63,
+              "EventId": 3414,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://www.google-analytics.com/g/collect?v=2&tid=G-3SQN45GM23&gtm=45je44a0v9138474532za200&_p=1712887260750&gcd=13l3l3l3l1&npa=0&dma=0&cid=2077486026.1712887266&ul=es-419&are=1&pscdl=noapi&_geo=1&_rdi=1&_s=1&dt=Garbarino&dl=https%3A%2F%2Fwww.garbarino.com%2F&sid=1712887266&sct=1&seg=0&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&ep.device_type=desktop&ep.site_context=Contexto%20predeterminado&tfd=9633"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "garbarino.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "3.213.161.229",
+          "IncludeInScript": true,
+          "Name": "www.garbarino.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 94,
+              "EventId": 4116,
+              "HttpStatus": 200,
+              "Size": 2458,
+              "URL": "https://www.garbarino.com/api/user/order/1ee470a2-c755-42d3-b95a-bef0a26be671/refresh-delivery-eta/4111"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 78,
+              "EventId": 4113,
+              "HttpStatus": 200,
+              "Size": 60,
+              "URL": "https://www.garbarino.com/webpushr-sw.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 109,
+              "EventId": 4110,
+              "HttpStatus": 200,
+              "Size": 9540,
+              "URL": "https://www.garbarino.com/api/user/order/1ee470a2-c755-42d3-b95a-bef0a26be671"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 109,
+              "EventId": 4101,
+              "HttpStatus": 200,
+              "Size": 55,
+              "URL": "https://www.garbarino.com/api/catalog/wishlist/products-ids"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 859,
+              "EventId": 4096,
+              "HttpStatus": 200,
+              "Size": 559965,
+              "URL": "https://www.garbarino.com/user/orders/1ee470a2-c755-42d3-b95a-bef0a26be671"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 1375,
+              "EventId": 4082,
+              "HttpStatus": 200,
+              "Size": 13308,
+              "URL": "https://www.garbarino.com/api/checkout/submit-step/confirm"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 390,
+              "EventId": 4071,
+              "HttpStatus": 200,
+              "Size": 12344,
+              "URL": "https://www.garbarino.com/api/checkout/load-step/confirm"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 359,
+              "EventId": 4069,
+              "HttpStatus": 200,
+              "Size": 12350,
+              "URL": "https://www.garbarino.com/api/checkout/submit-step/contact"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 109,
+              "EventId": 4065,
+              "HttpStatus": 200,
+              "Size": 45111,
+              "URL": "https://www.garbarino.com/api/user/phone-countries"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 250,
+              "EventId": 4057,
+              "HttpStatus": 200,
+              "Size": 10957,
+              "URL": "https://www.garbarino.com/api/checkout/load-step/contact"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 281,
+              "EventId": 4051,
+              "HttpStatus": 200,
+              "Size": 10148,
+              "URL": "https://www.garbarino.com/api/checkout/submit-step/payment"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 282,
+              "EventId": 3726,
+              "HttpStatus": 200,
+              "Size": 15116,
+              "URL": "https://www.garbarino.com/api/checkout/load-step/payment"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 188,
+              "EventId": 3722,
+              "HttpStatus": 200,
+              "Size": 7798,
+              "URL": "https://www.garbarino.com/api/checkout/submit-step/delivery"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 312,
+              "EventId": 3719,
+              "HttpStatus": 200,
+              "Size": 6983,
+              "URL": "https://www.garbarino.com/api/checkout/delivery/calculate"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 328,
+              "EventId": 3715,
+              "HttpStatus": 200,
+              "Size": 4162,
+              "URL": "https://www.garbarino.com/api/checkout/load-step/delivery"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 250,
+              "EventId": 3713,
+              "HttpStatus": 200,
+              "Size": 3497,
+              "URL": "https://www.garbarino.com/api/checkout/submit-step/discount"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 235,
+              "EventId": 3708,
+              "HttpStatus": 200,
+              "Size": 3505,
+              "URL": "https://www.garbarino.com/api/checkout/load-step/discount"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 250,
+              "EventId": 3706,
+              "HttpStatus": 200,
+              "Size": 3485,
+              "URL": "https://www.garbarino.com/api/checkout/submit-step/signin"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 250,
+              "EventId": 3697,
+              "HttpStatus": 200,
+              "Size": 55,
+              "URL": "https://www.garbarino.com/api/catalog/wishlist/products-ids"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 172,
+              "EventId": 3686,
+              "HttpStatus": 200,
+              "Size": 411,
+              "URL": "https://www.garbarino.com/api/user/signin"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 156,
+              "EventId": 3648,
+              "HttpStatus": 200,
+              "Size": 3122,
+              "URL": "https://www.garbarino.com/api/checkout/load-step/signin"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 187,
+              "EventId": 3642,
+              "HttpStatus": 200,
+              "Size": 2970,
+              "URL": "https://www.garbarino.com/api/checkout/init?"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 93,
+              "EventId": 3615,
+              "HttpStatus": 200,
+              "Size": 59,
+              "URL": "https://www.garbarino.com/api/catalog/product-upsells/20e16b85-a660-4d74-b87e-c9cecb9de043"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 453,
+              "EventId": 3609,
+              "HttpStatus": 200,
+              "Size": 47635,
+              "URL": "https://www.garbarino.com/api/cart/item"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 328,
+              "EventId": 3545,
+              "HttpStatus": 200,
+              "Size": 320895,
+              "URL": "https://www.garbarino.com/api/catalog/product/20e16b85-a660-4d74-b87e-c9cecb9de043"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 1015,
+              "EventId": 3500,
+              "HttpStatus": 200,
+              "Size": 472080,
+              "URL": "https://www.garbarino.com/api/catalog/shop"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 79,
+              "EventId": 3271,
+              "HttpStatus": 200,
+              "Size": 60,
+              "URL": "https://www.garbarino.com/webpushr-sw.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 78,
+              "EventId": 3219,
+              "HttpStatus": 200,
+              "Size": 60,
+              "URL": "https://www.garbarino.com/webpushr-sw.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 1172,
+              "EventId": 2955,
+              "HttpStatus": 200,
+              "Size": 2292020,
+              "URL": "https://www.garbarino.com/"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "doubleclick.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "192.178.52.130",
+          "IncludeInScript": true,
+          "Name": "td.doubleclick.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 110,
+              "EventId": 4067,
+              "HttpStatus": 200,
+              "Size": 13,
+              "URL": "https://td.doubleclick.net/td/rul/11059668143?random=1712887512484&cv=11&fst=1712887512484&fmt=3&bg=ffffff&guid=ON&async=1&gtm=45je44a0v9138474532za200&gcd=13l3l3l3l1&dma=0&u_w=1536&u_h=864&url=https%3A%2F%2Fwww.garbarino.com%2Fcheckout%2F__HASH__%2Fcontact&top=https%3A%2F%2Fwww.garbarino.com%2Fcheckout%2F5429d885111a8e70e352e219de8d032b96daabbd%2Fcontact&tiba=Contacto%20y%20Facturaci%C3%B3n%20%7C%20Checkout%20%7C%20Garbarino&hn=www.googleadservices.com&frm=0&userId=47128&npa=0&pscdl=noapi&auid=1268100167.1712887266&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B123.0.6312.107%7CNot%253AA-Brand%3B8.0.0.0%7CChromium%3B123.0.6312.107&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=0&fledge=1&data=event%3Dpage_view"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/html",
+              "DownloadTime": 94,
+              "EventId": 4061,
+              "HttpStatus": 200,
+              "Size": 13,
+              "URL": "https://td.doubleclick.net/td/rul/11059668143?random=1712887512149&cv=11&fst=1712887512149&fmt=3&bg=ffffff&guid=ON&async=1&gtm=45je44a0v9138474532za200&gcd=13l3l3l3l1&dma=0&u_w=1536&u_h=864&url=https%3A%2F%2Fwww.garbarino.com%2Fcheckout%2F5429d885111a8e70e352e219de8d032b96daabbd%2Fpayment&hn=www.googleadservices.com&frm=0&tiba=Elige%20la%20forma%20de%20pago%20%7C%20Checkout%20%7C%20Garbarino&value=2465250.04&currency_code=ARS&userId=47128&npa=0&pscdl=noapi&auid=1268100167.1712887266&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B123.0.6312.107%7CNot%253AA-Brand%3B8.0.0.0%7CChromium%3B123.0.6312.107&uamb=0&uam=&uap=Windows&uapv=15.0.0&uaw=0&fledge=1&shf=0&data=event%3Dadd_payment_info%3Baffiliation%3DDrubbitShop%20(https%3A%2F%2Fwww.garbarino.com)%3Bshipping%3D0%3Bshipping_tier%3DShipping-envio_visuar%3Bpayment_type%3DWireTransfer"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "cloudfront.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "18.160.168.57",
+          "IncludeInScript": true,
+          "Name": "d2eebw31vcx88p.cloudfront.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3738,
+              "HttpStatus": 200,
+              "Size": 1630,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/c4858c210134f297bb1ce0976e96fcecf06f5c83.png.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3736,
+              "HttpStatus": 200,
+              "Size": 1506,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/7f86f7d8feee2add62c53a3392f8028c8ba5b32a.png.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3734,
+              "HttpStatus": 200,
+              "Size": 942,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/dfa54b4a15d8a9d067964188984b9b85405237fe.png.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3731,
+              "HttpStatus": 200,
+              "Size": 1502,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/06b85dd6e02fea521106a63753cceaff3ba56d38.png.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3639,
+              "HttpStatus": 200,
+              "Size": 2718,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/d0ac60e2fa4a5de40a97f0e1484485b61ba5c7fe.png.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 62,
+              "EventId": 3587,
+              "HttpStatus": 200,
+              "Size": 60958,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/73fe98cd3dd621d4e97ad1445059d1c238675cb0.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 62,
+              "EventId": 3585,
+              "HttpStatus": 200,
+              "Size": 88336,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/ac2ec8694c6c0ffed9ce6f9405de4d0bfede70a0.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3580,
+              "HttpStatus": 200,
+              "Size": 44578,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/26c2e1e67403fa1b443c63bffba4057d34de9a6f.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3577,
+              "HttpStatus": 200,
+              "Size": 87636,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/0aea5e93d943ce3224bed36bf1df4a7d5075fbcc.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3575,
+              "HttpStatus": 200,
+              "Size": 42192,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/0039f21c21b8e66edf94e60ba5b1032db4563196.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3570,
+              "HttpStatus": 200,
+              "Size": 37368,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/4fb9ce42571f177dae899fca0f6e221307100bc0.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 62,
+              "EventId": 3567,
+              "HttpStatus": 200,
+              "Size": 3754,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/874d98dd16d115f9cde757a65e935dac80238e69.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 62,
+              "EventId": 3565,
+              "HttpStatus": 200,
+              "Size": 2378,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/c5c4d569c59d98e04382a87cf8390a2be1a57504.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 62,
+              "EventId": 3563,
+              "HttpStatus": 200,
+              "Size": 2976,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/dfde1e8a197df62f9ed6aa791756b85fe9fb603c.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 46,
+              "EventId": 3561,
+              "HttpStatus": 200,
+              "Size": 2274,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/35c1ff440b470e625c910b0f7d2f88f5fec0e744.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 46,
+              "EventId": 3559,
+              "HttpStatus": 200,
+              "Size": 3768,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/7b56eac94fb38453ffb54453e91b78a3c6296676.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 46,
+              "EventId": 3556,
+              "HttpStatus": 200,
+              "Size": 2006,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/0a33852a228358a8286921bc659838ec658385b0.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3541,
+              "HttpStatus": 200,
+              "Size": 10386,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/b6f024f009a2f9ce62c8cd2afc0c17f38461c7db.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3527,
+              "HttpStatus": 200,
+              "Size": 3150,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/06c064b9aba51c3b690be7f426415367b00092c8.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 46,
+              "EventId": 3525,
+              "HttpStatus": 200,
+              "Size": 3414,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/726bd3ef66f2dc46cfded25204368083dd332866.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3518,
+              "HttpStatus": 200,
+              "Size": 20956,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/866ff49ae1ea889d29b7e41574da148ef2f5220b.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3516,
+              "HttpStatus": 200,
+              "Size": 18116,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/3cb991672d400ccc687457a6cb4a595de4739e29.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3514,
+              "HttpStatus": 200,
+              "Size": 12746,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/1442e28699b062932784e36dce1c796a2e2ece11.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 31,
+              "EventId": 3511,
+              "HttpStatus": 200,
+              "Size": 13988,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/87cb1d366d6b0b272ab2d4ff38d1f096e0c53598.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 47,
+              "EventId": 3497,
+              "HttpStatus": 200,
+              "Size": 2422,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/90e3341fc754c51d77a9735f72d1dcac1ea2e31b.jpg"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 3470,
+              "HttpStatus": 200,
+              "Size": 19813,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/static-v-shop/1712256370368/js/vendors~checkout~product~shoplist.f3b72821.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 3453,
+              "HttpStatus": 200,
+              "Size": 44055,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/static-v-shop/1712256370368/js/vendors~checkout.d8389f0a.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 3451,
+              "HttpStatus": 200,
+              "Size": 25185,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/static-v-shop/1712256370368/js/shoplist.720e1d14.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 3447,
+              "HttpStatus": 200,
+              "Size": 10867,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/static-v-shop/1712256370368/js/product.09fa8baa.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 3445,
+              "HttpStatus": 200,
+              "Size": 9646,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/static-v-shop/1712256370368/js/repentance.cbf0cd55.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 3443,
+              "HttpStatus": 200,
+              "Size": 10296,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/static-v-shop/1712256370368/js/order.5015d1ef.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 3441,
+              "HttpStatus": 200,
+              "Size": 1086,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/static-v-shop/1712256370368/js/notfoundpage.279535fa.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 3433,
+              "HttpStatus": 200,
+              "Size": 30048,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/static-v-shop/1712256370368/js/credit-card.824a581e.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/css",
+              "DownloadTime": 47,
+              "EventId": 3430,
+              "HttpStatus": 200,
+              "Size": 5480,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/static-v-shop/1712256370368/css/vendors~checkout~product~shoplist.1f42eaa5.css"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 3428,
+              "HttpStatus": 200,
+              "Size": 57382,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/static-v-shop/1712256370368/js/account.731e3274.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 3426,
+              "HttpStatus": 200,
+              "Size": 117596,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/static-v-shop/1712256370368/js/checkout.060e5075.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/css",
+              "DownloadTime": 47,
+              "EventId": 3424,
+              "HttpStatus": 200,
+              "Size": 1662,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/static-v-shop/1712256370368/css/shoplist.3e61d7b1.css"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/css",
+              "DownloadTime": 47,
+              "EventId": 3421,
+              "HttpStatus": 200,
+              "Size": 17449,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/static-v-shop/1712256370368/css/vendors~checkout.e116e900.css"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/css",
+              "DownloadTime": 47,
+              "EventId": 3409,
+              "HttpStatus": 200,
+              "Size": 1596,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/static-v-shop/1712256370368/css/repentance.380a5163.css"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/css",
+              "DownloadTime": 47,
+              "EventId": 3407,
+              "HttpStatus": 200,
+              "Size": 1988,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/static-v-shop/1712256370368/css/product.d28831d5.css"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/css",
+              "DownloadTime": 63,
+              "EventId": 3405,
+              "HttpStatus": 200,
+              "Size": 6697,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/static-v-shop/1712256370368/css/checkout.1d71da7c.css"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/css",
+              "DownloadTime": 47,
+              "EventId": 3403,
+              "HttpStatus": 200,
+              "Size": 3697,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/static-v-shop/1712256370368/css/credit-card.7a70e6eb.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 31,
+              "EventId": 3401,
+              "HttpStatus": 200,
+              "Size": 261,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/static-v-shop/1712256370368/css/order.6b823b6b.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 47,
+              "EventId": 3399,
+              "HttpStatus": 200,
+              "Size": 690,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/static-v-shop/1712256370368/css/account.838ba4f2.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 63,
+              "EventId": 3387,
+              "HttpStatus": 200,
+              "Size": 15038,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/e45e29050c435ab0b6ac146ac8f5543f98364273.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 63,
+              "EventId": 3385,
+              "HttpStatus": 200,
+              "Size": 4738,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/283a39c25c7c4cde94383ce1cbf0fc50376d1f6f.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 63,
+              "EventId": 3383,
+              "HttpStatus": 200,
+              "Size": 14148,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/33c5d7c6bebcdd072b9fcbd0c0c8996da9994c50.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3381,
+              "HttpStatus": 200,
+              "Size": 7648,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/2235838f637455f618f6847ccc26b6a844bfa67f.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 63,
+              "EventId": 3379,
+              "HttpStatus": 200,
+              "Size": 12846,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/8f1f8ef88e94c047643a9254dda8528ddeea0c56.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3377,
+              "HttpStatus": 200,
+              "Size": 7632,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/caa6c3fb53bc2f18d6c489d6af9ceec17425fa5d.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 62,
+              "EventId": 3372,
+              "HttpStatus": 200,
+              "Size": 14570,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/d794cbbfd49819ec77bfd56a3375e4d8a33ee145.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3369,
+              "HttpStatus": 200,
+              "Size": 11614,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/f91ef15dcd387bc806c6ee8f5f3db5fdfa0da12e.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3367,
+              "HttpStatus": 200,
+              "Size": 6316,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/21f19c8a60c84684b348c65f0ee137d4a6f424dc.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3365,
+              "HttpStatus": 200,
+              "Size": 15306,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/c6ec786930f22b4e33d84616bb015b6b071f4f9e.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3363,
+              "HttpStatus": 200,
+              "Size": 10898,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/a49213b739e5ef9369c8a804e3920afc54448fa8.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3360,
+              "HttpStatus": 200,
+              "Size": 10598,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/eb439b150b42351ecceaa1b45e430f8fec6be794.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 62,
+              "EventId": 3355,
+              "HttpStatus": 200,
+              "Size": 6202,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/f9da82c7a20db7fd39410eb96db694aa6d648307.png.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3353,
+              "HttpStatus": 200,
+              "Size": 14020,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/e0bc99d42f591f70c5a93da61fd5d46e546f4d23.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 62,
+              "EventId": 3349,
+              "HttpStatus": 200,
+              "Size": 68504,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/14658963f5f854f2c9d92620976f2b58ad70fb88.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3347,
+              "HttpStatus": 200,
+              "Size": 1902,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/e1c891358becf063b7d5338dc5fd1d9998371a37.png.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3344,
+              "HttpStatus": 200,
+              "Size": 13056,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/7cd1659bbc22c4ebcb1efdb1b619b5465940e19e.png.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3342,
+              "HttpStatus": 200,
+              "Size": 27648,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/decca87e2e695e07ca8437b126ffda69423dffeb.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 62,
+              "EventId": 3311,
+              "HttpStatus": 200,
+              "Size": 2898,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/e52cd4a42afcba5dfae2d15f5f2bf1ad5b89f9c7.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 46,
+              "EventId": 3308,
+              "HttpStatus": 200,
+              "Size": 3858,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/540a78abd6141b06822dbb87871f3bae15d1cba6.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 62,
+              "EventId": 3304,
+              "HttpStatus": 200,
+              "Size": 1934,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/a5d0586ddcd9b5e155ab0d217c1df0c08f2fddb0.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 62,
+              "EventId": 3302,
+              "HttpStatus": 200,
+              "Size": 16648,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/37ae7069e27397555407fc146f634abe18a04947.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3300,
+              "HttpStatus": 200,
+              "Size": 4666,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/66a9ee2b075f70385e330cb03808022d825235d2.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3297,
+              "HttpStatus": 200,
+              "Size": 21038,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/b079f27b518867f85994994b2a9dcdaa4fa6592f.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3244,
+              "HttpStatus": 200,
+              "Size": 34010,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/cf85b33266e32bd508f3d53ce1d846c7de6f058c.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 63,
+              "EventId": 3237,
+              "HttpStatus": 200,
+              "Size": 36302,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/7227021f4d194d10474844eb3e909f1fd99dd72a.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3233,
+              "HttpStatus": 200,
+              "Size": 41162,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/fbbeba94777ed5cb449b630be5a29e254858d3cc.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3231,
+              "HttpStatus": 200,
+              "Size": 10480,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/0fd9936faf9ead1c851478778d4333a3dc673a35.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3229,
+              "HttpStatus": 200,
+              "Size": 16126,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/31372c03d5bcef0bc2fba9e76dba1c8295fd4170.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3226,
+              "HttpStatus": 200,
+              "Size": 13204,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/bc6de8bb6baf019a525f8e26a3cf7a47658f5fbf.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3216,
+              "HttpStatus": 200,
+              "Size": 14116,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/653274d27ec1ec4ccdf82a0e087d461660049a89.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3210,
+              "HttpStatus": 200,
+              "Size": 12058,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/5a4a42873038e1c7ef3468d85c6a72eded0822ca.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3207,
+              "HttpStatus": 200,
+              "Size": 6854,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/ed397171c245a5e9d552e3eba0d13680da2bfc59.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3204,
+              "HttpStatus": 200,
+              "Size": 17834,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/c0073f81dff2132193517ef129a52e23b9a68620.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 63,
+              "EventId": 3201,
+              "HttpStatus": 200,
+              "Size": 21170,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/bf8bc58247c5527db6c0b501e97f35e50bc1d334.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 31,
+              "EventId": 3199,
+              "HttpStatus": 200,
+              "Size": 2716,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/9fc8b3f52ebcd9829d71c89e3fc6ffa77f02fe9b.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3197,
+              "HttpStatus": 200,
+              "Size": 5976,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/8c5570a8f12a823659f352baf4b94354c762f1ee.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 62,
+              "EventId": 3185,
+              "HttpStatus": 200,
+              "Size": 14410,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/29dfb7a10a54d59b6671869d6a1745ee40835e31.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 62,
+              "EventId": 3182,
+              "HttpStatus": 200,
+              "Size": 15796,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/195a7e64737eebf4b436e5ccd87d4abd20db78ef.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 46,
+              "EventId": 3180,
+              "HttpStatus": 200,
+              "Size": 21472,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/d0be734edf9ae408f70941c1a93cd271305356fc.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 46,
+              "EventId": 3178,
+              "HttpStatus": 200,
+              "Size": 16214,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/e2a95b28f8102c19686ba05acaf9621a819d1f97.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 46,
+              "EventId": 3176,
+              "HttpStatus": 200,
+              "Size": 15542,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/dfc4c74278f131920fe595aa8d7d34fd135b1ff9.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 46,
+              "EventId": 3173,
+              "HttpStatus": 200,
+              "Size": 14312,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/c9c32105b6a3969bfb31fbc484e92cf585d423d4.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 63,
+              "EventId": 3171,
+              "HttpStatus": 200,
+              "Size": 11304,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/4b590cbe14faf428abcd5d551a4ff1171917e125.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 63,
+              "EventId": 3169,
+              "HttpStatus": 200,
+              "Size": 11002,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/10fc206e2cdd3b0b3efc1886c8487de03b7f77d6.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3167,
+              "HttpStatus": 200,
+              "Size": 8974,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/2ebbcfc5a8a118fc726fde22b075797f3a967b4b.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3165,
+              "HttpStatus": 200,
+              "Size": 9862,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/54308f8366a79b08133aa6a1e2ebfcb04999f6d4.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 63,
+              "EventId": 3162,
+              "HttpStatus": 200,
+              "Size": 16602,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/7678a1e5fedd4d4355ec1d8d5ac95832bef530e1.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 31,
+              "EventId": 3160,
+              "HttpStatus": 200,
+              "Size": 1252,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/fe1bab8aedca658b8b56c125cced77ce66fff696.png.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3145,
+              "HttpStatus": 200,
+              "Size": 1930,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/01ec97d4f5f7136f472db771839e2c55e14f0c14.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff2",
+              "DownloadTime": 47,
+              "EventId": 3143,
+              "HttpStatus": 200,
+              "Size": 59444,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/static-v-shop/1712256370368/fonts/OpenSans-Regular.bfdb5bc0.woff2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff2",
+              "DownloadTime": 47,
+              "EventId": 3141,
+              "HttpStatus": 200,
+              "Size": 38924,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/static-v-shop/1712256370368/fonts/NunitoSans-Regular.e9346522.woff2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 63,
+              "EventId": 3139,
+              "HttpStatus": 200,
+              "Size": 4200,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/1b0e5b393a3dec96997344ec155b3b463d57e7cc.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3137,
+              "HttpStatus": 200,
+              "Size": 7740,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/b4ff28bbe3fb60e7c46c610a33e34fbb4c3c0eab.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff2",
+              "DownloadTime": 62,
+              "EventId": 3106,
+              "HttpStatus": 200,
+              "Size": 372752,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/static-v-shop/1712256370368/fonts/materialdesignicons-webfont.62ff6e3a.woff2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff2",
+              "DownloadTime": 62,
+              "EventId": 3099,
+              "HttpStatus": 200,
+              "Size": 63748,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/static-v-shop/1712256370368/fonts/Roboto-Regular.6887b6f2.woff2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3097,
+              "HttpStatus": 200,
+              "Size": 12504,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/e8af72d6950cdc43c3fe342e0320c4886f5a5eba.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3095,
+              "HttpStatus": 200,
+              "Size": 8260,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/5e8754ba15d15d4a08405c6ac1d5a68f96efd6d5.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 63,
+              "EventId": 3060,
+              "HttpStatus": 200,
+              "Size": 168932,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/429085d611cd92c44c155826c5fd7d94e6e9f675.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 63,
+              "EventId": 3058,
+              "HttpStatus": 200,
+              "Size": 5546,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/e3ee312ec86e380abf7cc21ff7224f802e77d802.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 63,
+              "EventId": 3053,
+              "HttpStatus": 200,
+              "Size": 110974,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/f904def688832eb75420a23fb1b6eb44aef60b2d.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 63,
+              "EventId": 3051,
+              "HttpStatus": 200,
+              "Size": 101958,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/cd1f023bda73dea8fb8e8d2ad6cc68ac04e21689.jpg.webp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 47,
+              "EventId": 3048,
+              "HttpStatus": 200,
+              "Size": 4274,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/uploads/a38f075de7e420f4a20866be034d36508c3b40c8.png.webp"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 3046,
+              "HttpStatus": 200,
+              "Size": 90356,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/static-v-shop/1712256370368/js/dpc.323c474b.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 62,
+              "EventId": 3019,
+              "HttpStatus": 200,
+              "Size": 644038,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/static-v-shop/1712256370368/js/v-shop.fc983ddb.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/javascript",
+              "DownloadTime": 62,
+              "EventId": 3017,
+              "HttpStatus": 200,
+              "Size": 739419,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/static-v-shop/1712256370368/js/v-shop-vendors.e93c0fb8.js"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/css",
+              "DownloadTime": 47,
+              "EventId": 3015,
+              "HttpStatus": 200,
+              "Size": 81287,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/static-v-shop/1712256370368/css/dpc.f968c228.css"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/css",
+              "DownloadTime": 47,
+              "EventId": 3011,
+              "HttpStatus": 200,
+              "Size": 478441,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/static-v-shop/1712256370368/css/v-shop.9bd2deec.css"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "text/css",
+              "DownloadTime": 47,
+              "EventId": 3008,
+              "HttpStatus": 200,
+              "Size": 521002,
+              "URL": "https://d2eebw31vcx88p.cloudfront.net/garbarino/static-v-shop/1712256370368/css/v-shop-vendors.07fc6c9a.css"
+            }
+          ],
+          "SSLCipher": "TLS_AES_128_GCM_SHA256",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 0
+}

@@ -4,101 +4,57 @@
         "steps": [
             {
                 "stepId": "STEP1",
-                "stepName": "Url: Specialized_Tours.html",
+                "stepName": "Url: Home",
                 "infFile": "t1.inf",
-                "time": 1712283222950
+                "time": 1712288262845
             },
             {
                 "stepId": "STEP2",
-                "stepName": "Custom Request: json",
+                "stepName": "Url: Our_Coaches.html",
                 "infFile": "t2.inf",
-                "time": 1712283223171
+                "time": 1712288263498
             },
             {
                 "stepId": "STEP3",
-                "stepName": "Url: Our_Coaches.html",
+                "stepName": "Url: Contact_Us.html",
                 "infFile": "t3.inf",
-                "time": 1712283223718
+                "time": 1712288263697
             },
             {
                 "stepId": "STEP4",
-                "stepName": "Url: l",
-                "infFile": "t4.inf",
-                "time": 1712283223935
-            },
-            {
-                "stepId": "STEP5",
-                "stepName": "Url: Contact_Us.html",
-                "infFile": "t5.inf",
-                "time": 1712283224072
-            },
-            {
-                "stepId": "STEP6",
                 "stepName": "Link: San Franscisco Tours",
-                "infFile": "t6.inf",
-                "time": 1712283224581
-            },
-            {
-                "stepId": "STEP7",
-                "stepName": "Link: Specialized Tours",
-                "infFile": "t7.inf",
-                "time": 1712283224836
-            },
-            {
-                "stepId": "STEP8",
-                "stepName": "Url: More%20of%20Where%20we%20Go.html",
-                "infFile": "t8.inf",
-                "time": 1712283225436
-            },
-            {
-                "stepId": "STEP9",
-                "stepName": "Url: Specialized_Tours.html_2",
-                "infFile": "t9.inf",
-                "time": 1712283225468
+                "infFile": "t4.inf",
+                "time": 1712288264231
             }
         ],
         "transactions": [
             {
                 "transactionName": "Case_g01_01_URL",
-                "rawStartTime": 1712283222968,
-                "rawEndTime": 1712283222984,
+                "rawStartTime": 1712288261862,
+                "rawEndTime": 1712288262876,
                 "thinkTime": 0.0,
-                "wastedTime": 0.0
+                "wastedTime": 0.09840130805969238
             },
             {
                 "transactionName": "Case_g01_02_Our-Coaches",
-                "rawStartTime": 1712283223203,
-                "rawEndTime": 1712283223944,
+                "rawStartTime": 1712288262907,
+                "rawEndTime": 1712288263503,
                 "thinkTime": 0.0,
-                "wastedTime": 0.016737937927246095
+                "wastedTime": 0.023530960083007814
             },
             {
                 "transactionName": "Case_g01_03_Contact-Us",
-                "rawStartTime": 1712283223976,
-                "rawEndTime": 1712283224088,
+                "rawStartTime": 1712288263536,
+                "rawEndTime": 1712288263740,
                 "thinkTime": 0.0,
-                "wastedTime": 0.003165721893310547
+                "wastedTime": 0.008613824844360352
             },
             {
                 "transactionName": "Case_g01_04_San-Franscisco-Tours",
-                "rawStartTime": 1712283224119,
-                "rawEndTime": 1712283224584,
+                "rawStartTime": 1712288263772,
+                "rawEndTime": 1712288264233,
                 "thinkTime": 0.0,
-                "wastedTime": 0.006623029708862305
-            },
-            {
-                "transactionName": "Case_g01_05_Specialized-Tours",
-                "rawStartTime": 1712283224617,
-                "rawEndTime": 1712283224850,
-                "thinkTime": 0.0,
-                "wastedTime": 0.002930879592895508
-            },
-            {
-                "transactionName": "Case_g01_06_More-Of-Where-We-Go",
-                "rawStartTime": 1712283224882,
-                "rawEndTime": 1712283225470,
-                "thinkTime": 0.0,
-                "wastedTime": 0.013209342956542969
+                "wastedTime": 0.0142822265625
             }
         ]
     }

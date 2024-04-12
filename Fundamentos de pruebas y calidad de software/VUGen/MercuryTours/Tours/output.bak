@@ -1,9 +1,9 @@
-Virtual User Script started at: 04/04/2024 08:11:33 PM
+Virtual User Script started at: 04/04/2024 09:34:15 PM
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 2024.1.0 for Windows 11; build 667 (Feb 07 2024 17:45:41)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
 Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
-Runtime Settings file: "C:\Users\lalor\Documents\Git\Software-Quality-and-Engineering---UP\Fundamentos de pruebas y calidad de software\VUGen\TestingInANutshell\Tours\\default.cfg"  	[MsgId: MMSG-27141]
+Runtime Settings file: "C:\Users\lalor\Documents\Git\Software-Quality-and-Engineering---UP\Fundamentos de pruebas y calidad de software\VUGen\MercuryTours\Tours\\default.cfg"  	[MsgId: MMSG-27141]
 Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
@@ -15,12 +15,52 @@ Action.c(5): web_cache_cleanup started  	[MsgId: MMSG-26355]
 Action.c(5): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
 Action.c(6): web_cleanup_cookies started  	[MsgId: MMSG-26355]
 Action.c(6): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
-Action.c(10): web_url("seed") started  	[MsgId: MMSG-26355]
-Action.c(10): web_url("seed") was successful, 381598 body bytes, 377 header bytes  	[MsgId: MMSG-26386]
-Action.c(18): web_url("Specialized_Tours.html") started  	[MsgId: MMSG-26355]
-Action.c(18): Error -27792: Failed to connect to server "www.mercury-tours.com:80": [10060] Connection timed out  	[MsgId: MERR-27792]
-Action.c(18): Warning -26200: At least one of the resources specified by EXTRARES has not been downloaded due to the above error(s)  	[MsgId: MWAR-26200]
-Action.c(18): web_url("Specialized_Tours.html") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
+Action.c(11): Notify: Transaction "Case_g01_01_URL" started.
+Action.c(13): web_url("Home") started  	[MsgId: MMSG-26355]
+Action.c(13): Downloading resource "http://www.mercury-tours.com/Pics/Background_1.jpg" (specified by argument number 9)  	[MsgId: MMSG-26576]
+Action.c(13): Downloading resource "https://lh3.googleusercontent.com/a/ACg8ocJfZH2aFOE6fo4DD5rscLVkPThBuJh2I8fv7tQUJMcWaP_Hvmo=s256-c-ns" (specified by argument number 11)  	[MsgId: MMSG-26576]
+Action.c(13): Downloading resource "http://www.mercury-tours.com/Pics/vegas1.jpg" (specified by argument number 14)  	[MsgId: MMSG-26576]
+Action.c(13): Downloading resource "http://www.mercury-tours.com/Pics/dsfds.jpg" (specified by argument number 16)  	[MsgId: MMSG-26576]
+Action.c(13): Downloading resource "http://www.mercury-tours.com/Pics/5yy.jpg" (specified by argument number 18)  	[MsgId: MMSG-26576]
+Action.c(13): web_url("Home") was successful, 84421 body bytes, 1917 header bytes  	[MsgId: MMSG-26386]
+Action.c(28): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(28): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(30): Notify: Transaction "Case_g01_01_URL" ended with a "Pass" status (Duration: 1.0088 Wasted Time: 0.0956).
+Action.c(36): Notify: Transaction "Case_g01_02_Our-Coaches" started.
+Action.c(38): web_url("Our_Coaches.html") started  	[MsgId: MMSG-26355]
+Action.c(38): Found resource "http://www.mercury-tours.com/Coach_Pics/Bus/40'%20761/THM%20-%20IMG_0008.jpg" in HTML "http://www.mercury-tours.com/Our_Coaches.html"  	[MsgId: MMSG-26659]
+Action.c(38): Found resource "http://www.mercury-tours.com/Coach_Pics/Bus/40'%20761/THM%20-%20MVC-017F.JPG" in HTML "http://www.mercury-tours.com/Our_Coaches.html"  	[MsgId: MMSG-26659]
+Action.c(38): Found resource "http://www.mercury-tours.com/Coach_Pics/Bus/40'%20761/THM%20-%20MVC-018F.JPG" in HTML "http://www.mercury-tours.com/Our_Coaches.html"  	[MsgId: MMSG-26659]
+Action.c(38): Found resource "http://www.mercury-tours.com/Coach_Pics/Bus/40'%20761/THM%20-%20MVC-019F.JPG" in HTML "http://www.mercury-tours.com/Our_Coaches.html"  	[MsgId: MMSG-26659]
+Action.c(38): Found resource "http://www.mercury-tours.com/Coach_Pics/Bus/40'%20761/THM%20-%20761%205.JPG" in HTML "http://www.mercury-tours.com/Our_Coaches.html"  	[MsgId: MMSG-26659]
+Action.c(38): Found resource "http://www.mercury-tours.com/Coach_Pics/Bus/45'%20760/THM%20-%20IMG_4022.JPG" in HTML "http://www.mercury-tours.com/Our_Coaches.html"  	[MsgId: MMSG-26659]
+Action.c(38): Found resource "http://www.mercury-tours.com/Coach_Pics/Bus/45'%20760/THM%20-%20MVC-008F.JPG" in HTML "http://www.mercury-tours.com/Our_Coaches.html"  	[MsgId: MMSG-26659]
+Action.c(38): Found resource "http://www.mercury-tours.com/Coach_Pics/Bus/45'%20760/THM%20-%20MVC-010F.JPG" in HTML "http://www.mercury-tours.com/Our_Coaches.html"  	[MsgId: MMSG-26659]
+Action.c(38): Found resource "http://www.mercury-tours.com/Coach_Pics/Bus/45'%20760/THM%20-%20MVC-011F.JPG" in HTML "http://www.mercury-tours.com/Our_Coaches.html"  	[MsgId: MMSG-26659]
+Action.c(38): Found resource "http://www.mercury-tours.com/Coach_Pics/Bus/45'%20760/THM%20-%20MVC-013F.JPG" in HTML "http://www.mercury-tours.com/Our_Coaches.html"  	[MsgId: MMSG-26659]
+Action.c(38): Found resource "http://www.mercury-tours.com/Coach_Pics/Van/THM%20-%20Van%2012.JPG" in HTML "http://www.mercury-tours.com/Our_Coaches.html"  	[MsgId: MMSG-26659]
+Action.c(38): Found resource "http://www.mercury-tours.com/Coach_Pics/Van/THM%20-%20Van%2013.JPG" in HTML "http://www.mercury-tours.com/Our_Coaches.html"  	[MsgId: MMSG-26659]
+Action.c(38): Found resource "http://www.mercury-tours.com/Coach_Pics/Van/THM%20-%20Van%2014.JPG" in HTML "http://www.mercury-tours.com/Our_Coaches.html"  	[MsgId: MMSG-26659]
+Action.c(38): Found resource "http://www.mercury-tours.com/Coach_Pics/Van/THM%20-%20Van%2015.JPG" in HTML "http://www.mercury-tours.com/Our_Coaches.html"  	[MsgId: MMSG-26659]
+Action.c(38): Found resource "http://www.mercury-tours.com/Coach_Pics/Van/THM%20-%20Van%2010.JPG" in HTML "http://www.mercury-tours.com/Our_Coaches.html"  	[MsgId: MMSG-26659]
+Action.c(38): Registered web_reg_find successful for "Text=Mercury Tours Home Page" (count=1)  	[MsgId: MMSG-26364]
+Action.c(38): web_url("Our_Coaches.html") was successful, 153272 body bytes, 3967 header bytes  	[MsgId: MMSG-26386]
+Action.c(49): Notify: Transaction "Case_g01_02_Our-Coaches" ended with a "Pass" status (Duration: 0.6443 Wasted Time: 0.0249).
+Action.c(55): Notify: Transaction "Case_g01_03_Contact-Us" started.
+Action.c(57): web_url("Contact_Us.html") started  	[MsgId: MMSG-26355]
+Action.c(57): web_url("Contact_Us.html") was successful, 2023 body bytes, 289 header bytes  	[MsgId: MMSG-26386]
+Action.c(66): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(66): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(70): Notify: Transaction "Case_g01_03_Contact-Us" ended with a "Pass" status (Duration: 0.2202 Wasted Time: 0.0115).
+Action.c(76): Notify: Transaction "Case_g01_04_San-Franscisco-Tours" started.
+Action.c(78): web_link("San Franscisco Tours") started  	[MsgId: MMSG-26355]
+Action.c(78): Linking to "http://www.mercury-tours.com/San_Francisco_Tours.html", Target Frame=""  	[MsgId: MMSG-27994]
+Action.c(78): Found resource "http://www.mercury-tours.com/Pics/sevisitorarea_view.JPG" in HTML "http://www.mercury-tours.com/San_Francisco_Tours.html"  	[MsgId: MMSG-26659]
+Action.c(78): Error -26366: "Text=Address" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(78): web_link("San Franscisco Tours") highest severity level was "ERROR", 84675 body bytes, 533 header bytes  	[MsgId: MMSG-26388]
+Action.c(78): Notify: Transaction "Case_g01_04_San-Franscisco-Tours" ended with a "Fail" status (Duration: 0.5457 Wasted Time: 0.0167).
+Action.c(78): Notify: Transaction "Case_g01_04_San-Franscisco-Tours" has 1 error message(s).
+Action.c(78): Notify: The 1st error message associated with transaction "Case_g01_04_San-Franscisco-Tours" is "Error -26366: "Text=Address" not found for web_reg_find"
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...

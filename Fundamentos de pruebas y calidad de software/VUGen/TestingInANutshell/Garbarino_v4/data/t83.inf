@@ -1,0 +1,13 @@
+[t83]
+FileName1=t83_blocklist.json
+URL1=https://edge.microsoft.com/abusiveadblocking/api/v1/blocklist
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_80.xml
+RequestHeaderFile=t83_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t83_ResponseHeader.txt
+FileName2=t83_exceptionrules.txt
+URL2=https://easylist-downloads.adblockplus.org/exceptionrules.txt?addonName=adblockpluschrome&addonVersion=3.25&application=edg&applicationVersion=123.0.0.0&platform=chromium&platformVersion=123.0.0.0&lastVersion=202403220021&downloadCount=4%2B&disabled=false&manifestVersion=2&firstVersion=2022
+[ProtocolInfo]
+ProtocolId=QTWeb

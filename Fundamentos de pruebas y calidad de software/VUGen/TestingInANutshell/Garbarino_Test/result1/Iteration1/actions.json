@@ -1,0 +1,72 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: www.garbarino.com",
+                "infFile": "t1.inf",
+                "time": 1712889116767
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Custom Request: collect",
+                "infFile": "t2.inf",
+                "time": 1712889117037
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: 20e16b85-a660-4d74-b87e-c9cecb9de043",
+                "infFile": "t3.inf",
+                "time": 1712889118143
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: item",
+                "infFile": "t4.inf",
+                "time": 1712889118616
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: 20e16b85-a660-4d74-b87e-c9cecb9de043_2",
+                "infFile": "t5.inf",
+                "time": 1712889118772
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: init",
+                "infFile": "t8.inf",
+                "time": 1712889119694
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Submit Data: signin",
+                "infFile": "t9.inf",
+                "time": 1712889119862
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Case_g01_01_look_cellphone",
+                "rawStartTime": 1712889117045,
+                "rawEndTime": 1712889118156,
+                "thinkTime": 0.0,
+                "wastedTime": 0.013707160949707032
+            },
+            {
+                "transactionName": "Case_g01_02_select_cellphone",
+                "rawStartTime": 1712889118171,
+                "rawEndTime": 1712889119304,
+                "thinkTime": 0.0,
+                "wastedTime": 0.03612828254699707
+            },
+            {
+                "transactionName": "Case_g01_03_buy_cellphone",
+                "rawStartTime": 1712889119320,
+                "rawEndTime": 1712889119864,
+                "thinkTime": 0.0,
+                "wastedTime": 0.01505899429321289
+            }
+        ]
+    }
+]
