@@ -1,0 +1,22 @@
+Virtual User Script started at: 09/05/2024 07:58:58 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2024.1.0 for Windows 11; build 667 (Feb 07 2024 17:45:41)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\lalor\Documents\Git\Software-Quality-and-Engineering---UP\Fundamentos de pruebas y calidad de software\VUGen\Garbarino\Garbarino_Mayo\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_url("www.garbarino.com") started  	[MsgId: MMSG-26355]
+Action.c(6): Error -27792: Failed to connect to server "www.garbarino.com:443": [10060] Connection timed out  	[MsgId: MERR-27792]
+Action.c(6): web_url("www.garbarino.com") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

@@ -1,0 +1,1524 @@
+[API Trapper      (2d6c:5f30)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (2e24:1e40)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (62a8:2de4)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (62a8: e08)] ------------------------------------------------------------------------------------------
+[Network Analyzer (62a8: e08)] Load Network Traffic Analyzers:
+[Network Analyzer (62a8: e08)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (62a8: e08)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (62a8: e08)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (62a8: e08)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (62a8: e08)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (62a8: e08)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (62a8: e08)]     Analyzer Module: local_server (value=)
+[Network Analyzer (62a8: e08)] ------------------------------------------------------------------------------------------
+[Network Analyzer (62a8:51b8)] Address lookup for LalitoPC = 192.168.56.1
+[Net An. Debug    (62a8:51b8)] IP address belongs to the VirtualBox, taking the another interface with ip=172.24.9.150
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 3.213.161.229:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 142.251.116.84:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.56.99:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.52.202:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (62a8:2030)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (62a8:2030)] SSLAccept(ssl_id = 2421325232496 = 00000233C23AF970) Failed, ctx = 00000233C23AAC30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (62a8:2030)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8:68b0)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (62a8:68b0)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:4560)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (62a8:4560)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (62a8:51b8)] "GET /"   
+[Network Analyzer (62a8:51b8)]   (Sid:  1) Client -> Server @ : 668 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=124"   
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Client -> Server @ : 495 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 142.251.116.84:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 576 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:5e90)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1226 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Net An. Error    (62a8:5e90)] SSLAccept(ssl_id = 2421325685504 = 00000233C241E300) Failed, ctx = 00000233C23AAC30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (62a8:5e90)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1226 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1226 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 295 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Server -> Client : 7 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:2350)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (62a8:2350)] SSLAccept(ssl_id = 2421325815664 = 00000233C243DF70) Failed, ctx = 00000233C23AAC30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (62a8:2350)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8:51b8)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid:  1) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  1) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  1) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  1) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  1) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  1) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  1) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  1) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  1) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  1) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  1) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  1) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  1) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  1) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  1) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  1) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  1) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  1) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  1) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  1) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  1) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  1) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  1) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  1) Server -> Client : 5766 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 18.160.168.57:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 18.160.168.57:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 18.160.168.57:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 18.160.168.57:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8:13cc)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 18.160.168.57:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 18.160.168.57:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (62a8:6438)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:13cc)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:6438)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8: 4d0)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8: 4d0)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:45d8)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:45d8)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:6678)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:6678)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Web Request      (62a8:51b8)] "GET /garbarino/static-v-shop/1715091108275/css/v-shop-vendors.07fc6c9a.css"   
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Client -> Server @ : 621 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/static-v-shop/1715091108275/css/v-shop.6de70e86.css"   
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Client -> Server @ : 613 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/static-v-shop/1715091108275/css/dpc.57ab42ce.css"   
+[Network Analyzer (62a8:51b8)]   (Sid:  8) Client -> Server @ : 610 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/static-v-shop/1715091108275/js/v-shop-vendors.aeaa309b.js"   
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Client -> Server @ : 605 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/static-v-shop/1715091108275/js/v-shop.a351659b.js"   
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Client -> Server @ : 597 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 142.251.116.84:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 585 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  8) Server -> Client : 6187 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 599 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 6124 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 3117 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 14101 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:4238)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 756 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 5412 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 12194 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:4238)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 7032 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/static-v-shop/1715091108275/js/dpc.2d19665b.js"   
+[Network Analyzer (62a8:51b8)]   (Sid:  8) Client -> Server @ : 594 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8: 864)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/a38f075de7e420f4a20866be034d36508c3b40c8.png.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/742cd64a2ce762e31d249fbd6b7d15444a6a5083.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/56241cfdcb1b8f64136fe812167d381fbe310df4.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/9b7d37b4abcbd17658f4ac83f68f704dab0229da.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  8) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  8) Server -> Client : 4339 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/e3ee312ec86e380abf7cc21ff7224f802e77d802.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Net An. Error    (62a8: 864)] SSLAccept(ssl_id = 2421324798320 = 00000233C2345970) Failed, ctx = 00000233C23AAC30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (62a8: 864)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 579 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 558 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 4274 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Server -> Client : 579 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Server -> Client : 5546 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 12278 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 13232 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 7901 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 1578 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/5e8754ba15d15d4a08405c6ac1d5a68f96efd6d5.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  8) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/e8af72d6950cdc43c3fe342e0320c4886f5a5eba.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/b4ff28bbe3fb60e7c46c610a33e34fbb4c3c0eab.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/1b0e5b393a3dec96997344ec155b3b463d57e7cc.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/01ec97d4f5f7136f472db771839e2c55e14f0c14.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8:51b8)]   (Sid:  8) Server -> Client : 8839 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 579 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Server -> Client : 13084 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 7740 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 579 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 579 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 1930 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 4200 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.56.234:443   (Service=)  (Sid= 13)  PROXIED!
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/e196fc82c824416b7165da4acfbd6fde871ba0d7.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/7955fb622574ab96d4e5e79f653ba6d2acaa7f9c.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/d3a74bedb55052d951d84d5473d508bc9103b566.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/3a35a3188b324941ff0db6e1b22eda72ad49f57f.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  8) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/2de21747bb76b14109fe5831cce63e93d1d41a5c.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/1956b9b58036f245ecdeb4d06b02490e5ed4f4a5.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Server -> Client : 579 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Server -> Client : 9438 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:5de0)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  8) Server -> Client : 14382 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 580 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 164 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 2224 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 580 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/05925b7d9d7e78537f2795cb9f27603399ffb2fc.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 9594 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 1624 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 746 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/8ce9d75e33fa0f5ba18b53a0b71afdd0f2e651ac.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/ceac45702c1157092266c8cb56b0be492735e837.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:5de0)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/57e34e151d65da9bcd1ab90c0eabe0ba68f2e2ee.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 580 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/fbbeba94777ed5cb449b630be5a29e254858d3cc.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  8) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Server -> Client : 10174 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 11266 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/7227021f4d194d10474844eb3e909f1fd99dd72a.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 579 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Server -> Client : 1372 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 9612 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 579 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  8) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 9656 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 580 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  8) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  8) Server -> Client : 8974 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 3534 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /css2?family=Coda:wght@400;800&display=swap"   
+[Network Analyzer (62a8:51b8)]   (Sid: 13) Client -> Server @ : 597 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/cf85b33266e32bd508f3d53ce1d846c7de6f058c.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/b079f27b518867f85994994b2a9dcdaa4fa6592f.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/632c4b9538aee82d7b8d21a663569e0a98394106.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  8) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/fe1bab8aedca658b8b56c125cced77ce66fff696.png.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/380b20bbb0e19a61cbd774db7e3d2296dff27f28.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/796f487f23691d3f3221937281384cd5fd286cb5.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 556 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  8) Server -> Client : 7589 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 1242 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 1831 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 5234 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 13) Server -> Client : 1210 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 13) Server -> Client : 79 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 13) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/1e29822931f19b0e0438a3c4bb34cc15b6917829.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/bea714c3fb103c014bea9072a98776aebca8c3ec.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  8) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/ca73bbc0946ea76941d665d21d5325ab302ca8c5.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/7c738b2c81f11729fc170fb49ae103d43bda1e8d.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Server -> Client : 5358 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 546 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 4354 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/3ac34321d21825684dad6ebc866aafd5efa5ccaf.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/0ba9a080aea4fb98cca677770113b7a927af4793.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 18.160.168.57:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 18.160.168.57:443   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 18.160.168.57:443   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 18.160.168.57:443   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 546 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 4476 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 5744 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 3022 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  8) Server -> Client : 4850 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Server -> Client : 7866 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:1528)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 8080 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer (62a8: 9b4)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8: 568)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:4a64)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 159.203.111.221:443   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (62a8:1528)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8: 9b4)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8: 568)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:4a64)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/b20636cf5f188466e1e79edf2736a205766be17f.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/f8c39eec9797b9062983a6b1d649a84797a3b650.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/static-v-shop/1715091108275/fonts/Roboto-Regular.6887b6f2.woff2"   
+[Network Analyzer (62a8:51b8)]   (Sid: 14) Client -> Server @ : 714 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/static-v-shop/1715091108275/fonts/materialdesignicons-webfont.62ff6e3a.woff2"   
+[Network Analyzer (62a8:51b8)]   (Sid: 15) Client -> Server @ : 727 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/static-v-shop/1715091108275/fonts/NunitoSans-Regular.e9346522.woff2"   
+[Network Analyzer (62a8:51b8)]   (Sid: 16) Client -> Server @ : 718 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/static-v-shop/1715091108275/fonts/OpenSans-Regular.bfdb5bc0.woff2"   
+[Network Analyzer (62a8:51b8)]   (Sid: 17) Client -> Server @ : 716 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 14) Server -> Client : 598 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 14) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 14) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 16) Server -> Client : 598 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 17) Server -> Client : 598 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Server -> Client : 6136 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 14) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 16) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 17) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 3656 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 14) Server -> Client : 11610 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 16) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 17) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 14) Server -> Client : 2986 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 16) Server -> Client : 6156 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 17) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 17) Server -> Client : 10292 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:48c0)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (62a8:51b8)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8:51b8)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 15) Server -> Client : 12903 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.56.106:443   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 142.251.116.84:443   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 142.251.34.10:443   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8:59b4)]   (Sid: 19) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 172.217.3.136:443   (Service=)  (Sid= 22)  PROXIED!
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/e48038c362cb793b02cd4ec3dda287f5513676e3.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/1de895996067a89a7468404e96cda1038c78772b.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/ed397171c245a5e9d552e3eba0d13680da2bfc59.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  8) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/a46e714eac438c8eac673b28c97e847263684ef6.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/d98a7dabcca44d89ba693266b9a0a6c16b9be32d.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/7d4653f0a94b146643b4a5450433ccb5882c6bc8.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:48c0)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:59b4)]   (Sid: 19) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:26ac)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (62a8:51b8)]   (Sid:  8) Server -> Client : 7433 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 10531 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 3710 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /app.min.js"   
+[Network Analyzer (62a8:51b8)]   (Sid: 18) Client -> Server @ : 535 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /v1/pages/ChVDaHJvbWUvMTI0LjAuNjM2Ny4xNTYSGQnjFemd-Nrk9hIFDULauvchHR2Oky1DQF0SIAkHTLnezRl6kxIFDXhvEhkSBQ3OQUx6ISJyyOgA90SpEhkJTipy9SV1F30SBQ34y-90Ic4BXnHb30D5?alt=proto"   
+[Network Analyzer (62a8:51b8)]   (Sid: 19) Client -> Server @ : 622 bytes (SSL)(Service=HTTP)
+[Net An. Error    (62a8:26ac)] SSLAccept(ssl_id = 2421334402000 = 00000233C2C6E3D0) Failed, ctx = 00000233C23AAC30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (62a8:26ac)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 9106 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 186 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 376 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/6227f569e09d121e0f7a61dbb53c18230f2c2a64.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/60c284278bc7527d8b3a045a856c1f382bc53a12.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/6beee9d068d7b2585ca15b20cbcb7c3572af7ac4.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/1fde5544c730e04c252a7c1221a8d35c2f258299.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  8) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 18) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 2661 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 18) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 579 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 580 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 18) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 2960 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  8) Server -> Client : 8213 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 11782 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 18) Server -> Client : 920 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 19) Server -> Client : 537 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Server -> Client : 6224 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 6558 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:5e58)]   (Sid: 21) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/8ab4dc8ff7553658a8718a10ba46b9558e802b55.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/f8811682f8ee243dd1d9b0b3dc365d0e55405a14.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/14d13380e2a4043e10d12626892304d550905e20.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/434e353d26c767f7a5a542bd25bcee9d4ae6adbd.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/fc594215807e15e3adaf315436ef21fcb59fe482.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  8) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/7e62e31a1117fbf26fa8fdd93f07f4540c0a412b.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Net An. Error    (62a8:5e58)] SSLAccept(ssl_id = 2421334349920 = 00000233C2C61860) Failed, ctx = 00000233C23AAC30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (62a8:5e58)]   (Sid: 21) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Web Request      (62a8:51b8)] "GET /webpushr-sw.js"   
+[Network Analyzer (62a8:51b8)]   (Sid:  1) Client -> Server @ : 471 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 580 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 10344 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 580 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  8) Server -> Client : 13524 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 580 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 580 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Server -> Client : 13372 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 9594 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 11778 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 15990 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Server -> Client : 202 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 1520 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 804 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/0ed8916850e052596c2238a8006e483f0188f01f.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/ec5a67f33e2877dc4a12649a1362e22bddb21cd3.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/14658963f5f854f2c9d92620976f2b58ad70fb88.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/e1c891358becf063b7d5338dc5fd1d9998371a37.png.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/7cd1659bbc22c4ebcb1efdb1b619b5465940e19e.png.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  8) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/f9da82c7a20db7fd39410eb96db694aa6d648307.png.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Server -> Client : 580 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  1) Server -> Client : 318 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 580 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Server -> Client : 9594 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 1484 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 579 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  8) Server -> Client : 13636 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 579 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Server -> Client : 728 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 6202 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 1902 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:54c4)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 2968 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/static-v-shop/1715091108275/css/account.0ed70d67.css"   
+[Network Analyzer (62a8:51b8)]   (Sid:  8) Client -> Server @ : 750 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/static-v-shop/1715091108275/css/checkout.01c59d20.css"   
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Client -> Server @ : 751 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/static-v-shop/1715091108275/css/credit-card.7a70e6eb.css"   
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Client -> Server @ : 754 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/static-v-shop/1715091108275/css/order.cc84171f.css"   
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Client -> Server @ : 748 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/static-v-shop/1715091108275/css/product.d28831d5.css"   
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Client -> Server @ : 750 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/static-v-shop/1715091108275/css/repentance.380a5163.css"   
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Client -> Server @ : 753 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  8) Server -> Client : 1266 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 2010 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /sw-server.min.js"   
+[Network Analyzer (62a8:51b8)]   (Sid: 18) Client -> Server @ : 436 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 576 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 1466 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Server -> Client : 585 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 261 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 585 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Server -> Client : 596 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 382 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 18) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 18) Server -> Client : 2992 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/static-v-shop/1715091108275/css/shoplist.780abe5c.css"   
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Client -> Server @ : 751 bytes (SSL)(Service=HTTP)
+[Net An. Error    (62a8:54c4)] SSLAccept(ssl_id = 2421334409440 = 00000233C2C700E0) Failed, ctx = 00000233C23AAC30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Web Request      (62a8:51b8)] "GET /garbarino/static-v-shop/1715091108275/css/vendors~checkout.e116e900.css"   
+[Net An. Error    (62a8:54c4)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Client -> Server @ : 759 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/static-v-shop/1715091108275/css/vendors~checkout~product~shoplist.1f42eaa5.css"   
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Client -> Server @ : 776 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/static-v-shop/1715091108275/js/account.a09a2f5a.js"   
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Client -> Server @ : 748 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/static-v-shop/1715091108275/js/checkout.fe82bdc7.js"   
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Client -> Server @ : 749 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/static-v-shop/1715091108275/js/credit-card.f2f1b408.js"   
+[Network Analyzer (62a8:51b8)]   (Sid:  8) Client -> Server @ : 752 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 1115 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 1589 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Server -> Client : 2939 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 599 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 599 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  8) Server -> Client : 9402 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 12993 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 5969 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 2945 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 20) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 21) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 22) Connection Terminated (by Client)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/90e3341fc754c51d77a9735f72d1dcac1ea2e31b.jpg"   
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Client -> Server @ : 660 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/static-v-shop/1715091108275/js/notfoundpage.7f42b94a.js"   
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Client -> Server @ : 753 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/static-v-shop/1715091108275/js/order.c0f66e7e.js"   
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Client -> Server @ : 746 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 555 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 2422 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Server -> Client : 599 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 599 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Server -> Client : 608 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 2950 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 18) Connection Terminated (by Server)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 174.138.88.94:443   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 142.251.116.84:443   (Service=)  (Sid= 24)  PROXIED!
+[Web Request      (62a8:51b8)] "GET /garbarino/static-v-shop/1715091108275/js/product.183352b6.js"   
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Client -> Server @ : 748 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/static-v-shop/1715091108275/js/repentance.43230fb0.js"   
+[Network Analyzer (62a8:51b8)]   (Sid:  8) Client -> Server @ : 751 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/static-v-shop/1715091108275/js/shoplist.e9ea04e7.js"   
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Client -> Server @ : 749 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/static-v-shop/1715091108275/js/vendors~account.364435f5.js"   
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Client -> Server @ : 756 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 599 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 3579 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  8) Server -> Client : 3896 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 599 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 7568 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 7934 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:3f38)]   (Sid: 23) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (62a8:44b0)]   (Sid: 24) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 104.248.12.51:443   (Service=)  (Sid= 25)  PROXIED!
+[Net An. Error    (62a8:44b0)] SSLAccept(ssl_id = 2421334402000 = 00000233C2C6E3D0) Failed, ctx = 00000233C23AAC30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Web Request      (62a8:51b8)] "GET /garbarino/static-v-shop/1715091108275/js/vendors~checkout.d8389f0a.js"   
+[Net An. Error    (62a8:44b0)]   (Sid: 24) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Client -> Server @ : 757 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/static-v-shop/1715091108275/js/vendors~checkout~product~shoplist.f3b72821.js"   
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Client -> Server @ : 774 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:3f38)]   (Sid: 23) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (62a8:51b8)] "POST /prompt/get_info"   
+[Network Analyzer (62a8:51b8)]   (Sid: 23) Client -> Server @ : 753 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Server -> Client : 599 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Server -> Client : 9583 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Server -> Client : 1870 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 599 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 3188 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 2766 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 23) Server -> Client : 3538 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8:21e4)]   (Sid: 25) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 104.248.12.51:443   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 159.203.111.221:443   (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer (62a8:21e4)]   (Sid: 25) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (62a8:51b8)] "POST /impression/session"   
+[Network Analyzer (62a8:51b8)]   (Sid: 25) Client -> Server @ : 774 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 25) Server -> Client : 540 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "POST /impression/prompt"   
+[Network Analyzer (62a8:51b8)]   (Sid: 25) Client -> Server @ : 767 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 25) Server -> Client : 540 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:20cc)]   (Sid: 26) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (62a8:20cc)]   (Sid: 26) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:51b8)]   (Sid: 24) Connection Terminated (by Client)
+[Network Analyzer (62a8:35b8)]   (Sid: 27) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (62a8:35b8)]   (Sid: 27) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (62a8:51b8)] "GET /siteassets/v9gXmgAzrZ.jpeg"   
+[Network Analyzer (62a8:51b8)]   (Sid: 27) Client -> Server @ : 611 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 27) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 27) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 27) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 27) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 27) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 27) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 27) Server -> Client : 729 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 25) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 26) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 23) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 27) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 14) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 19) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 16) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 17) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 15) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid:  8) Connection Terminated (by Client)
+[API Trapper      (5e50:4424)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (62a8:51b8)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.52.195:443   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.52.195:443   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer (62a8:5b2c)]   (Sid: 28) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (62a8:5b2c)] SSLAccept(ssl_id = 2421324835520 = 00000233C234EAC0) Failed, ctx = 00000233C23E9FD0, err = "TLSv1.3 early data", err code = 5, err msg= "error:00000005:lib(0)::reason(5)
+" 
+[Net An. Error    (62a8:5b2c)]   (Sid: 28) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8:51b8)]   (Sid: 28) Connection Terminated (by Client)
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.57.42:443   (Service=)  (Sid= 30)  PROXIED!
+[API Trapper      (3a40:28e8)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (458c:5d68)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (62a8: 87c)]   (Sid: 29) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (62a8: 87c)]   (Sid: 29) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:3d4c)]   (Sid: 30) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (62a8:3d4c)] SSLAccept(ssl_id = 2421324842960 = 00000233C23507D0) Failed, ctx = 00000233C23AAC30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (62a8:3d4c)]   (Sid: 30) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8:51b8)]   (Sid: 29) Client -> Server @ : 716 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "POST /service/update2/json?cup2key=14:xLpfLKTy8723MT8LygU0s8urQbfUxTSwKHxaR-T8Bv0&cup2hreq=39bc1a7078356937c8587601301b779c0a2799c309184baefbbd2108e6214da4"   
+[Network Analyzer (62a8:51b8)]   (Sid: 29) Client -> Server @ : 1174 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 29) Server -> Client : 1153 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 29) Server -> Client : 363 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 29) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 30) Connection Terminated (by Client)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 104.248.12.51:443   (Service=)  (Sid= 31)  PROXIED!
+[Network Analyzer (62a8:5a68)]   (Sid: 31) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (62a8:5a68)]   (Sid: 31) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (62a8:51b8)] "POST /impression/prompt"   
+[Network Analyzer (62a8:51b8)]   (Sid: 31) Client -> Server @ : 761 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 31) Server -> Client : 540 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.57.42:443   (Service=)  (Sid= 32)  PROXIED!
+[Network Analyzer (62a8:42b4)]   (Sid: 32) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (62a8:42b4)] SSLAccept(ssl_id = 2421324805760 = 00000233C2347680) Failed, ctx = 00000233C23AAC30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (62a8:42b4)]   (Sid: 32) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8:51b8)]   (Sid: 32) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 31) Connection Terminated (by Server)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 3.213.161.229:443   (Service=)  (Sid= 33)  PROXIED!
+[Network Analyzer (62a8:46dc)]   (Sid: 33) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (62a8:46dc)]   (Sid: 33) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (62a8:51b8)] "POST /api/user/signin"   
+[Network Analyzer (62a8:51b8)]   (Sid: 33) Client -> Server @ : 941 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 33) Server -> Client : 1160 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /api/catalog/wishlist/products-ids"   
+[Network Analyzer (62a8:51b8)]   (Sid: 33) Client -> Server @ : 681 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 33) Server -> Client : 726 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 142.251.116.84:443   (Service=)  (Sid= 34)  PROXIED!
+[Network Analyzer (62a8:3f9c)]   (Sid: 34) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (62a8:3f9c)] SSLAccept(ssl_id = 2421324798320 = 00000233C2345970) Failed, ctx = 00000233C23AAC30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (62a8:3f9c)]   (Sid: 34) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8:51b8)]   (Sid: 34) Connection Terminated (by Client)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.56.99:443   (Service=)  (Sid= 35)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.52.195:443   (Service=)  (Sid= 36)  PROXIED!
+[Network Analyzer (62a8:66c0)]   (Sid: 35) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (62a8:66c0)]   (Sid: 35) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:51b8)]   (Sid: 35) Client -> Server @ : 586 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "POST /uma/v2"   
+[Network Analyzer (62a8:51b8)]   (Sid: 35) Client -> Server @ : 2405 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 35) Server -> Client : 2235 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 35) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 35) Server -> Client : 11869 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 35) Connection Terminated (by Server)
+[Network Analyzer (62a8:1df0)]   (Sid: 36) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (62a8:1df0)]   (Sid: 36) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (62a8:51b8)] "POST /api/catalog/shop"   
+[Network Analyzer (62a8:51b8)]   (Sid: 33) Client -> Server @ : 1045 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "POST /service/update2/json?cup2key=14:nxNk8nZ5I_xvPNTnr7_vLR9MBxkIoZipm5Emm7s7Jq8&cup2hreq=1b9871fac938733169c5a6f504887bb88b96d0ef2f65621f36e03372a30c8125"
+[Network Analyzer (62a8:51b8)]   (Sid: 36) Client -> Server @ : 1339 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 36) Client -> Server @ : 8502 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 36) Server -> Client : 1153 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 36) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 36) Server -> Client : 1378 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 36) Server -> Client : 804 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 36) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 33) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8:51b8)]   (Sid: 33) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 33) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 33) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 33) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.57.42:443   (Service=)  (Sid= 37)  PROXIED!
+[Network Analyzer (62a8:51b8)]   (Sid: 33) Server -> Client : 2910 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.52.234:443   (Service=)  (Sid= 38)  PROXIED!
+[Network Analyzer (62a8:51b8)]   (Sid: 36) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 33) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 29) Connection Terminated (by Client)
+[Network Analyzer (62a8:5d58)]   (Sid: 37) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (62a8:5d58)] SSLAccept(ssl_id = 2421324805760 = 00000233C2347680) Failed, ctx = 00000233C23AAC30, err = "TLSv1.3 early data", err code = 5, err msg= "error:00000005:lib(0)::reason(5)
+" 
+[Net An. Error    (62a8:5d58)]   (Sid: 37) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8:6080)]   (Sid: 38) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (62a8:6080)] SSLAccept(ssl_id = 2421324813200 = 00000233C2349390) Failed, ctx = 00000233C23E9FD0, err = "TLSv1.3 early data", err code = 5, err msg= "error:00000005:lib(0)::reason(5)
+" 
+[Net An. Error    (62a8:6080)]   (Sid: 38) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8:51b8)]   (Sid: 37) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 38) Connection Terminated (by Client)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 142.251.116.84:443   (Service=)  (Sid= 39)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.56.74:443   (Service=)  (Sid= 40)  PROXIED!
+[Network Analyzer (62a8:1e54)]   (Sid: 39) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 18.160.168.74:443   (Service=)  (Sid= 41)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 18.160.168.74:443   (Service=)  (Sid= 42)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 18.160.168.74:443   (Service=)  (Sid= 43)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8:1fec)]   (Sid: 40) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 18.160.168.74:443   (Service=)  (Sid= 44)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 18.160.168.74:443   (Service=)  (Sid= 45)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 18.160.168.74:443   (Service=)  (Sid= 46)  PROXIED!
+[Net An. Error    (62a8:1e54)] SSLAccept(ssl_id = 2421334691600 = 00000233C2CB4F10) Failed, ctx = 00000233C23AAC30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (62a8:1e54)]   (Sid: 39) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8:1fec)]   (Sid: 40) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:5040)]   (Sid: 41) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:5040)]   (Sid: 41) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:5c60)]   (Sid: 42) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:5c60)]   (Sid: 42) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:1a14)]   (Sid: 43) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:1a14)]   (Sid: 43) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:6298)]   (Sid: 44) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:6298)]   (Sid: 44) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8: e20)]   (Sid: 45) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8: e20)]   (Sid: 45) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (62a8:51b8)] "GET /v1/pages/ChVDaHJvbWUvMTI0LjAuNjM2Ny4xNTYSGQnjFemd-Nrk9hIFDULauvchqtfKivWziUUSIAkHTLnezRl6kxIFDXhvEhkSBQ3OQUx6ITmRVODotzHDEhkJTipy9SV1F30SBQ34y-90Ianiz4B-5ZOhEhkJB16HeTCTOekSBQ25ChEqIaniz4B-5ZOh?alt=proto"   
+[Network Analyzer (62a8:51b8)]   (Sid: 40) Client -> Server @ : 658 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/c9c32105b6a3969bfb31fbc484e92cf585d423d4.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 41) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/e2a95b28f8102c19686ba05acaf9621a819d1f97.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 42) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/7678a1e5fedd4d4355ec1d8d5ac95832bef530e1.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 43) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/ba584f7ff3024ec5c9b3ab64d19865fde859f74e.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 44) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/39272b0cc3138879ed0261acb7a901117bdee08a.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 45) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 41) Server -> Client : 579 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 41) Server -> Client : 14312 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 43) Server -> Client : 580 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 44) Server -> Client : 580 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 42) Server -> Client : 579 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 43) Server -> Client : 15990 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 44) Server -> Client : 12152 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 45) Server -> Client : 555 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 42) Server -> Client : 15990 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 43) Server -> Client : 612 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 45) Server -> Client : 8494 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 40) Server -> Client : 553 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 42) Server -> Client : 224 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/2ebbcfc5a8a118fc726fde22b075797f3a967b4b.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 41) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/dfc4c74278f131920fe595aa8d7d34fd135b1ff9.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 44) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/195a7e64737eebf4b436e5ccd87d4abd20db78ef.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 43) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/d0be734edf9ae408f70941c1a93cd271305356fc.jpg.webp"   
+[Network Analyzer (62a8:14c4)]   (Sid: 46) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:51b8)]   (Sid: 45) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/29dfb7a10a54d59b6671869d6a1745ee40835e31.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 42) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:14c4)]   (Sid: 46) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/87cb1d366d6b0b272ab2d4ff38d1f096e0c53598.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 46) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 41) Server -> Client : 578 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 41) Server -> Client : 8974 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 44) Server -> Client : 16121 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/8c5570a8f12a823659f352baf4b94354c762f1ee.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 41) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/1442e28699b062932784e36dce1c796a2e2ece11.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 44) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.52.195:443   (Service=)  (Sid= 47)  PROXIED!
+[Network Analyzer (62a8:51b8)]   (Sid: 43) Server -> Client : 547 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 42) Server -> Client : 9040 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 43) Server -> Client : 15796 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 42) Server -> Client : 5917 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 45) Server -> Client : 9041 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 45) Server -> Client : 12978 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 46) Server -> Client : 14535 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 41) Server -> Client : 6522 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 44) Server -> Client : 13293 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/ea6497235238452f71b425480867e7b17cc6dd8f.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 43) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:3cbc)]   (Sid: 47) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/a03e6b456dac32117632ab734b03daba51175497.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 42) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/866ff49ae1ea889d29b7e41574da148ef2f5220b.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 44) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:3cbc)]   (Sid: 47) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:51b8)]   (Sid: 47) Client -> Server @ : 383 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "POST /service/update2/json"   
+[Network Analyzer (62a8:51b8)]   (Sid: 47) Client -> Server @ : 1540 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 43) Server -> Client : 556 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 42) Server -> Client : 556 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 43) Server -> Client : 11044 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 47) Server -> Client : 2235 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 42) Server -> Client : 12792 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 47) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 42) Server -> Client : 2834 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 47) Server -> Client : 11859 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 47) Connection Terminated (by Server)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.52.195:80   (Service=)  (Sid= 48)  PROXIED!
+[Web Request      (62a8:51b8)] "POST /service/update2/json"   
+[Network Analyzer (62a8:51b8)]   (Sid: 48) Client -> Server @ : 1843 bytes (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 39) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 48) Server -> Client : 807 bytes  (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 44) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 44) Server -> Client : 1657 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 44) Server -> Client : 3462 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/726bd3ef66f2dc46cfded25204368083dd332866.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 44) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 44) Server -> Client : 3960 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/8ee6ddb313e8ce36c3243af7bcb4aa376cce77b5.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 44) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 44) Server -> Client : 556 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 44) Server -> Client : 15990 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 44) Server -> Client : 13488 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.52.195:443   (Service=)  (Sid= 49)  PROXIED!
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/b11e31cafd63b3015082e2fb3e30951a255c3c00.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 44) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:1430)]   (Sid: 49) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (62a8:1430)]   (Sid: 49) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:51b8)]   (Sid: 44) Server -> Client : 546 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 44) Server -> Client : 9250 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 49) Client -> Server @ : 383 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "POST /service/update2/json"   
+[Network Analyzer (62a8:51b8)]   (Sid: 49) Client -> Server @ : 1554 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 49) Server -> Client : 701 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 49) Server -> Client : 285 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 49) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 3.213.161.229:443   (Service=)  (Sid= 50)  PROXIED!
+[Network Analyzer (62a8:5c20)]   (Sid: 50) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (62a8:5c20)]   (Sid: 50) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/287ccf53995642beec4c900897e46cc5cd78ba27.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 44) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /api/catalog/product/3d2009af-fe4f-4fa0-815e-a44b2a261912"   
+[Network Analyzer (62a8:51b8)]   (Sid: 50) Client -> Server @ : 775 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/06c064b9aba51c3b690be7f426415367b00092c8.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 42) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 44) Server -> Client : 10184 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.52.163:443   (Service=)  (Sid= 51)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 142.251.116.84:443   (Service=)  (Sid= 52)  PROXIED!
+[Network Analyzer (62a8:51b8)]   (Sid: 42) Server -> Client : 546 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 42) Server -> Client : 3150 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:3dac)]   (Sid: 51) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (62a8:3dac)] SSLAccept(ssl_id = 2421335118240 = 00000233C2D1D1A0) Failed, ctx = 00000233C23AAC30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (62a8:3dac)]   (Sid: 51) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8:58dc)]   (Sid: 52) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (62a8:58dc)] SSLAccept(ssl_id = 2421335081040 = 00000233C2D14050) Failed, ctx = 00000233C23AAC30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (62a8:58dc)]   (Sid: 52) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8:51b8)]   (Sid: 50) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 50) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 50) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 50) Server -> Client : 3189 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.52.163:443   (Service=)  (Sid= 53)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 172.217.15.3:443   (Service=)  (Sid= 54)  PROXIED!
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/0068f16c7401ba0c183379860762519bcd3bd8c7.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 42) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/cf245414656ec4a4289ad081fc106100abe77247.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 44) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/6c643f6a57b6436c8730df19de0a3a4d34c010cb.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 43) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/7ffe2a2fb18da2cb33c0efbcc076254590cf2e1a.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 41) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/6adbf52d955f73c6506dd3d53d496bd36a57fb0a.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 45) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/eefa4e18cda3be6429b3d23ae861965abb54479d.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 46) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /v1/pages/ChVDaHJvbWUvMTI0LjAuNjM2Ny4xNTYSGQnjFemd-Nrk9hIFDULauvchctAkmNdjaQkSIAkHTLnezRl6kxIFDXhvEhkSBQ3OQUx6IbxU_4BBnO1WEhkJTipy9SV1F30SBQ34y-90ISA45cYhoQidEicJwCWn_bQnvxoSBQ25ChEqEgUN6IgTbRIFDS54K3QhY1-8XC2ZuJA=?alt=proto"   
+[Network Analyzer (62a8:51b8)]   (Sid: 40) Client -> Server @ : 678 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:2780)]   (Sid: 53) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (62a8:2780)] SSLAccept(ssl_id = 2421334654400 = 00000233C2CABDC0) Failed, ctx = 00000233C23AAC30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (62a8:2780)]   (Sid: 53) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8:68e8)]   (Sid: 54) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (62a8:51b8)]   (Sid: 40) Server -> Client : 571 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:68e8)]   (Sid: 54) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8:51b8)]   (Sid: 46) Server -> Client : 3920 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "POST /domainreliability/upload"   
+[Network Analyzer (62a8:51b8)]   (Sid: 54) Client -> Server @ : 677 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 172.217.15.3:443   (Service=)  (Sid= 55)  PROXIED!
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/88b6526d14a640ddbdac07d40d6ec4725db1d1ec.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 46) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 42) Server -> Client : 2358 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/abef25c3989aff528e22078efb6937ba84f4c8a0.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 42) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 54) Server -> Client : 1197 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "POST /domainreliability/upload"   
+[Network Analyzer (62a8:51b8)]   (Sid: 54) Client -> Server @ : 917 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 44) Server -> Client : 2320 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:1250)]   (Sid: 55) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (62a8:51b8)]   (Sid: 41) Server -> Client : 3270 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 45) Server -> Client : 3488 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 43) Server -> Client : 3074 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:1250)]   (Sid: 55) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8:51b8)]   (Sid: 54) Server -> Client : 1154 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 64.233.168.94:443   (Service=)  (Sid= 56)  PROXIED!
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/8f2bc1866823a6944184b6eaf55c3ec83b93c987.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 44) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 46) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 46) Server -> Client : 1656 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 46) Server -> Client : 13485 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/b9bcf189eaa6c46619332b52bed2d2fb8605f660.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 46) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/43600233894bbc4e20e48aa33d1265153d66a3d9.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 43) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 42) Server -> Client : 547 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 42) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 42) Server -> Client : 1096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 42) Server -> Client : 15248 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/dc46d3e5441429c8847d7f2ef65a71897118f8c7.jpg.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 42) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:267c)]   (Sid: 56) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (62a8:267c)] SSLAccept(ssl_id = 2421335682512 = 00000233C2DA6DD0) Failed, ctx = 00000233C23AAC30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (62a8:267c)]   (Sid: 56) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8:51b8)]   (Sid: 44) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 44) Server -> Client : 153 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 44) Server -> Client : 1021 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 44) Server -> Client : 12792 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 44) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 44) Server -> Client : 9200 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 44) Server -> Client : 4781 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 46) Server -> Client : 2089 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 49) Client -> Server @ : 383 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "POST /service/update2/json"   
+[Network Analyzer (62a8:51b8)]   (Sid: 49) Client -> Server @ : 1503 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 46) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 46) Server -> Client : 1024 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 46) Server -> Client : 15360 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 46) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 46) Server -> Client : 1024 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 46) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 46) Server -> Client : 10438 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 43) Server -> Client : 13339 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 49) Server -> Client : 701 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 43) Server -> Client : 3085 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 49) Server -> Client : 190 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 43) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 49) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 43) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 43) Server -> Client : 2048 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 43) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 43) Server -> Client : 1024 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 42) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 43) Server -> Client : 13933 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 42) Server -> Client : 40 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 42) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 42) Server -> Client : 1024 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 42) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 42) Server -> Client : 1024 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 42) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 42) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 42) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 42) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 42) Server -> Client : 362 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 51) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 52) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 53) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 56) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 49) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 55) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 54) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 40) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 41) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 45) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 48) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 44) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 46) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 43) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 42) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 50) Connection Terminated (by Client)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.52.195:443   (Service=)  (Sid= 57)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 3.213.161.229:443   (Service=)  (Sid= 58)  PROXIED!
+[Network Analyzer (62a8:19d4)]   (Sid: 57) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (62a8:19d4)]   (Sid: 57) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:51b8)]   (Sid: 57) Client -> Server @ : 383 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "POST /service/update2/json"   
+[Network Analyzer (62a8:51b8)]   (Sid: 57) Client -> Server @ : 1586 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 57) Server -> Client : 2235 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 57) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 57) Server -> Client : 11859 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 57) Connection Terminated (by Server)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8:6954)]   (Sid: 58) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.52.195:80   (Service=)  (Sid= 59)  PROXIED!
+[Network Analyzer (62a8:6954)]   (Sid: 58) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (62a8:51b8)] "POST /api/cart/item"   
+[Network Analyzer (62a8:51b8)]   (Sid: 58) Client -> Server @ : 1145 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "POST /service/update2/json"   
+[Network Analyzer (62a8:51b8)]   (Sid: 59) Client -> Server @ : 1889 bytes (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 59) Server -> Client : 807 bytes  (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 58) Server -> Client : 11004 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /api/catalog/product-upsells/3d2009af-fe4f-4fa0-815e-a44b2a261912"   
+[Network Analyzer (62a8:51b8)]   (Sid: 58) Client -> Server @ : 856 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 99.86.102.39:443   (Service=)  (Sid= 60)  PROXIED!
+[Network Analyzer (62a8:51b8)]   (Sid: 58) Server -> Client : 730 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:3308)]   (Sid: 60) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.52.170:443   (Service=)  (Sid= 61)  PROXIED!
+[Network Analyzer (62a8:3308)]   (Sid: 60) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (62a8:51b8)] "GET /icomMkt_tracking_jquery.min.js"   
+[Network Analyzer (62a8:51b8)]   (Sid: 60) Client -> Server @ : 571 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 60) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 60) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 60) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 60) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 60) Server -> Client : 11724 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:2678)]   (Sid: 61) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 34.192.171.130:443   (Service=)  (Sid= 62)  PROXIED!
+[Net An. Error    (62a8:2678)] SSLAccept(ssl_id = 2421333040608 = 00000233C2B21DE0) Failed, ctx = 00000233C23AAC30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (62a8:2678)]   (Sid: 61) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.52.170:443   (Service=)  (Sid= 63)  PROXIED!
+[Network Analyzer (62a8:51b8)]   (Sid: 61) Connection Terminated (by Client)
+[Network Analyzer (62a8:61ac)]   (Sid: 62) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (62a8:61ac)]   (Sid: 62) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:3660)]   (Sid: 63) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (62a8:3660)] SSLAccept(ssl_id = 2421333085248 = 00000233C2B2CC40) Failed, ctx = 00000233C23AAC30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (62a8:3660)]   (Sid: 63) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Web Request      (62a8:51b8)] "GET /pixelCPL.aspx?time=1715306213662&itemsQuantity=-1&amount=-1&extraInfo=%22%22"   
+[Network Analyzer (62a8:51b8)]   (Sid: 62) Client -> Server @ : 674 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 62) Server -> Client : 1605 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 62) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 63) Connection Terminated (by Client)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.52.170:443   (Service=)  (Sid= 64)  PROXIED!
+[Web Request      (62a8:51b8)] "GET /api/checkout/init?"   
+[Network Analyzer (62a8:51b8)]   (Sid: 58) Client -> Server @ : 726 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8:4884)]   (Sid: 64) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 18.160.168.104:443   (Service=)  (Sid= 65)  PROXIED!
+[Net An. Error    (62a8:4884)] SSLAccept(ssl_id = 2421333048048 = 00000233C2B23AF0) Failed, ctx = 00000233C23AAC30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (62a8:4884)]   (Sid: 64) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8:51b8)]   (Sid: 58) Server -> Client : 2673 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "POST /api/checkout/load-step/signin"   
+[Network Analyzer (62a8:51b8)]   (Sid: 58) Client -> Server @ : 1219 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:1780)]   (Sid: 65) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:1780)]   (Sid: 65) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/d0ac60e2fa4a5de40a97f0e1484485b61ba5c7fe.png.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 65) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 64) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 58) Server -> Client : 2758 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 65) Server -> Client : 3264 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "POST /api/checkout/load-step/discount"   
+[Network Analyzer (62a8:51b8)]   (Sid: 58) Client -> Server @ : 1322 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 58) Server -> Client : 2418 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.52.170:443   (Service=)  (Sid= 66)  PROXIED!
+[Network Analyzer (62a8:46a4)]   (Sid: 66) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (62a8:46a4)] SSLAccept(ssl_id = 2421333055488 = 00000233C2B25800) Failed, ctx = 00000233C23AAC30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (62a8:46a4)]   (Sid: 66) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8:51b8)]   (Sid: 65) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 60) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 58) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 59) Connection Terminated (by Client)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.52.195:443   (Service=)  (Sid= 67)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.52.170:443   (Service=)  (Sid= 68)  PROXIED!
+[Network Analyzer (62a8:1210)]   (Sid: 67) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (62a8:1210)]   (Sid: 67) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:51b8)]   (Sid: 67) Client -> Server @ : 383 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "POST /service/update2/json"   
+[Network Analyzer (62a8:51b8)]   (Sid: 67) Client -> Server @ : 1513 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 67) Server -> Client : 2235 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 67) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 67) Server -> Client : 11859 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 67) Connection Terminated (by Server)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.52.195:80   (Service=)  (Sid= 69)  PROXIED!
+[Network Analyzer (62a8:51b8)]   (Sid: 69) Client -> Server @ : 303 bytes (Service=HTTP)
+[Web Request      (62a8:51b8)] "POST /service/update2/json"   
+[Network Analyzer (62a8:51b8)]   (Sid: 69) Client -> Server @ : 1513 bytes (Service=HTTP)
+[Network Analyzer (62a8:53f4)]   (Sid: 68) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (62a8:53f4)] SSLAccept(ssl_id = 2421333085248 = 00000233C2B2CC40) Failed, ctx = 00000233C23AAC30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (62a8:53f4)]   (Sid: 68) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8:51b8)]   (Sid: 69) Server -> Client : 806 bytes  (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 66) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 68) Connection Terminated (by Client)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 172.217.3.138:443   (Service=)  (Sid= 70)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 3.213.161.229:443   (Service=)  (Sid= 71)  PROXIED!
+[Network Analyzer (62a8:5310)]   (Sid: 70) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (62a8:5310)] SSLAccept(ssl_id = 2421335335728 = 00000233C2D52330) Failed, ctx = 00000233C23AAC30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (62a8:5310)]   (Sid: 70) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.52.195:443   (Service=)  (Sid= 72)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 3.213.161.229:443   (Service=)  (Sid= 73)  PROXIED!
+[Network Analyzer (62a8:51b8)]   (Sid: 69) Connection Terminated (by Client)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.52.195:443   (Service=)  (Sid= 74)  PROXIED!
+[Network Analyzer (62a8:61ec)]   (Sid: 71) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (62a8:61ec)] SSLAccept(ssl_id = 2421335028960 = 00000233C2D074E0) Failed, ctx = 00000233C23D2E50, err = "TLSv1.3 early data", err code = 5, err msg= "error:00000005:lib(0)::reason(5)
+" 
+[Net An. Error    (62a8:61ec)]   (Sid: 71) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8:51b8)]   (Sid: 71) Connection Terminated (by Client)
+[Network Analyzer (62a8:1e20)]   (Sid: 72) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (62a8:1e20)] SSLAccept(ssl_id = 2421335014080 = 00000233C2D03AC0) Failed, ctx = 00000233C23E9FD0, err = "TLSv1.3 early data", err code = 5, err msg= "error:00000005:lib(0)::reason(5)
+" 
+[Net An. Error    (62a8:1e20)]   (Sid: 72) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8:51b8)]   (Sid: 72) Connection Terminated (by Client)
+[Network Analyzer (62a8:2fc0)]   (Sid: 73) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (62a8:2fc0)]   (Sid: 73) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (62a8:51b8)] "POST /api/checkout/submit-step/discount"   
+[Network Analyzer (62a8:51b8)]   (Sid: 73) Client -> Server @ : 1350 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:5cec)]   (Sid: 74) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (62a8:5cec)]   (Sid: 74) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:51b8)]   (Sid: 74) Client -> Server @ : 383 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "POST /service/update2/json"   
+[Network Analyzer (62a8:51b8)]   (Sid: 74) Client -> Server @ : 1394 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 70) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 73) Server -> Client : 2595 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "POST /api/checkout/load-step/delivery"   
+[Network Analyzer (62a8:51b8)]   (Sid: 73) Client -> Server @ : 1322 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 74) Server -> Client : 701 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 74) Server -> Client : 289 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 74) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.52.170:443   (Service=)  (Sid= 75)  PROXIED!
+[Network Analyzer (62a8:51b8)]   (Sid: 73) Server -> Client : 2705 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 73) Client -> Server @ : 1017 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "POST /api/checkout/delivery/calculate"   
+[Network Analyzer (62a8:51b8)]   (Sid: 73) Client -> Server @ : 917 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:1154)]   (Sid: 75) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (62a8:1154)] SSLAccept(ssl_id = 2421335014080 = 00000233C2D03AC0) Failed, ctx = 00000233C23AAC30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (62a8:1154)]   (Sid: 75) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8:51b8)]   (Sid: 73) Server -> Client : 3022 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.52.170:443   (Service=)  (Sid= 76)  PROXIED!
+[Network Analyzer (62a8:3798)]   (Sid: 76) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (62a8:3798)] SSLAccept(ssl_id = 2421335051280 = 00000233C2D0CC10) Failed, ctx = 00000233C23AAC30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (62a8:3798)]   (Sid: 76) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8:51b8)]   (Sid: 75) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 76) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 73) Client -> Server @ : 1020 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "POST /api/checkout/submit-step/delivery"   
+[Network Analyzer (62a8:51b8)]   (Sid: 73) Client -> Server @ : 2358 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 73) Server -> Client : 3375 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "POST /api/checkout/load-step/payment"   
+[Network Analyzer (62a8:51b8)]   (Sid: 73) Client -> Server @ : 1320 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 73) Server -> Client : 4758 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 18.160.168.104:443   (Service=)  (Sid= 77)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 18.160.168.104:443   (Service=)  (Sid= 78)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 18.160.168.104:443   (Service=)  (Sid= 79)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 18.160.168.104:443   (Service=)  (Sid= 80)  PROXIED!
+[Network Analyzer (62a8: ec0)]   (Sid: 77) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8: ec0)]   (Sid: 77) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:43c0)]   (Sid: 78) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:43c0)]   (Sid: 78) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:3a48)]   (Sid: 79) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:3a48)]   (Sid: 79) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/c4858c210134f297bb1ce0976e96fcecf06f5c83.png.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 77) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/dfa54b4a15d8a9d067964188984b9b85405237fe.png.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 78) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/06b85dd6e02fea521106a63753cceaff3ba56d38.png.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 79) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.52.170:443   (Service=)  (Sid= 81)  PROXIED!
+[Network Analyzer (62a8:3794)]   (Sid: 80) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:3794)]   (Sid: 80) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (62a8:51b8)]   (Sid: 74) Client -> Server @ : 383 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "POST /service/update2/json"   
+[Network Analyzer (62a8:51b8)]   (Sid: 74) Client -> Server @ : 1510 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /garbarino/uploads/7f86f7d8feee2add62c53a3392f8028c8ba5b32a.png.webp"   
+[Network Analyzer (62a8:51b8)]   (Sid: 80) Client -> Server @ : 665 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:2b84)]   (Sid: 81) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (62a8:2b84)] SSLAccept(ssl_id = 2421335081040 = 00000233C2D14050) Failed, ctx = 00000233C23AAC30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (62a8:2b84)]   (Sid: 81) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8:51b8)]   (Sid: 74) Server -> Client : 701 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 74) Server -> Client : 270 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 74) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 77) Server -> Client : 2176 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 78) Server -> Client : 1487 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 79) Server -> Client : 2048 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 80) Server -> Client : 2052 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 81) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 73) Client -> Server @ : 1018 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "POST /api/checkout/submit-step/payment"   
+[Network Analyzer (62a8:51b8)]   (Sid: 73) Client -> Server @ : 1020 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 73) Server -> Client : 3982 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "POST /api/checkout/load-step/contact"   
+[Network Analyzer (62a8:51b8)]   (Sid: 73) Client -> Server @ : 1320 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 73) Server -> Client : 3861 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /api/user/phone-countries"   
+[Network Analyzer (62a8:51b8)]   (Sid: 73) Client -> Server @ : 868 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8:51b8)]   (Sid: 73) Server -> Client : 7947 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.52.170:443   (Service=)  (Sid= 82)  PROXIED!
+[Network Analyzer (62a8:5ad0)]   (Sid: 82) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (62a8:5ad0)] SSLAccept(ssl_id = 2421335110800 = 00000233C2D1B490) Failed, ctx = 00000233C23AAC30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (62a8:5ad0)]   (Sid: 82) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8:51b8)]   (Sid: 82) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 73) Client -> Server @ : 1018 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "POST /api/checkout/submit-step/contact"   
+[Network Analyzer (62a8:51b8)]   (Sid: 73) Client -> Server @ : 1288 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 73) Server -> Client : 4124 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "POST /api/checkout/load-step/confirm"   
+[Network Analyzer (62a8:51b8)]   (Sid: 73) Client -> Server @ : 1320 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 73) Server -> Client : 3945 bytes (SSL) (Service=HTTP)
+[API Trapper      (5fb4:6b30)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (62a8:51b8)]   (Sid: 74) Client -> Server @ : 383 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "POST /service/update2/json"   
+[Network Analyzer (62a8:51b8)]   (Sid: 74) Client -> Server @ : 1427 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 74) Server -> Client : 701 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 74) Server -> Client : 391 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 74) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.52.170:443   (Service=)  (Sid= 83)  PROXIED!
+[Network Analyzer (62a8:3bbc)]   (Sid: 83) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (62a8:3bbc)] SSLAccept(ssl_id = 2421335118240 = 00000233C2D1D1A0) Failed, ctx = 00000233C23AAC30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (62a8:3bbc)]   (Sid: 83) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8:51b8)]   (Sid: 83) Connection Terminated (by Client)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 142.250.177.10:443   (Service=)  (Sid= 84)  PROXIED!
+[Web Request      (62a8:51b8)] "POST /api/checkout/submit-step/confirm"   
+[Network Analyzer (62a8:51b8)]   (Sid: 73) Client -> Server @ : 1335 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:115c)]   (Sid: 84) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (62a8:115c)] SSLAccept(ssl_id = 2421335118240 = 00000233C2D1D1A0) Failed, ctx = 00000233C23AAC30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (62a8:115c)]   (Sid: 84) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8:51b8)]   (Sid: 74) Client -> Server @ : 383 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "POST /service/update2/json"   
+[Network Analyzer (62a8:51b8)]   (Sid: 74) Client -> Server @ : 1540 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 74) Server -> Client : 701 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 74) Server -> Client : 238 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 74) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 84) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 73) Server -> Client : 4547 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 34.192.171.130:443   (Service=)  (Sid= 85)  PROXIED!
+[Network Analyzer (62a8:51b8)]   (Sid: 74) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 77) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 78) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 79) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 80) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 73) Connection Terminated (by Client)
+[Network Analyzer (62a8:14f0)]   (Sid: 85) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Net An. Error    (62a8:14f0)] SSLAccept(ssl_id = 2421335021520 = 00000233C2D057D0) Failed, ctx = 00000233C2BA15C0, err = "TLSv1.3 early data", err code = 5, err msg= "error:00000005:lib(0)::reason(5)
+" 
+[Net An. Error    (62a8:14f0)]   (Sid: 85) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8:51b8)]   (Sid: 85) Connection Terminated (by Client)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 172.217.2.138:443   (Service=)  (Sid= 86)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 142.251.116.84:443   (Service=)  (Sid= 87)  PROXIED!
+[Network Analyzer (62a8:18d0)]   (Sid: 86) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (62a8:18d0)]   (Sid: 86) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (62a8:51b8)] "GET /v1/pages/ChVDaHJvbWUvMTI0LjAuNjM2Ny4xNTYSJwnNws68Jr38cBIFDUOgHjcSBQ1Yv_93EgUNEdj8qSEpFNadD95p3w==?alt=proto"   
+[Network Analyzer (62a8:51b8)]   (Sid: 86) Client -> Server @ : 562 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 86) Server -> Client : 498 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:4ed8)]   (Sid: 87) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (62a8:4ed8)] SSLAccept(ssl_id = 2421324798320 = 00000233C2345970) Failed, ctx = 00000233C23AAC30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (62a8:4ed8)]   (Sid: 87) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8:51b8)]   (Sid: 87) Connection Terminated (by Client)
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 3.213.161.229:443   (Service=)  (Sid= 88)  PROXIED!
+[Network Analyzer (62a8:5270)]   (Sid: 88) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (62a8:5270)]   (Sid: 88) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (62a8:51b8)] "GET /user/orders/aae8e865-919e-43f6-a55e-cea5288e1699"   
+[Network Analyzer (62a8:51b8)]   (Sid: 88) Client -> Server @ : 950 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 88) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 88) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 88) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 88) Server -> Client : 7887 bytes (SSL) (Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /api/catalog/wishlist/products-ids"   
+[Network Analyzer (62a8:51b8)]   (Sid: 88) Client -> Server @ : 821 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /v1/pages/ChVDaHJvbWUvMTI0LjAuNjM2Ny4xNTYSGQnjFemd-Nrk9hIFDULauvchrXiY7SaO-MQSGQlOKnL1JXUXfRIFDZBFUiohcobmNZap4z4=?alt=proto"   
+[Network Analyzer (62a8:51b8)]   (Sid: 86) Client -> Server @ : 578 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 172.217.3.136:443   (Service=)  (Sid= 89)  PROXIED!
+[Network Analyzer (62a8:51b8)]   (Sid: 86) Server -> Client : 499 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 3.213.161.229:443   (Service=)  (Sid= 90)  PROXIED!
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8:51b8)]   (Sid: 88) Server -> Client : 726 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 142.251.116.84:443   (Service=)  (Sid= 91)  PROXIED!
+[Web Request      (62a8:51b8)] "GET /api/user/order/aae8e865-919e-43f6-a55e-cea5288e1699"   
+[Network Analyzer (62a8:51b8)]   (Sid: 88) Client -> Server @ : 839 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 88) Server -> Client : 3710 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:3edc)]   (Sid: 89) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (62a8:48e4)]   (Sid: 90) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (62a8:4c08)]   (Sid: 91) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 108.177.122.94:443   (Service=)  (Sid= 92)  PROXIED!
+[Network Analyzer (62a8:48e4)]   (Sid: 90) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (62a8:51b8)] "GET /v1/pages/ChVDaHJvbWUvMTI0LjAuNjM2Ny4xNTYSIAkHTLnezRl6kxIFDXhvEhkSBQ3OQUx6IZezSCcjQMgdEhkJlOfjJBzoxMASBQ02FwGEIXKG5jWWqeM-?alt=proto"   
+[Network Analyzer (62a8:51b8)]   (Sid: 86) Client -> Server @ : 586 bytes (SSL)(Service=HTTP)
+[Net An. Error    (62a8:3edc)] SSLAccept(ssl_id = 2421324842960 = 00000233C23507D0) Failed, ctx = 00000233C23AAC30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (62a8:4c08)] SSLAccept(ssl_id = 2421335637872 = 00000233C2D9BF70) Failed, ctx = 00000233C23AAC30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Web Request      (62a8:51b8)] "PUT /api/user/order/aae8e865-919e-43f6-a55e-cea5288e1699/confirmed-evt"   
+[Net An. Error    (62a8:3edc)]   (Sid: 89) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (62a8:4c08)]   (Sid: 91) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8:51b8)]   (Sid: 88) Client -> Server @ : 907 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 86) Server -> Client : 524 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 108.177.122.94:443   (Service=)  (Sid= 93)  PROXIED!
+[Network Analyzer (62a8:51b8)]   (Sid: 88) Server -> Client : 710 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:4354)]   (Sid: 92) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (62a8:4354)]   (Sid: 92) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (62a8:51b8)] "POST /domainreliability/upload"   
+[Network Analyzer (62a8:51b8)]   (Sid: 92) Client -> Server @ : 941 bytes (SSL)(Service=HTTP)
+[Web Request      (62a8:51b8)] "GET /api/user/order/aae8e865-919e-43f6-a55e-cea5288e1699/refresh-delivery-eta/4545"   
+[Network Analyzer (62a8:51b8)]   (Sid: 88) Client -> Server @ : 865 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:3510)]   (Sid: 93) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (62a8:51b8)]   (Sid: 92) Server -> Client : 1154 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:3510)]   (Sid: 93) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (62a8:51b8)] "POST /domainreliability/upload"   
+[Network Analyzer (62a8:51b8)]   (Sid: 92) Client -> Server @ : 943 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8: e08)] Address lookup for LalitoPC = 192.168.56.1
+[Network Analyzer (62a8:51b8)]   (Sid: 88) Server -> Client : 1641 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8: e08)] Request Connection: Remote Server @ 192.178.56.163:443   (Service=)  (Sid= 94)  PROXIED!
+[Network Analyzer (62a8:51b8)]   (Sid: 92) Server -> Client : 1197 bytes (SSL) (Service=HTTP)
+[Network Analyzer (62a8:4404)]   (Sid: 94) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (62a8:4404)] SSLAccept(ssl_id = 2421335697392 = 00000233C2DAA7F0) Failed, ctx = 00000233C23AAC30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (62a8:4404)]   (Sid: 94) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (62a8:51b8)]   (Sid: 89) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 91) Connection Terminated (by Client)
+[Network Analyzer (62a8:51b8)]   (Sid: 94) Connection Terminated (by Client)
+[Web Request      (62a8:51b8)] "GET /webpushr-sw.js"   
+[Network Analyzer (62a8:51b8)]   (Sid: 88) Client -> Server @ : 718 bytes (SSL)(Service=HTTP)
+[Network Analyzer (62a8:51b8)]   (Sid: 88) Server -> Client : 188 bytes (SSL) (Service=HTTP)

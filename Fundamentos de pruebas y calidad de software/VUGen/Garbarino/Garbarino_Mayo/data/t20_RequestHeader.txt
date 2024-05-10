@@ -1,0 +1,17 @@
+GET /api/checkout/init? HTTP/1.1
+Host: www.garbarino.com
+Connection: keep-alive
+sec-ch-ua: "Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.garbarino.com/checkout/init
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: es-419,es;q=0.9
+Cookie: user-token=2b2faedf21a8f7e1f37a73f4c435f749e9202092; cart=07f658e310c1917f7d9db43e46b6a2cd0b47165d
+

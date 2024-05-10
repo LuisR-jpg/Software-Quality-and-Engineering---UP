@@ -1,17 +1,15 @@
 HTTP/2.0 200
 Status: 200
-p3p: policyref="https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml", CP="CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
-timing-allow-origin: *
-cross-origin-resource-policy: cross-origin
-date: Fri, 12 Apr 2024 04:01:18 GMT
-pragma: no-cache
-expires: Fri, 01 Jan 1990 00:00:00 GMT
-cache-control: no-cache, must-revalidate
-content-type: text/html; charset=UTF-8
-x-content-type-options: nosniff
-content-encoding: br
-server: cafe
-content-length: 16
-x-xss-protection: 0
-alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+server: nginx/1.18.0 (Ubuntu)
+date: Fri, 10 May 2024 03:23:59 GMT
+content-type: application/json; charset=utf-8
+content-length: 59
+x-powered-by: Express
+access-control-allow-credentials: true
+access-control-allow-origin: https://www.garbarino.com
+access-control-allow-methods: GET,PUT,POST,DELETE,UPDATE,OPTIONS
+access-control-allow-headers: Origin, X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept
+set-cookie: user-token=0f54f05645ac9f1ab49ed9004c4367bb5edc116f; Max-Age=7776000; Path=/; Expires=Thu, 08 Aug 2024 03:23:59 GMT; HttpOnly
+cache-control: no-store
+etag: W/"3b-hwYPCLRF/OF0fTdusJJugnqi9so"
 
