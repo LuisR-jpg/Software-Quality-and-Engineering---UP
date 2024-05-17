@@ -1,13 +1,16 @@
 [t1]
-SnapshotXmlFile=snapshot_1.xml
+SnapshotXmlFile=snapshot_2.xml
 ContentType=application/json
-StepName=Url: warn
-Total=1
+StepName=Custom Request: PostRequest
+Total=2
 FileName1=t1.json
+FileName2=t1_0_.json
 RequestHeaderFile=t1_RequestHeader.txt
+SaveSnapshotResources=1
 ResponseHeaderFile=t1_ResponseHeader.txt
-RawStepEndTime=1715913070591
-RawStepName=warn
+RawStepEndTime=1715984073914
+RawStepName=PostRequest
 RequestBodyFile=t1_RequestBody.txt
-RawStepStartTime=1715913070205
-URL1=http://40.233.6.50/misc/
+RawStepStartTime=1715984073833
+URL1=https://40.233.6.50/user/login
+URL2=https://40.233.6.50/misc/

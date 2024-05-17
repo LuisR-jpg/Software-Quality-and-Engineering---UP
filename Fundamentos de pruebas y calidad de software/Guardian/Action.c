@@ -4,54 +4,54 @@
 
 Action()
 {
-
-	//web_set_sockets_option("SSL_VERSION", "AUTO");
-
-	web_url("warn", 
-		"URL=http://40.233.6.50/misc/", 
-		"TargetFrame=", 
-		"Resource=0", 
+	// IS SERVER ALIVE
+	web_url("alive", 
+		"URL=https://40.233.6.50/misc/", 
 		"RecContentType=application/json", 
-		"Referer=http://40.233.6.50/", 
 		"Snapshot=t9.inf", 
 		"Mode=HTML", 
-		LAST);
-    lr_start_transaction("Post_Request");
+		LAST
+	);
+	
+	// LOGIN
     web_reg_save_param_ex(
-        "ParamName=response", // The name of the parameter to save the response
-        "LB=",                // Left boundary, empty to capture entire response
-        "RB=",                // Right boundary, empty to capture entire response
-        //"Search=Body",        // Search in the body of the response
-        LAST);
+        "ParamName=token",
+        "LB=\"token\":\"",
+        "RB=\"}",
+        LAST
+    );
+	lr_start_transaction("login_transaction");
     web_custom_request("PostRequest",
-        "URL=http://40.233.6.50/user/login",
+        "URL=https://40.233.6.50/user/login",
         "Method=POST",
-        "TargetFrame=",
-        "Resource=0",
         "RecContentType=application/json",
-        "Referer=http://40.233.6.50/",
         "Mode=HTML",
         "EncType=application/json",
         "Body={ \"username\": \"canidodis\", \"password\": \"canidodat\" }",
-        LAST);
-
-    lr_end_transaction("Post_Request", LR_AUTO);
-    lr_output_message("Response: %s", lr_eval_string("{response}"));
-	lr_start_transaction("Post_Request_Transaction");
-	
+        LAST
+    );
+    lr_end_transaction("login_transaction", LR_AUTO);
+    lr_output_message("Captured token: %s", lr_eval_string("{token}"));
+    
+    //	LIST CREDENTIALS USING TOKEN
+   	web_reg_save_param_ex(
+    	"ParamName=list",
+    	"LB=",
+    	"RB=",
+    	LAST
+    );
+	lr_start_transaction("list_transaction");
+	web_reg_find("Text=\"success\":true", LAST);
+	web_add_header("Authorization", "Bearer {token}");
     web_custom_request("PostRequest",
-        "URL=http://40.233.6.50/user/questions",
+        "URL=https://40.233.6.50/credential/",
         "Method=GET",
-        "TargetFrame=",
-        "Resource=0",
         "RecContentType=application/json",
-        "Referer=",
         "Mode=HTML",
         "EncType=application/json",
-        LAST);
-
-    lr_end_transaction("Post_Request_Transaction", LR_AUTO);
-    
-    
+        LAST
+    );
+	lr_end_transaction("list_transaction", LR_AUTO);
+	lr_output_message("Fetched list: %s", lr_eval_string("{list}"));
 	return 0;
 }

@@ -2635,55 +2635,57 @@ vuser_init()
 
 Action()
 {
-
 	 
-
-	web_url("warn", 
-		"URL=http://40.233.6.50/misc/", 
-		"TargetFrame=", 
-		"Resource=0", 
+	web_url("alive", 
+		"URL=https://40.233.6.50/misc/", 
 		"RecContentType=application/json", 
-		"Referer=http://40.233.6.50/", 
 		"Snapshot=t9.inf", 
 		"Mode=HTML", 
-		"LAST");
-    lr_start_transaction("Post_Request");
+		"LAST"
+	);
+	
+	 
     web_reg_save_param_ex(
-        "ParamName=response",  
-        "LB=",                 
-        "RB=",                 
-         
-        "LAST");
+        "ParamName=token",
+        "LB=\"token\":\"",
+        "RB=\"}",
+        "LAST"
+    );
+	lr_start_transaction("login_transaction");
     web_custom_request("PostRequest",
-        "URL=http://40.233.6.50/user/login",
+        "URL=https://40.233.6.50/user/login",
         "Method=POST",
-        "TargetFrame=",
-        "Resource=0",
         "RecContentType=application/json",
-        "Referer=http://40.233.6.50/",
         "Mode=HTML",
         "EncType=application/json",
         "Body={ \"username\": \"canidodis\", \"password\": \"canidodat\" }",
-        "LAST");
-
-    lr_end_transaction("Post_Request", 2);
-    lr_output_message("Response: %s", lr_eval_string("{response}"));
-	lr_start_transaction("Post_Request_Transaction");
-	
+        "LAST"
+    );
+    lr_end_transaction("login_transaction", 2);
+    lr_output_message("Captured token: %s", lr_eval_string("{token}"));
+    
+     
+   	web_reg_save_param_ex(
+    	"ParamName=list",
+    	"LB=",
+    	"RB=",
+    	"LAST"
+    );
+	lr_start_transaction("list_transaction");
+	web_reg_find("Text=\"success\":true", "LAST");
+	web_add_header("Authorization", "Bearer {token}");
     web_custom_request("PostRequest",
-        "URL=http://40.233.6.50/user/questions",
+        "URL=https://40.233.6.50/credential/",
         "Method=GET",
-        "TargetFrame=",
-        "Resource=0",
         "RecContentType=application/json",
-        "Referer=",
         "Mode=HTML",
         "EncType=application/json",
-        "LAST");
-
-    lr_end_transaction("Post_Request_Transaction", 2);
-    
-    
+        "LAST"
+    );
+	lr_end_transaction("list_transaction", 2);
+	 
+# 64 "Action.c"
+	lr_output_message("Fetched list: %s", lr_eval_string("{list}"));
 	return 0;
 }
 # 5 "c:\\users\\lalor\\documents\\git\\software-quality-and-engineering---up\\fundamentos de pruebas y calidad de software\\guardian\\\\combined_Guardian.c" 2
