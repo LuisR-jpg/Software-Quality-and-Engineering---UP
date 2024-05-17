@@ -1,0 +1,37 @@
+Virtual User Script started at: 16/05/2024 08:31:10 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2024.1.0 for Windows 11; build 667 (Feb 07 2024 17:45:41)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\lalor\Documents\Git\Software-Quality-and-Engineering---UP\Fundamentos de pruebas y calidad de software\Guardian\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(10): web_url("warn") started  	[MsgId: MMSG-26355]
+Action.c(10): web_url("warn") was successful, 45 body bytes, 163 header bytes  	[MsgId: MMSG-26386]
+Action.c(19): Notify: Transaction "Post_Request" started.
+Action.c(20): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(20): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(26): web_custom_request("PostRequest") started  	[MsgId: MMSG-26355]
+Action.c(26): web_custom_request("PostRequest") was successful, 165 body bytes, 164 header bytes  	[MsgId: MMSG-26386]
+Action.c(38): Notify: Transaction "Post_Request" ended with a "Pass" status (Duration: 0.1788 Wasted Time: 0.0040).
+Action.c(39): Response: HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 17 May 2024 02:31:10 GMT
+Content-Type: application/json
+Content-Length: 165
+Connection: keep-alive
+
+{"success":true,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MTU5MTMwNzAsImV4cCI6MTcxNTkxMzY3MCwiSUQiOjh9.cmm5IOALyXvrGrPC99t4dMfLXpAnYKhQyq2BVbjkHZ0"}
+Action.c(40): Notify: Transaction "Post_Request_Transaction" started.
+Action.c(42): web_custom_request("PostRequest") started  	[MsgId: MMSG-26355]
+Action.c(42): web_custom_request("PostRequest") was successful, 552 body bytes, 164 header bytes  	[MsgId: MMSG-26386]
+Action.c(53): Notify: Transaction "Post_Request_Transaction" ended with a "Pass" status (Duration: 1.4100 Wasted Time: 0.0036).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

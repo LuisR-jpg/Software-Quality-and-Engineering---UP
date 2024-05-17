@@ -1,0 +1,353 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-goog-update-updater",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-goog-update-interactivity",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-goog-update-appid",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-goog-api-key",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-client-data",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-user",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua-platform",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua-mobile",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "pragma",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/x-protobuf"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 12,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "may.-17-2024",
+    "RecordingDuration": 33922,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1715911401,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 4427146,
+    "TotalBytesSent": 10986,
+    "TotalRequests": 17,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "gstatic.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.3.131",
+          "IncludeInScript": true,
+          "Name": "www.gstatic.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 46,
+              "EventId": 80,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "http://www.gstatic.com/generate_204"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "192.178.52.202",
+          "IncludeInScript": true,
+          "Name": "www.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 94,
+              "EventId": 1880,
+              "HttpStatus": 200,
+              "Size": 66828,
+              "URL": "https://www.googleapis.com/affiliation/v1/affiliation:lookupByHashPrefix?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "192.178.56.3",
+          "IncludeInScript": true,
+          "Name": "update.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 94,
+              "EventId": 43,
+              "HttpStatus": 200,
+              "Size": 438,
+              "URL": "https://update.googleapis.com/service/update2/json?cup2key=14:bbho9nDLy_7bqkZdZPB0qg00KsiH7S4zMjr2G3YFvks&cup2hreq=c8e52cb50da441daa74f51b1d9985ae26adb55a51817409a695c4d99d3732bad"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "192.178.52.234",
+          "IncludeInScript": true,
+          "Name": "optimizationguide-pa.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 250,
+              "EventId": 863,
+              "HttpStatus": 200,
+              "Size": 1463571,
+              "URL": "https://optimizationguide-pa.googleapis.com/downloads?name=1689043206&target=OPTIMIZATION_TARGET_VISUAL_SEARCH_CLASSIFICATION"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 93,
+              "EventId": 304,
+              "HttpStatus": 200,
+              "Size": 3844,
+              "URL": "https://optimizationguide-pa.googleapis.com/downloads?name=1691042511&target=OPTIMIZATION_TARGET_NEW_TAB_PAGE_HISTORY_CLUSTERS_MODULE_RANKING"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 94,
+              "EventId": 118,
+              "HttpStatus": 200,
+              "Size": 2747169,
+              "URL": "https://optimizationguide-pa.googleapis.com/downloads?name=1713798275&target=OPTIMIZATION_TARGET_CLIENT_SIDE_PHISHING"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 156,
+              "EventId": 82,
+              "HttpStatus": 200,
+              "Size": 45166,
+              "URL": "https://optimizationguide-pa.googleapis.com/downloads?name=1714402993&target=OPTIMIZATION_TARGET_GEOLOCATION_PERMISSION_PREDICTIONS"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 70,
+              "HttpStatus": 403,
+              "Size": 30349,
+              "URL": "https://optimizationguide-pa.googleapis.com/downloads?name=5&target=OPTIMIZATION_TARGET_PAGE_TOPICS_V2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 203,
+              "EventId": 66,
+              "HttpStatus": 200,
+              "Size": 5154,
+              "URL": "https://optimizationguide-pa.googleapis.com/downloads?name=1714403013&target=OPTIMIZATION_TARGET_NOTIFICATION_PERMISSION_PREDICTIONS"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 94,
+              "EventId": 40,
+              "HttpStatus": 200,
+              "Size": 2049,
+              "URL": "https://optimizationguide-pa.googleapis.com/v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "40.233.6.50",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "40.233.6.50",
+          "IncludeInScript": true,
+          "Name": "40.233.6.50",
+          "Port": 8010,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 63,
+              "EventId": 1877,
+              "HttpStatus": 303,
+              "Size": 306,
+              "URL": "https://40.233.6.50:8010/warn?fblob=SE-ymIDNhdTkSUaiZNn5peqZpj-_8yzF84Ptu_ka4op58SYiAqw58-S2ngDnpbHYGH-59imJ1n81-wGDE3MMbb-WyDLtjg..&uri=/misc"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 15,
+              "EventId": 1861,
+              "HttpStatus": 303,
+              "Size": 306,
+              "URL": "https://40.233.6.50:8010/warn?fblob=SE-ymIDNhdTkSUaiZNn5peqZpj-_8yzF84Ptu_ka4op58SYiAqw58-S2ngDnpbHYGH-59imJ1n81-wGDE3MMbb-WyDLtjg..&uri=/misc"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "40.233.6.50",
+          "IncludeInScript": true,
+          "Name": "40.233.6.50",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 110,
+              "EventId": 1910,
+              "HttpStatus": 404,
+              "Size": 207,
+              "URL": "http://40.233.6.50/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 110,
+              "EventId": 1908,
+              "HttpStatus": 200,
+              "Size": 45,
+              "URL": "http://40.233.6.50/misc/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 93,
+              "EventId": 1906,
+              "HttpStatus": 308,
+              "Size": 235,
+              "URL": "http://40.233.6.50/misc"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 79,
+              "EventId": 38,
+              "HttpStatus": 403,
+              "Size": 30751,
+              "URL": "http://40.233.6.50/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 94,
+              "EventId": 23,
+              "HttpStatus": 403,
+              "Size": 30728,
+              "URL": "http://40.233.6.50/misc"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 0
+}

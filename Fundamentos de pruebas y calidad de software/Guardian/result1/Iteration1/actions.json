@@ -1,0 +1,41 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: warn",
+                "infFile": "t1.inf",
+                "time": 1715913070605
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Custom Request: PostRequest",
+                "infFile": "t2.inf",
+                "time": 1715913070784
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: PostRequest",
+                "infFile": "t3.inf",
+                "time": 1715913072198
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Post_Request",
+                "rawStartTime": 1715913070607,
+                "rawEndTime": 1715913070786,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003968000411987305
+            },
+            {
+                "transactionName": "Post_Request_Transaction",
+                "rawStartTime": 1715913070790,
+                "rawEndTime": 1715913072200,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0036258697509765627
+            }
+        ]
+    }
+]

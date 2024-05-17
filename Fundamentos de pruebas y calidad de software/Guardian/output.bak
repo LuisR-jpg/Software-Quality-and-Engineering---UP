@@ -1,0 +1,25 @@
+Virtual User Script started at: 16/05/2024 08:30:40 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2024.1.0 for Windows 11; build 667 (Feb 07 2024 17:45:41)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\lalor\Documents\Git\Software-Quality-and-Engineering---UP\Fundamentos de pruebas y calidad de software\Guardian\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(10): web_url("warn") started  	[MsgId: MMSG-26355]
+Action.c(10): web_url("warn") was successful, 45 body bytes, 163 header bytes  	[MsgId: MMSG-26386]
+Action.c(19): Notify: Transaction "Post_Request" started.
+Action.c(20): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(20): Error -26396: The "Search=Body" argument (number 4) is unrecognized or misplaced  	[MsgId: MERR-26396]
+Action.c(20): Registering web_reg_save_param_ex highest severity level was "ERROR"  	[MsgId: MMSG-26389]
+Action.c(20): Notify: Transaction "Post_Request" ended with a "Fail" status (Duration: 0.0040).
+Action.c(20): Notify: Transaction "Post_Request" has 0 error message(s).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
