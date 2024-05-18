@@ -6,143 +6,143 @@
                 "stepId": "STEP1",
                 "stepName": "Custom Request: c",
                 "infFile": "t1.inf",
-                "time": 1716012893356
+                "time": 1716042516173
             },
             {
                 "stepId": "STEP2",
                 "stepName": "Custom Request: e",
                 "infFile": "t2.inf",
-                "time": 1716012893677
+                "time": 1716042516536
             },
             {
                 "stepId": "STEP3",
                 "stepName": "Custom Request: f",
                 "infFile": "t3.inf",
-                "time": 1716012893854
+                "time": 1716042516741
             },
             {
                 "stepId": "STEP4",
                 "stepName": "Custom Request: g",
                 "infFile": "t4.inf",
-                "time": 1716012894029
+                "time": 1716042516965
             },
             {
                 "stepId": "STEP5",
                 "stepName": "Custom Request: j",
                 "infFile": "t5.inf",
-                "time": 1716012894541
+                "time": 1716042517548
             },
             {
                 "stepId": "STEP6",
                 "stepName": "Custom Request: l",
                 "infFile": "t6.inf",
-                "time": 1716012894914
+                "time": 1716042517998
             },
             {
                 "stepId": "STEP7",
                 "stepName": "Custom Request: m",
                 "infFile": "t7.inf",
-                "time": 1716012895237
+                "time": 1716042518419
             }
         ],
         "transactions": [
             {
-                "transactionName": "a_transaction",
-                "rawStartTime": 1716012892566,
-                "rawEndTime": 1716012893035,
+                "transactionName": "Whole_workflow_01-Alive",
+                "rawStartTime": 1716042515232,
+                "rawEndTime": 1716042515778,
                 "thinkTime": 0.0,
-                "wastedTime": 0.06031322479248047
+                "wastedTime": 0.10174942016601563
             },
             {
-                "transactionName": "b_transaction",
-                "rawStartTime": 1716012893050,
-                "rawEndTime": 1716012893191,
+                "transactionName": "Whole_workflow_02-Questions",
+                "rawStartTime": 1716042515810,
+                "rawEndTime": 1716042515949,
                 "thinkTime": 0.0,
-                "wastedTime": 0.004411458969116211
+                "wastedTime": 0.005758762359619141
             },
             {
-                "transactionName": "c_transaction",
-                "rawStartTime": 1716012893207,
-                "rawEndTime": 1716012893362,
+                "transactionName": "Whole_workflow_03-Create",
+                "rawStartTime": 1716042516010,
+                "rawEndTime": 1716042516181,
                 "thinkTime": 0.0,
-                "wastedTime": 0.005095720291137695
+                "wastedTime": 0.008231878280639649
             },
             {
-                "transactionName": "d_transaction",
-                "rawStartTime": 1716012893379,
-                "rawEndTime": 1716012893517,
+                "transactionName": "Whole_workflow_04-User-Questions",
+                "rawStartTime": 1716042516212,
+                "rawEndTime": 1716042516352,
                 "thinkTime": 0.0,
-                "wastedTime": 0.005608797073364258
+                "wastedTime": 0.010059356689453125
             },
             {
-                "transactionName": "e_transaction",
-                "rawStartTime": 1716012893532,
-                "rawEndTime": 1716012893687,
+                "transactionName": "Whole_workflow_05-Update-Password",
+                "rawStartTime": 1716042516383,
+                "rawEndTime": 1716042516539,
                 "thinkTime": 0.0,
-                "wastedTime": 0.0029871463775634767
+                "wastedTime": 0.0052525997161865238
             },
             {
-                "transactionName": "f_transaction",
-                "rawStartTime": 1716012893719,
-                "rawEndTime": 1716012893860,
+                "transactionName": "Whole_workflow_06-Login",
+                "rawStartTime": 1716042516585,
+                "rawEndTime": 1716042516756,
                 "thinkTime": 0.0,
-                "wastedTime": 0.0030906200408935549
+                "wastedTime": 0.006598711013793945
             },
             {
-                "transactionName": "g_transaction",
-                "rawStartTime": 1716012893892,
-                "rawEndTime": 1716012894031,
+                "transactionName": "Whole_workflow_07-Create-Credential",
+                "rawStartTime": 1716042516802,
+                "rawEndTime": 1716042516972,
                 "thinkTime": 0.0,
-                "wastedTime": 0.0032045841217041017
+                "wastedTime": 0.010275602340698243
             },
             {
-                "transactionName": "h_transaction",
-                "rawStartTime": 1716012894063,
-                "rawEndTime": 1716012894202,
+                "transactionName": "Whole_workflow_08-List",
+                "rawStartTime": 1716042517019,
+                "rawEndTime": 1716042517159,
                 "thinkTime": 0.0,
-                "wastedTime": 0.003229379653930664
+                "wastedTime": 0.00648045539855957
             },
             {
-                "transactionName": "i_transaction",
-                "rawStartTime": 1716012894217,
-                "rawEndTime": 1716012894357,
+                "transactionName": "Whole_workflow_09-Search",
+                "rawStartTime": 1716042517190,
+                "rawEndTime": 1716042517329,
                 "thinkTime": 0.0,
-                "wastedTime": 0.003298044204711914
+                "wastedTime": 0.007508754730224609
             },
             {
-                "transactionName": "j_transaction",
-                "rawStartTime": 1716012894403,
-                "rawEndTime": 1716012894543,
+                "transactionName": "Whole_workflow_10-Update-credential",
+                "rawStartTime": 1716042517392,
+                "rawEndTime": 1716042517563,
                 "thinkTime": 0.0,
-                "wastedTime": 0.0029609203338623049
+                "wastedTime": 0.008661508560180664
             },
             {
-                "transactionName": "k_transaction",
-                "rawStartTime": 1716012894590,
-                "rawEndTime": 1716012894730,
+                "transactionName": "Whole_workflow_11-Get-credential",
+                "rawStartTime": 1716042517624,
+                "rawEndTime": 1716042517765,
                 "thinkTime": 0.0,
-                "wastedTime": 0.002888917922973633
+                "wastedTime": 0.005826473236083984
             },
             {
-                "transactionName": "l_transaction",
-                "rawStartTime": 1716012894776,
-                "rawEndTime": 1716012894929,
+                "transactionName": "Whole_workflow_12-Delete-credential",
+                "rawStartTime": 1716042517827,
+                "rawEndTime": 1716042518013,
                 "thinkTime": 0.0,
-                "wastedTime": 0.0030808448791503908
+                "wastedTime": 0.005484819412231445
             },
             {
-                "transactionName": "m_transaction",
-                "rawStartTime": 1716012894944,
-                "rawEndTime": 1716012895084,
+                "transactionName": "Whole_workflow_13-Export",
+                "rawStartTime": 1716042518044,
+                "rawEndTime": 1716042518229,
                 "thinkTime": 0.0,
-                "wastedTime": 0.0033981800079345705
+                "wastedTime": 0.005747318267822266
             },
             {
-                "transactionName": "n_transaction",
-                "rawStartTime": 1716012895099,
-                "rawEndTime": 1716012895253,
+                "transactionName": "Whole_workflow_14-Delete-account",
+                "rawStartTime": 1716042518261,
+                "rawEndTime": 1716042518429,
                 "thinkTime": 0.0,
-                "wastedTime": 0.0029714107513427736
+                "wastedTime": 0.005647182464599609
             }
         ]
     }
