@@ -2635,46 +2635,117 @@ vuser_init()
 
 Action()
 {
+	char url[250];
+	
 	 
-	web_url("alive", 
-		"URL=https://40.233.6.50/misc/", 
+	lr_start_transaction("a_transaction");
+	web_reg_find("Text=\"success\":true", "LAST");
+	web_url("a",
+	    "URL=https://40.233.6.50/misc/",
 		"RecContentType=application/json", 
-		"Snapshot=t9.inf", 
 		"Mode=HTML", 
 		"LAST"
 	);
+	lr_end_transaction("a_transaction", 2);
 	
 	 
-    web_reg_save_param_ex(
+	lr_start_transaction("b_transaction");
+	web_reg_find("Text=\"success\":true", "LAST");
+	web_url("b", 
+		"URL=https://40.233.6.50/user/questions", 
+		"RecContentType=application/json", 
+		"Mode=HTML", 
+		"LAST"
+	);
+	lr_end_transaction("b_transaction", 2);
+	
+	 
+	lr_start_transaction("c_transaction");
+	web_reg_find("Text=\"success\":true", "LAST");
+    web_custom_request("c",
+        "URL=https://40.233.6.50/user/",
+        "Method=POST",
+        "RecContentType=application/json",
+        "Mode=HTML",
+        "EncType=application/json",
+        "Body={\"username\": \"loadrunner\", \"password\": \"vugen\", \"email\": \"loadrunner@gmail.com\", \"questions\": [{\"id\": \"1\", \"answer\": \"Melbourne\"}, {\"id\": \"2\", \"answer\": \"Cookie\"}]}",
+        "LAST"
+    );
+	lr_end_transaction("c_transaction", 2);
+	
+	 
+	lr_start_transaction("d_transaction");
+	web_reg_find("Text=\"success\":true", "LAST");
+	web_url("d", 
+		"URL=https://40.233.6.50/user/questions?user=loadrunner", 
+		"RecContentType=application/json", 
+		"Mode=HTML", 
+		"LAST"
+	);
+	lr_end_transaction("d_transaction", 2);
+	
+	 
+	lr_start_transaction("e_transaction");
+	web_reg_find("Text=\"success\":true", "LAST");
+	web_custom_request("e",
+        "URL=https://40.233.6.50/user/password",
+        "Method=PUT",
+        "RecContentType=application/json",
+        "Mode=HTML",
+        "EncType=application/json",
+        "Body={\"email\": \"loadrunner@gmail.com\", \"old_password\": \"vugen\", \"new_password\": \"loadrunner\"}",
+        "LAST"
+    );
+	lr_end_transaction("e_transaction", 2);
+	
+	 
+	web_reg_save_param_ex(
         "ParamName=token",
         "LB=\"token\":\"",
         "RB=\"}",
         "LAST"
     );
-	lr_start_transaction("login_transaction");
-    web_custom_request("PostRequest",
+	lr_start_transaction("f_transaction");
+	web_reg_find("Text=\"success\":true", "LAST");
+    web_custom_request("f",
         "URL=https://40.233.6.50/user/login",
         "Method=POST",
         "RecContentType=application/json",
         "Mode=HTML",
         "EncType=application/json",
-        "Body={ \"username\": \"canidodis\", \"password\": \"canidodat\" }",
+        "Body={ \"username\": \"loadrunner\", \"password\": \"loadrunner\" }",
         "LAST"
     );
-    lr_end_transaction("login_transaction", 2);
-    lr_output_message("Captured token: %s", lr_eval_string("{token}"));
+	lr_end_transaction("f_transaction", 2);
+	
+	web_add_auto_header("Authorization", "Bearer {token}");
+	
+	 
+	lr_start_transaction("g_transaction");
+	web_reg_find("Text=\"success\":true", "LAST");
+	 
+	web_custom_request("g",
+        "URL=https://40.233.6.50/credential/",
+        "Method=POST",
+        "RecContentType=application/json",
+        "Mode=HTML",
+        "EncType=application/json",
+        "Body={\"cred_name\": \"DEV_Guardian\", \"cred_username\": \"guardian\", \"cred_password\": \"guardian_pwd\", \"cred_url\": \"guardian.com\", \"cred_comment\": \"This is my password for guardian.\"}",
+        "LAST"
+    );
+	lr_end_transaction("g_transaction", 2);
     
      
-   	web_reg_save_param_ex(
-    	"ParamName=list",
-    	"LB=",
-    	"RB=",
-    	"LAST"
+    web_reg_save_param_ex(
+        "ParamName=credential_id",
+        "LB=\"ID\":",
+        "RB=}]",
+        "LAST"
     );
-	lr_start_transaction("list_transaction");
-	web_reg_find("Text=\"success\":true", "LAST");
-	web_add_header("Authorization", "Bearer {token}");
-    web_custom_request("PostRequest",
+    lr_start_transaction("h_transaction");
+    web_reg_find("Text=\"success\":true", "LAST");
+	 
+    web_custom_request("h",
         "URL=https://40.233.6.50/credential/",
         "Method=GET",
         "RecContentType=application/json",
@@ -2682,10 +2753,102 @@ Action()
         "EncType=application/json",
         "LAST"
     );
-	lr_end_transaction("list_transaction", 2);
+	lr_end_transaction("h_transaction", 2);
+	
 	 
-# 64 "Action.c"
-	lr_output_message("Fetched list: %s", lr_eval_string("{list}"));
+	lr_start_transaction("i_transaction");
+	web_reg_find("Text=\"success\":true", "LAST");
+	 
+    web_custom_request("i",
+        "URL=https://40.233.6.50/credential/ZGV2",  
+        "Method=GET",
+        "RecContentType=application/json",
+        "Mode=HTML",
+        "EncType=application/json",
+        "LAST"
+    );
+	lr_end_transaction("i_transaction", 2);
+	
+
+	 
+	strcpy(url, "URL=https://40.233.6.50/credential/");
+	strcat(url, "{credential_id}");
+	lr_start_transaction("j_transaction");
+	web_reg_find("Text=\"success\":true", "LAST");
+	 
+	web_custom_request("j",
+        url,
+        "Method=PUT",
+        "RecContentType=application/json",
+        "Mode=HTML",
+        "EncType=application/json",
+        "Body={\"cred_name\": \"DEV_Guardian\", \"cred_username\": \"guardian\", \"cred_password\": \"guardian_pwd\", \"cred_url\": \"guardian.com\", \"cred_comment\": \"UPDATED THIS CREDENTIAL.\"}",
+        "LAST"
+    );
+	lr_end_transaction("j_transaction", 2);
+
+	 
+	strcpy(url, "URL=https://40.233.6.50/credential/");
+	strcat(url, "{credential_id}");
+	lr_start_transaction("k_transaction");
+	web_reg_find("Text=\"success\":true", "LAST");
+	 
+    web_custom_request("k",
+        url,
+        "Method=GET",
+        "RecContentType=application/json",
+        "Mode=HTML",
+        "EncType=application/json",
+        "LAST"
+    );
+	lr_end_transaction("k_transaction", 2);
+
+	 
+	strcpy(url, "URL=https://40.233.6.50/credential/");
+	strcat(url, "{credential_id}");
+	lr_start_transaction("l_transaction");
+	web_reg_find("Text=\"success\":true", "LAST");
+	 
+    web_custom_request("l",
+        url,
+        "Method=DELETE",
+        "RecContentType=application/json",
+        "Mode=HTML",
+        "EncType=application/json",
+        "LAST"
+    );
+	lr_end_transaction("l_transaction", 2);
+
+	 
+	lr_start_transaction("m_transaction");
+	web_reg_find("Text=\"success\":true", "LAST");
+	 
+    web_custom_request("m",
+        "URL=https://40.233.6.50/credential/export",
+        "Method=GET",
+        "RecContentType=application/json",
+        "Mode=HTML",
+        "EncType=application/json",
+        "LAST"
+    );
+	lr_end_transaction("m_transaction", 2);
+
+	 
+	lr_start_transaction("n_transaction");
+	web_reg_find("Text=\"success\":true", "LAST");
+	 
+    web_custom_request("m",
+        "URL=https://40.233.6.50/user/",
+        "Method=DELETE",
+        "RecContentType=application/json",
+        "Mode=HTML",
+        "EncType=application/json",
+        "LAST"
+    );
+	lr_end_transaction("n_transaction", 2);
+	
+	web_remove_auto_header("Authorization", "ImplicitGen=Yes");
+	
 	return 0;
 }
 # 5 "c:\\users\\lalor\\documents\\git\\software-quality-and-engineering---up\\fundamentos de pruebas y calidad de software\\guardian\\\\combined_Guardian.c" 2

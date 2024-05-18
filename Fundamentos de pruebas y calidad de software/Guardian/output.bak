@@ -1,4 +1,4 @@
-Virtual User Script started at: 17/05/2024 04:14:15 PM
+Virtual User Script started at: 18/05/2024 12:11:18 AM
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 2024.1.0 for Windows 11; build 667 (Feb 07 2024 17:45:41)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -9,29 +9,132 @@ Running Vuser...
 Starting iteration 1.
 Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
 Starting action Action.
-Action.c(8): web_url("alive") started  	[MsgId: MMSG-26355]
-Action.c(8): web_url("alive") was successful, 45 body bytes, 163 header bytes  	[MsgId: MMSG-26386]
-Action.c(17): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
-Action.c(17): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
-Action.c(23): Notify: Transaction "login_transaction" started.
-Action.c(24): web_custom_request("PostRequest") started  	[MsgId: MMSG-26355]
-Action.c(24): web_custom_request("PostRequest") was successful, 165 body bytes, 164 header bytes  	[MsgId: MMSG-26386]
-Action.c(33): Notify: Transaction "login_transaction" ended with a "Pass" status (Duration: 0.1074 Wasted Time: 0.0051).
-Action.c(34): Captured token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MTU5ODQwNTUsImV4cCI6MTcxNTk4NDY1NSwiSUQiOjh9.H3sqtuSjdL8hx_eQxC-BEljaK8MSwoZjOEFgz_n6w-U
-Action.c(37): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
-Action.c(37): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
-Action.c(43): Notify: Transaction "list_transaction" started.
-Action.c(44): web_reg_find started  	[MsgId: MMSG-26355]
-Action.c(44): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
-Action.c(45): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
-Action.c(45): Warning -26593: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26593]
-Action.c(45): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
-Action.c(46): web_custom_request("PostRequest") started  	[MsgId: MMSG-26355]
-Action.c(46): Error -26366: "Text="sucajajacess":true" not found for web_reg_find  	[MsgId: MERR-26366]
-Action.c(46): web_custom_request("PostRequest") highest severity level was "ERROR", 306 body bytes, 164 header bytes  	[MsgId: MMSG-26388]
-Action.c(46): Notify: Transaction "list_transaction" ended with a "Fail" status (Duration: 0.1263 Wasted Time: 0.0033).
-Action.c(46): Notify: Transaction "list_transaction" has 1 error message(s).
-Action.c(46): Notify: The 1st error message associated with transaction "list_transaction" is "Error -26366: "Text="sucajajacess":true" not found for web_reg_find"
+Action.c(10): Notify: Transaction "a_transaction" started.
+Action.c(11): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(11): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(12): web_url("a") started  	[MsgId: MMSG-26355]
+Action.c(12): Registered web_reg_find successful for "Text="success":true" (count=1)  	[MsgId: MMSG-26364]
+Action.c(12): web_url("a") was successful, 45 body bytes, 163 header bytes  	[MsgId: MMSG-26386]
+Action.c(18): Notify: Transaction "a_transaction" ended with a "Pass" status (Duration: 0.5177 Wasted Time: 0.0591).
+Action.c(21): Notify: Transaction "b_transaction" started.
+Action.c(22): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(22): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(23): web_url("b") started  	[MsgId: MMSG-26355]
+Action.c(23): Registered web_reg_find successful for "Text="success":true" (count=1)  	[MsgId: MMSG-26364]
+Action.c(23): web_url("b") was successful, 552 body bytes, 164 header bytes  	[MsgId: MMSG-26386]
+Action.c(29): Notify: Transaction "b_transaction" ended with a "Pass" status (Duration: 0.1558 Wasted Time: 0.0035).
+Action.c(32): Notify: Transaction "c_transaction" started.
+Action.c(33): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(33): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(34): web_custom_request("c") started  	[MsgId: MMSG-26355]
+Action.c(34): Registered web_reg_find successful for "Text="success":true" (count=1)  	[MsgId: MMSG-26364]
+Action.c(34): web_custom_request("c") was successful, 59 body bytes, 163 header bytes  	[MsgId: MMSG-26386]
+Action.c(43): Notify: Transaction "c_transaction" ended with a "Pass" status (Duration: 0.1692 Wasted Time: 0.0044).
+Action.c(46): Notify: Transaction "d_transaction" started.
+Action.c(47): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(47): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(48): web_url("d") started  	[MsgId: MMSG-26355]
+Action.c(48): Registered web_reg_find successful for "Text="success":true" (count=1)  	[MsgId: MMSG-26364]
+Action.c(48): web_url("d") was successful, 185 body bytes, 164 header bytes  	[MsgId: MMSG-26386]
+Action.c(54): Notify: Transaction "d_transaction" ended with a "Pass" status (Duration: 0.1553 Wasted Time: 0.0058).
+Action.c(57): Notify: Transaction "e_transaction" started.
+Action.c(58): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(58): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(59): web_custom_request("e") started  	[MsgId: MMSG-26355]
+Action.c(59): Registered web_reg_find successful for "Text="success":true" (count=1)  	[MsgId: MMSG-26364]
+Action.c(59): web_custom_request("e") was successful, 81 body bytes, 163 header bytes  	[MsgId: MMSG-26386]
+Action.c(68): Notify: Transaction "e_transaction" ended with a "Pass" status (Duration: 0.1711 Wasted Time: 0.0041).
+Action.c(71): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(71): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(77): Notify: Transaction "f_transaction" started.
+Action.c(78): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(78): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(79): web_custom_request("f") started  	[MsgId: MMSG-26355]
+Action.c(79): Registered web_reg_find successful for "Text="success":true" (count=1)  	[MsgId: MMSG-26364]
+Action.c(79): web_custom_request("f") was successful, 167 body bytes, 164 header bytes  	[MsgId: MMSG-26386]
+Action.c(88): Notify: Transaction "f_transaction" ended with a "Pass" status (Duration: 0.1560 Wasted Time: 0.0042).
+Action.c(91): Notify: Transaction "g_transaction" started.
+Action.c(92): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(92): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(93): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(93): Warning -26593: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26593]
+Action.c(93): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(94): web_custom_request("g") started  	[MsgId: MMSG-26355]
+Action.c(94): Registered web_reg_find successful for "Text="success":true" (count=1)  	[MsgId: MMSG-26364]
+Action.c(94): web_custom_request("g") was successful, 17 body bytes, 163 header bytes  	[MsgId: MMSG-26386]
+Action.c(103): Notify: Transaction "g_transaction" ended with a "Pass" status (Duration: 0.1720 Wasted Time: 0.0032).
+Action.c(106): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(106): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(112): Notify: Transaction "h_transaction" started.
+Action.c(113): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(113): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(114): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(114): Warning -26593: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26593]
+Action.c(114): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(115): web_custom_request("h") started  	[MsgId: MMSG-26355]
+Action.c(115): Registered web_reg_find successful for "Text="success":true" (count=1)  	[MsgId: MMSG-26364]
+Action.c(115): web_custom_request("h") was successful, 147 body bytes, 164 header bytes  	[MsgId: MMSG-26386]
+Action.c(123): Notify: Transaction "h_transaction" ended with a "Pass" status (Duration: 0.1698 Wasted Time: 0.0040).
+Action.c(126): Notify: Transaction "i_transaction" started.
+Action.c(127): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(127): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(128): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(128): Warning -26593: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26593]
+Action.c(128): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(129): web_custom_request("i") started  	[MsgId: MMSG-26355]
+Action.c(129): Registered web_reg_find successful for "Text="success":true" (count=1)  	[MsgId: MMSG-26364]
+Action.c(129): web_custom_request("i") was successful, 147 body bytes, 164 header bytes  	[MsgId: MMSG-26386]
+Action.c(137): Notify: Transaction "i_transaction" ended with a "Pass" status (Duration: 0.1713 Wasted Time: 0.0040).
+Action.c(143): Notify: Transaction "j_transaction" started.
+Action.c(144): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(144): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(145): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(145): Warning -26593: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26593]
+Action.c(145): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(146): web_custom_request("j") started  	[MsgId: MMSG-26355]
+Action.c(146): Registered web_reg_find successful for "Text="success":true" (count=1)  	[MsgId: MMSG-26364]
+Action.c(146): web_custom_request("j") was successful, 17 body bytes, 163 header bytes  	[MsgId: MMSG-26386]
+Action.c(155): Notify: Transaction "j_transaction" ended with a "Pass" status (Duration: 0.1715 Wasted Time: 0.0044).
+Action.c(160): Notify: Transaction "k_transaction" started.
+Action.c(161): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(161): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(162): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(162): Warning -26593: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26593]
+Action.c(162): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(163): web_custom_request("k") started  	[MsgId: MMSG-26355]
+Action.c(163): Registered web_reg_find successful for "Text="success":true" (count=1)  	[MsgId: MMSG-26364]
+Action.c(163): web_custom_request("k") was successful, 203 body bytes, 164 header bytes  	[MsgId: MMSG-26386]
+Action.c(171): Notify: Transaction "k_transaction" ended with a "Pass" status (Duration: 0.1718 Wasted Time: 0.0036).
+Action.c(176): Notify: Transaction "l_transaction" started.
+Action.c(177): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(177): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(178): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(178): Warning -26593: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26593]
+Action.c(178): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(179): web_custom_request("l") started  	[MsgId: MMSG-26355]
+Action.c(179): Registered web_reg_find successful for "Text="success":true" (count=1)  	[MsgId: MMSG-26364]
+Action.c(179): web_custom_request("l") was successful, 17 body bytes, 163 header bytes  	[MsgId: MMSG-26386]
+Action.c(187): Notify: Transaction "l_transaction" ended with a "Pass" status (Duration: 0.1699 Wasted Time: 0.0039).
+Action.c(190): Notify: Transaction "m_transaction" started.
+Action.c(191): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(191): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(192): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(192): Warning -26593: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26593]
+Action.c(192): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(193): web_custom_request("m") started  	[MsgId: MMSG-26355]
+Action.c(193): Registered web_reg_find successful for "Text="success":true" (count=1)  	[MsgId: MMSG-26364]
+Action.c(193): web_custom_request("m") was successful, 46 body bytes, 163 header bytes  	[MsgId: MMSG-26386]
+Action.c(201): Notify: Transaction "m_transaction" ended with a "Pass" status (Duration: 0.1709 Wasted Time: 0.0035).
+Action.c(204): Notify: Transaction "n_transaction" started.
+Action.c(205): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(205): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(206): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(206): Warning -26593: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26593]
+Action.c(206): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(207): web_custom_request("m") started  	[MsgId: MMSG-26355]
+Action.c(207): Registered web_reg_find successful for "Text="success":true" (count=1)  	[MsgId: MMSG-26364]
+Action.c(207): web_custom_request("m") was successful, 17 body bytes, 163 header bytes  	[MsgId: MMSG-26386]
+Action.c(215): Notify: Transaction "n_transaction" ended with a "Pass" status (Duration: 0.1705 Wasted Time: 0.0032).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...

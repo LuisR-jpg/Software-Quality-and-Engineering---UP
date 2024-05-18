@@ -4,25 +4,145 @@
         "steps": [
             {
                 "stepId": "STEP1",
-                "stepName": "Custom Request: PostRequest",
+                "stepName": "Custom Request: c",
                 "infFile": "t1.inf",
-                "time": 1715984073921
+                "time": 1716012893356
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Custom Request: e",
+                "infFile": "t2.inf",
+                "time": 1716012893677
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: f",
+                "infFile": "t3.inf",
+                "time": 1716012893854
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: g",
+                "infFile": "t4.inf",
+                "time": 1716012894029
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Custom Request: j",
+                "infFile": "t5.inf",
+                "time": 1716012894541
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Custom Request: l",
+                "infFile": "t6.inf",
+                "time": 1716012894914
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Custom Request: m",
+                "infFile": "t7.inf",
+                "time": 1716012895237
             }
         ],
         "transactions": [
             {
-                "transactionName": "login_transaction",
-                "rawStartTime": 1715984073817,
-                "rawEndTime": 1715984073924,
+                "transactionName": "a_transaction",
+                "rawStartTime": 1716012892566,
+                "rawEndTime": 1716012893035,
                 "thinkTime": 0.0,
-                "wastedTime": 0.004052639007568359
+                "wastedTime": 0.06031322479248047
             },
             {
-                "transactionName": "list_transaction",
-                "rawStartTime": 1715984073970,
-                "rawEndTime": 1715984074112,
+                "transactionName": "b_transaction",
+                "rawStartTime": 1716012893050,
+                "rawEndTime": 1716012893191,
                 "thinkTime": 0.0,
-                "wastedTime": 0.0029265880584716799
+                "wastedTime": 0.004411458969116211
+            },
+            {
+                "transactionName": "c_transaction",
+                "rawStartTime": 1716012893207,
+                "rawEndTime": 1716012893362,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005095720291137695
+            },
+            {
+                "transactionName": "d_transaction",
+                "rawStartTime": 1716012893379,
+                "rawEndTime": 1716012893517,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005608797073364258
+            },
+            {
+                "transactionName": "e_transaction",
+                "rawStartTime": 1716012893532,
+                "rawEndTime": 1716012893687,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0029871463775634767
+            },
+            {
+                "transactionName": "f_transaction",
+                "rawStartTime": 1716012893719,
+                "rawEndTime": 1716012893860,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0030906200408935549
+            },
+            {
+                "transactionName": "g_transaction",
+                "rawStartTime": 1716012893892,
+                "rawEndTime": 1716012894031,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0032045841217041017
+            },
+            {
+                "transactionName": "h_transaction",
+                "rawStartTime": 1716012894063,
+                "rawEndTime": 1716012894202,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003229379653930664
+            },
+            {
+                "transactionName": "i_transaction",
+                "rawStartTime": 1716012894217,
+                "rawEndTime": 1716012894357,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003298044204711914
+            },
+            {
+                "transactionName": "j_transaction",
+                "rawStartTime": 1716012894403,
+                "rawEndTime": 1716012894543,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0029609203338623049
+            },
+            {
+                "transactionName": "k_transaction",
+                "rawStartTime": 1716012894590,
+                "rawEndTime": 1716012894730,
+                "thinkTime": 0.0,
+                "wastedTime": 0.002888917922973633
+            },
+            {
+                "transactionName": "l_transaction",
+                "rawStartTime": 1716012894776,
+                "rawEndTime": 1716012894929,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0030808448791503908
+            },
+            {
+                "transactionName": "m_transaction",
+                "rawStartTime": 1716012894944,
+                "rawEndTime": 1716012895084,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0033981800079345705
+            },
+            {
+                "transactionName": "n_transaction",
+                "rawStartTime": 1716012895099,
+                "rawEndTime": 1716012895253,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0029714107513427736
             }
         ]
     }
