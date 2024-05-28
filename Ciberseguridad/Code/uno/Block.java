@@ -53,8 +53,6 @@ public class Block {
         this.hash = calculateHash();
     }
 
-        
-        
     @Override
     public String toString() {
         return "Block{" + "data=" + data + ", hash=" + hash + ", previousHash=" + previousHash + ", timeStamp=" + timeStamp + '}';

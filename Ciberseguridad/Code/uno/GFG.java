@@ -46,7 +46,6 @@ public class GFG {
                         .get(blockchain.size() - 1)
                         .hash));
 
-                
 	System.out.println(BlockChain.isChainValid());
         
         for (int i=6; i<=80;i++) {
