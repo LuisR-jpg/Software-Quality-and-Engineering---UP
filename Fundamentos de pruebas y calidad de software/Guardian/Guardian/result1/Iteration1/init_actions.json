@@ -1,0 +1,35 @@
+[
+    {
+        "actionName": "vuser_init",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Custom Request: Create",
+                "infFile": "t1.inf",
+                "time": 1717031617935
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Custom Request: Login",
+                "infFile": "t2.inf",
+                "time": 1717031617988
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Performance-Create",
+                "rawStartTime": 1717031617746,
+                "rawEndTime": 1717031617935,
+                "thinkTime": 0.0,
+                "wastedTime": 0.05989789962768555
+            },
+            {
+                "transactionName": "Performance-Login",
+                "rawStartTime": 1717031617939,
+                "rawEndTime": 1717031617988,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0035839080810546877
+            }
+        ]
+    }
+]

@@ -1,0 +1,75 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=Functional.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=24
+MinorVersion=1
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=24.1.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=
+DisableRegenerate=0
+Encoding=
+Description=
+ScriptLocale=es-MX
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Action=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="Whole_workflow_01-Alive__*delimiter*__Whole_workflow_02-Questions__*delimiter*__Whole_workflow_03-Create__*delimiter*__Whole_workflow_04-User-Questions__*delimiter*__Whole_workflow_05-Update-Password__*delimiter*__Whole_workflow_06-Login__*delimiter*__Whole_workflow_07-Create-Credential__*delimiter*__Whole_workflow_08-List__*delimiter*__Whole_workflow_09-Search__*delimiter*__Whole_workflow_10-Update-credential__*delimiter*__Whole_workflow_11-Get-credential__*delimiter*__Whole_workflow_12-Delete-credential__*delimiter*__Whole_workflow_13-Export__*delimiter*__Whole_workflow_14-Delete-account"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+Whole_workflow_01-Alive=
+Whole_workflow_02-Questions=
+Whole_workflow_03-Create=
+Whole_workflow_04-User-Questions=
+Whole_workflow_05-Update-Password=
+Whole_workflow_06-Login=
+Whole_workflow_07-Create-Credential=
+Whole_workflow_08-List=
+Whole_workflow_09-Search=
+Whole_workflow_10-Update-credential=
+Whole_workflow_11-Get-credential=
+Whole_workflow_12-Delete-credential=
+Whole_workflow_13-Export=
+Whole_workflow_14-Delete-account=

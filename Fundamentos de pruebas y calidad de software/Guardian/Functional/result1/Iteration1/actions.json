@@ -1,0 +1,149 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Custom Request: Create",
+                "infFile": "t1.inf",
+                "time": 1717031609235
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Custom Request: Update-Password",
+                "infFile": "t2.inf",
+                "time": 1717031609468
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: Login",
+                "infFile": "t3.inf",
+                "time": 1717031609593
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: Create-Credential",
+                "infFile": "t4.inf",
+                "time": 1717031609706
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Custom Request: Update-credential",
+                "infFile": "t5.inf",
+                "time": 1717031610038
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Custom Request: Delete-credential",
+                "infFile": "t6.inf",
+                "time": 1717031610532
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Custom Request: Export",
+                "infFile": "t7.inf",
+                "time": 1717031610731
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Whole_workflow_01-Alive",
+                "rawStartTime": 1717031608780,
+                "rawEndTime": 1717031609014,
+                "thinkTime": 0.0,
+                "wastedTime": 0.05776619911193848
+            },
+            {
+                "transactionName": "Whole_workflow_02-Questions",
+                "rawStartTime": 1717031609047,
+                "rawEndTime": 1717031609108,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004093647003173828
+            },
+            {
+                "transactionName": "Whole_workflow_03-Create",
+                "rawStartTime": 1717031609171,
+                "rawEndTime": 1717031609250,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0035800933837890627
+            },
+            {
+                "transactionName": "Whole_workflow_04-User-Questions",
+                "rawStartTime": 1717031609298,
+                "rawEndTime": 1717031609362,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006188631057739258
+            },
+            {
+                "transactionName": "Whole_workflow_05-Update-Password",
+                "rawStartTime": 1717031609409,
+                "rawEndTime": 1717031609472,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0036423206329345705
+            },
+            {
+                "transactionName": "Whole_workflow_06-Login",
+                "rawStartTime": 1717031609536,
+                "rawEndTime": 1717031609599,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0047152042388916019
+            },
+            {
+                "transactionName": "Whole_workflow_07-Create-Credential",
+                "rawStartTime": 1717031609646,
+                "rawEndTime": 1717031609709,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0030803680419921877
+            },
+            {
+                "transactionName": "Whole_workflow_08-List",
+                "rawStartTime": 1717031609756,
+                "rawEndTime": 1717031609818,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0029065608978271486
+            },
+            {
+                "transactionName": "Whole_workflow_09-Search",
+                "rawStartTime": 1717031609849,
+                "rawEndTime": 1717031609912,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0031440258026123049
+            },
+            {
+                "transactionName": "Whole_workflow_10-Update-credential",
+                "rawStartTime": 1717031609974,
+                "rawEndTime": 1717031610052,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0029480457305908205
+            },
+            {
+                "transactionName": "Whole_workflow_11-Get-credential",
+                "rawStartTime": 1717031610115,
+                "rawEndTime": 1717031610179,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0030727386474609377
+            },
+            {
+                "transactionName": "Whole_workflow_12-Delete-credential",
+                "rawStartTime": 1717031610242,
+                "rawEndTime": 1717031610543,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003003835678100586
+            },
+            {
+                "transactionName": "Whole_workflow_13-Export",
+                "rawStartTime": 1717031610575,
+                "rawEndTime": 1717031610637,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0037147998809814455
+            },
+            {
+                "transactionName": "Whole_workflow_14-Delete-account",
+                "rawStartTime": 1717031610669,
+                "rawEndTime": 1717031610748,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0029921531677246095
+            }
+        ]
+    }
+]

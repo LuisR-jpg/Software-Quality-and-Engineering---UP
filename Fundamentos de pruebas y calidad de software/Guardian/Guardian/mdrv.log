@@ -1,0 +1,76 @@
+Virtual User Script started at: 29/05/2024 07:13:37 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2024.1.0 for Windows 11; build 667 (Feb 07 2024 17:45:41)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\lalor\Documents\Git\Software-Quality-and-Engineering---UP\Fundamentos de pruebas y calidad de software\Guardian\Guardian\\default.cfg"  	[MsgId: MMSG-27141]
+vuser_init.c(11): web_set_sockets_option started  	[MsgId: MMSG-26355]
+vuser_init.c(11): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+vuser_init.c(12): web_cache_cleanup started  	[MsgId: MMSG-26355]
+vuser_init.c(12): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+vuser_init.c(13): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+vuser_init.c(13): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+vuser_init.c(19): web_reg_find started  	[MsgId: MMSG-26355]
+vuser_init.c(19): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+vuser_init.c(20): Notify: Transaction "Performance-Create" started.
+vuser_init.c(21): web_custom_request("Create") started  	[MsgId: MMSG-26355]
+vuser_init.c(21): Registered web_reg_find successful for "Text="success":true" (count=1)  	[MsgId: MMSG-26364]
+vuser_init.c(21): web_custom_request("Create") was successful, 59 body bytes, 163 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(30): Notify: Transaction "Performance-Create" ended with a "Pass" status (Duration: 0.1887 Wasted Time: 0.0599).
+vuser_init.c(33): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+vuser_init.c(33): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+vuser_init.c(40): web_reg_find started  	[MsgId: MMSG-26355]
+vuser_init.c(40): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+vuser_init.c(41): Notify: Transaction "Performance-Login" started.
+vuser_init.c(42): web_custom_request("Login") started  	[MsgId: MMSG-26355]
+vuser_init.c(42): Registered web_reg_find successful for "Text="success":true" (count=1)  	[MsgId: MMSG-26364]
+vuser_init.c(42): web_custom_request("Login") was successful, 168 body bytes, 164 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(51): Notify: Transaction "Performance-Login" ended with a "Pass" status (Duration: 0.0499 Wasted Time: 0.0036).
+vuser_init.c(53): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
+vuser_init.c(53): Warning -26592: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26592]
+vuser_init.c(53): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Warning -27077: The "vuser_init" section contains web function(s) when the "Simulate a new user on each iteration" Runtime Setting is ON.  This may produce unpredictable results with multiple iterations  	[MsgId: MWAR-27077]
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(10): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(10): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(11): Notify: Transaction "Performance-Create-Credential" started.
+Action.c(12): web_custom_request("Create-Credential") started  	[MsgId: MMSG-26355]
+Action.c(12): Registered web_reg_find successful for "Text="success":true" (count=1)  	[MsgId: MMSG-26364]
+Action.c(12): web_custom_request("Create-Credential") was successful, 17 body bytes, 163 header bytes  	[MsgId: MMSG-26386]
+Action.c(21): Notify: Transaction "Performance-Create-Credential" ended with a "Pass" status (Duration: 0.0770 Wasted Time: 0.0032).
+Action.c(24): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(24): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(30): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(30): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(31): Notify: Transaction "Performance-List" started.
+Action.c(32): web_custom_request("List") started  	[MsgId: MMSG-26355]
+Action.c(32): Registered web_reg_find successful for "Text="success":true" (count=1)  	[MsgId: MMSG-26364]
+Action.c(32): web_custom_request("List") was successful, 148 body bytes, 164 header bytes  	[MsgId: MMSG-26386]
+Action.c(40): Notify: Transaction "Performance-List" ended with a "Pass" status (Duration: 0.0611 Wasted Time: 0.0034).
+Action.c(45): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(45): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(46): Notify: Transaction "Performance-Delete-credential" started.
+Action.c(47): web_custom_request("Delete-credential") started  	[MsgId: MMSG-26355]
+Action.c(47): Registered web_reg_find successful for "Text="success":true" (count=1)  	[MsgId: MMSG-26364]
+Action.c(47): web_custom_request("Delete-credential") was successful, 17 body bytes, 163 header bytes  	[MsgId: MMSG-26386]
+Action.c(55): Notify: Transaction "Performance-Delete-credential" ended with a "Pass" status (Duration: 0.0683 Wasted Time: 0.0032).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+vuser_end.c(4): web_reg_find started  	[MsgId: MMSG-26355]
+vuser_end.c(4): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+vuser_end.c(5): Notify: Transaction "Performance-Delete-account" started.
+vuser_end.c(6): web_custom_request("Export") started  	[MsgId: MMSG-26355]
+vuser_end.c(6): Registered web_reg_find successful for "Text="success":true" (count=1)  	[MsgId: MMSG-26364]
+vuser_end.c(6): web_custom_request("Export") was successful, 17 body bytes, 163 header bytes  	[MsgId: MMSG-26386]
+vuser_end.c(14): Notify: Transaction "Performance-Delete-account" ended with a "Pass" status (Duration: 0.0475 Wasted Time: 0.0029).
+vuser_end.c(16): web_remove_auto_header("Authorization") started  	[MsgId: MMSG-26355]
+vuser_end.c(16): Previous automatically added web header for "Authorization" removed  	[MsgId: MMSG-26586]
+vuser_end.c(16): web_remove/revert_auto_header("Authorization") was successful  	[MsgId: MMSG-26392]
+Ending action vuser_end.
+Vuser Terminated.
