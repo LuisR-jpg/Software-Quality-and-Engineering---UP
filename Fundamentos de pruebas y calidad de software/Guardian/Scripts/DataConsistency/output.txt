@@ -1,0 +1,59 @@
+Virtual User Script started at: 30/05/2024 02:44:38 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2024.1.0 for Windows 11; build 667 (Feb 07 2024 17:45:41)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\lalor\Documents\Git\Software-Quality-and-Engineering---UP\Fundamentos de pruebas y calidad de software\Guardian\DataConsistency\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(12): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(12): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(13): web_cache_cleanup started  	[MsgId: MMSG-26355]
+Action.c(13): web_cache_cleanup was successful  	[MsgId: MMSG-26392]
+Action.c(14): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+Action.c(14): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+Action.c(20): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(20): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(22): Notify: Transaction "Consistency-Create" started.
+Action.c(23): web_custom_request("Create") started  	[MsgId: MMSG-26355]
+Action.c(23): Registered web_reg_find successful for "Text="success":true" (count=1)  	[MsgId: MMSG-26364]
+Action.c(23): web_custom_request("Create") was successful, 59 body bytes, 163 header bytes  	[MsgId: MMSG-26386]
+Action.c(32): Notify: Transaction "Consistency-Create" ended with a "Pass" status (Duration: 0.3281 Wasted Time: 0.0565).
+Action.c(39): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(39): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(45): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(45): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(46): Notify: Transaction "Consistency-Login" started.
+Action.c(48): web_custom_request("Login") started  	[MsgId: MMSG-26355]
+Action.c(48): Registered web_reg_find successful for "Text="success":true" (count=1)  	[MsgId: MMSG-26364]
+Action.c(48): web_custom_request("Login") was successful, 169 body bytes, 164 header bytes  	[MsgId: MMSG-26386]
+Action.c(58): Notify: Transaction "Consistency-Login" ended with a "Pass" status (Duration: 0.0942 Wasted Time: 0.0040).
+Action.c(60): web_add_auto_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(60): Warning -26592: The header being added may cause unpredictable results when applied to all ensuing URLs. It is added anyway  	[MsgId: MWAR-26592]
+Action.c(60): web_add_auto_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(65): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(65): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(66): Notify: Transaction "Consistency-Get-credential" started.
+Action.c(67): web_custom_request("Get-credential") started  	[MsgId: MMSG-26355]
+Action.c(67): Registered web_reg_find successful for "Text="message":"No entries found"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(67): web_custom_request("Get-credential") was successful, 46 body bytes, 163 header bytes  	[MsgId: MMSG-26386]
+Action.c(75): Notify: Transaction "Consistency-Get-credential" ended with a "Pass" status (Duration: 0.0938 Wasted Time: 0.0032).
+Action.c(81): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(81): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(83): Notify: Transaction "Consistency-Delete-account" started.
+Action.c(85): web_custom_request("Delete") started  	[MsgId: MMSG-26355]
+Action.c(85): Registered web_reg_find successful for "Text="success":true" (count=1)  	[MsgId: MMSG-26364]
+Action.c(85): web_custom_request("Delete") was successful, 17 body bytes, 163 header bytes  	[MsgId: MMSG-26386]
+Action.c(94): Notify: Transaction "Consistency-Delete-account" ended with a "Pass" status (Duration: 0.0998 Wasted Time: 0.0032).
+Action.c(96): web_remove_auto_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(96): Previous automatically added web header for "Authorization" removed  	[MsgId: MMSG-26586]
+Action.c(96): web_remove/revert_auto_header("Authorization") was successful  	[MsgId: MMSG-26392]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

@@ -1,0 +1,55 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Custom Request: Create",
+                "infFile": "t1.inf",
+                "time": 1717101878540
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Custom Request: Login",
+                "infFile": "t2.inf",
+                "time": 1717101878695
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: Delete",
+                "infFile": "t3.inf",
+                "time": 1717101878985
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Consistency-Create",
+                "rawStartTime": 1717101878219,
+                "rawEndTime": 1717101878547,
+                "thinkTime": 0.0,
+                "wastedTime": 0.056511640548706058
+            },
+            {
+                "transactionName": "Consistency-Login",
+                "rawStartTime": 1717101878610,
+                "rawEndTime": 1717101878705,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004019021987915039
+            },
+            {
+                "transactionName": "Consistency-Get-credential",
+                "rawStartTime": 1717101878766,
+                "rawEndTime": 1717101878860,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0031709671020507814
+            },
+            {
+                "transactionName": "Consistency-Delete-account",
+                "rawStartTime": 1717101878892,
+                "rawEndTime": 1717101878991,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003235340118408203
+            }
+        ]
+    }
+]

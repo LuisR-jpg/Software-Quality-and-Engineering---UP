@@ -1,0 +1,20 @@
+[t3]
+FileName2=t2_2_questions.json
+RawStepEndTime=1717092086567
+FileName4=t1_0_.json
+RequestBodyFile=t3_RequestBody.txt
+RawStepName=Login
+ContentType=application/json
+URL1=https://40.233.6.50/user/login
+URL2=https://40.233.6.50/user/questions?user=loadrunner_1
+URL3=https://40.233.6.50/user/questions
+ResponseHeaderFile=t3_ResponseHeader.txt
+URL4=https://40.233.6.50/misc/
+SnapshotXmlFile=snapshot_6.xml
+RequestHeaderFile=t3_RequestHeader.txt
+SaveSnapshotResources=1
+RawStepStartTime=1717092086349
+Total=4
+StepName=Custom Request: Login
+FileName1=t3.json
+FileName3=t1_1_questions.json

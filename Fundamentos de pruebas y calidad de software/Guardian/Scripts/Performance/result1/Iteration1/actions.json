@@ -1,0 +1,42 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: Create-Credential",
+                "infFile": "t3.inf",
+                "time": 1717092160525
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: Delete-credential",
+                "infFile": "t4.inf",
+                "time": 1717092160928
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Performance-Create-Credential",
+                "rawStartTime": 1717092160244,
+                "rawEndTime": 1717092160540,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0033915042877197267
+            },
+            {
+                "transactionName": "Performance-List",
+                "rawStartTime": 1717092160588,
+                "rawEndTime": 1717092160728,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0031130313873291017
+            },
+            {
+                "transactionName": "Performance-Delete-credential",
+                "rawStartTime": 1717092160789,
+                "rawEndTime": 1717092160930,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0037140846252441408
+            }
+        ]
+    }
+]

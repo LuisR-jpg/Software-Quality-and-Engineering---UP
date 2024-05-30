@@ -1,0 +1,9 @@
+[parameter:user_id]
+BlockSize="100"
+Format="%01d"
+GenerateNewVal="EachOccurrence"
+OriginalValue=""
+OutOfRangePolicy="ContinueWithLast"
+ParamName="user_id"
+StartValue="1"
+Type="Unique"
